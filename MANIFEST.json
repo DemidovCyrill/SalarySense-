@@ -1,0 +1,473 @@
+{
+  "package": "Career_Map_Documentation",
+  "version": "1.0",
+  "date": "2026-10-16",
+  "status": "design_documentation_not_application",
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "bytes": 1695,
+      "sha256": "067e32b31ed111e2fa0e8e952e0680f964d7e43feeee51390ca7a40c30669dff"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4797,
+      "sha256": "5eafea679445f33c5f8fa92378991aa0ae670a7f64301885dc77576be42d7f84"
+    },
+    {
+      "path": "START_HERE.html",
+      "bytes": 141736,
+      "sha256": "0cfd60d34e673ea811c3918ed79ba400f381a173d1b58e1fd941544bdcacd9d3"
+    },
+    {
+      "path": "adr/ADR001.md",
+      "bytes": 1102,
+      "sha256": "6ae9d9b7248dc1626149db215906fff3bead38216a54f752592d2c1c0a2f9d6b"
+    },
+    {
+      "path": "adr/ADR002.md",
+      "bytes": 1026,
+      "sha256": "a157a84cc7618916aed75cb9dc3444a7d6cf3d13e60d2ead6d0947880c0bcd72"
+    },
+    {
+      "path": "adr/ADR003.md",
+      "bytes": 999,
+      "sha256": "5905b2ecbd048197381c86cddb2bd8b5ac330b03a29a7b26dfc7c85b08a188d3"
+    },
+    {
+      "path": "adr/ADR004.md",
+      "bytes": 1037,
+      "sha256": "d75aec1322b214ae3a451984db7b190b98619e9142f5ef082eef564f97201a42"
+    },
+    {
+      "path": "adr/ADR005.md",
+      "bytes": 995,
+      "sha256": "73eabcc3ab4ca1b7a07b2eaf2c3b1b754e2ef2fe6a2e0353ddc3ce619f9920f3"
+    },
+    {
+      "path": "adr/ADR006.md",
+      "bytes": 1004,
+      "sha256": "1a6b1a276e0f4ed6625e82d2ea71394974b17503579c697b721fa21a51104c28"
+    },
+    {
+      "path": "contracts/README.md",
+      "bytes": 1469,
+      "sha256": "ac9e1d8dab84b49212abbf215b9d64870f8521c35c1fd6d7b14722bbb6131014"
+    },
+    {
+      "path": "contracts/openapi.yaml",
+      "bytes": 65726,
+      "sha256": "e1e0e200d1ea0868c8c3f5c45f3af56e78002af7f959ddf4bc9c5908bb6359f8"
+    },
+    {
+      "path": "design/FIGMA_IMPORT.md",
+      "bytes": 1672,
+      "sha256": "8ed3cd78cb031f137b9ef21c432486f2cf158e92cd03a0af88323902359806cc"
+    },
+    {
+      "path": "design/copy.json",
+      "bytes": 773,
+      "sha256": "46bd22175ba843017189ffaae33cb37b468f7f7b28fcb6f7c9926b830ae5c8ab"
+    },
+    {
+      "path": "design/prompts/01_direction.txt",
+      "bytes": 2035,
+      "sha256": "8f9ee274a7ab6a2279ff422bc3a747987d158c16b7a3bd4ff6491703f904c6ff"
+    },
+    {
+      "path": "design/prompts/02_skills.txt",
+      "bytes": 2092,
+      "sha256": "e34b1ec997cd6278f76d0321784be29d4dfe83db0842837828317348fd3ff113"
+    },
+    {
+      "path": "design/prompts/03_assessment.txt",
+      "bytes": 2079,
+      "sha256": "eda25a12a22b54689cc4d9b0f7456858f75cecba6db91ea70f48ec9486cfe174"
+    },
+    {
+      "path": "design/prompts/04_assessment_result.txt",
+      "bytes": 2238,
+      "sha256": "03538bbe42d42f4b174356166e197b4c504acf5a2dc1a00835465ab7ac6095d7"
+    },
+    {
+      "path": "design/prompts/05_market.txt",
+      "bytes": 2256,
+      "sha256": "3cbd538f6c4890f14f598ad7011ec377221640effd845c5f72d9e9c8c13b1e01"
+    },
+    {
+      "path": "design/prompts/06_jobs.txt",
+      "bytes": 2225,
+      "sha256": "623238b3671f375d254a01dde06b4c41b189d8671f4aea2ca015f9947be545bf"
+    },
+    {
+      "path": "design/prompts/07_job_detail.txt",
+      "bytes": 2574,
+      "sha256": "1034f5738b68142c25ef0c7faa68fbed57826ebd76a782b569ee62d2ea16f6b0"
+    },
+    {
+      "path": "design/screens/01_direction.png",
+      "bytes": 1263275,
+      "sha256": "babf4935c02672b12f5b3c3b634b4ef34d4050c0dc1af144279bc48811972dc3"
+    },
+    {
+      "path": "design/screens/02_skills.png",
+      "bytes": 1404205,
+      "sha256": "4bb8c77f55348951f7f609d9fdf4ef6c0cc7651268eff82d3f7ee1f69ab5ab9d"
+    },
+    {
+      "path": "design/screens/03_assessment.png",
+      "bytes": 1219600,
+      "sha256": "4db2eef74526da2b007d9557d3c3f838726595f7838edded13e1375d451e7225"
+    },
+    {
+      "path": "design/screens/04_assessment_result.png",
+      "bytes": 1205001,
+      "sha256": "39a24efd149334db9637df2e792762f32c87fd40e9c37a77f4d179535bf3f77b"
+    },
+    {
+      "path": "design/screens/05_market.png",
+      "bytes": 1242310,
+      "sha256": "d4fa404a8f5cfa4dc703f61f37fa37854f12653572fd43b7faa76071b4794670"
+    },
+    {
+      "path": "design/screens/06_jobs.png",
+      "bytes": 1278823,
+      "sha256": "597939ae2fd67856b4fd934ecf1f51834bfafb3587a68500977f08b753527947"
+    },
+    {
+      "path": "design/screens/07_job_detail.png",
+      "bytes": 1303109,
+      "sha256": "35bf8c1eb6f5fe7b772d5dfa3716199ced34851351eba5eb4de995ce989301cb"
+    },
+    {
+      "path": "design/screens_manifest.json",
+      "bytes": 1428,
+      "sha256": "de4ed4acdf68e5e0e3e8ec9c886d6751dcd986f41bc23d268e401b79d233d3ad"
+    },
+    {
+      "path": "design/tokens.json",
+      "bytes": 465,
+      "sha256": "359ee14599d92fcf8ad70bf337d8cb4bb0d5e962904655e02b3d32ad5c52881b"
+    },
+    {
+      "path": "docs/01_product_brief.md",
+      "bytes": 5385,
+      "sha256": "af2811991b2b5794dc675827d65c3b0aad36fa7d14a8cb473ac4c3cf7b49841b"
+    },
+    {
+      "path": "docs/02_requirements.md",
+      "bytes": 7010,
+      "sha256": "e0b568f7c7d2690f27385eb4d7c4bb6e4044ede818477b9fecb63ff0e55d7395"
+    },
+    {
+      "path": "docs/03_user_journeys.md",
+      "bytes": 4857,
+      "sha256": "49287df4a788273b2eb981c4a86d6424d96ad34ab752ccaf21c4c031db717fdf"
+    },
+    {
+      "path": "docs/04_architecture_SAD.md",
+      "bytes": 7672,
+      "sha256": "8b90bb432b1521c08ae56509028f3875b99a0514fef690230dd6000ddbec21a6"
+    },
+    {
+      "path": "docs/05_data_model.md",
+      "bytes": 5515,
+      "sha256": "9ada9a1f0490f9d6cca144ce3696f49911e6a28f746c0256269dd4388144cbc7"
+    },
+    {
+      "path": "docs/06_RAG_and_content.md",
+      "bytes": 7884,
+      "sha256": "3f6a0655c1eda35a3bf15f2d3f99d548686e8b49b536aa94cba9f0ffd93aba07"
+    },
+    {
+      "path": "docs/07_scoring_and_salary.md",
+      "bytes": 6368,
+      "sha256": "52b7ecc5f473e1969804fdb9a42fda2b2e6c9add06bd32cd572be81445ed1b8c"
+    },
+    {
+      "path": "docs/08_UX_and_design.md",
+      "bytes": 4047,
+      "sha256": "ea79c97d4adc0be29a3fdd2be52b3d31e5bc92e5add1801678df3c2f4d2476c6"
+    },
+    {
+      "path": "docs/09_SDD_workflow.md",
+      "bytes": 4019,
+      "sha256": "6a770776ef6c40903c2e8b831e992fe3f31a64ab904daf68e9eee43e4c69db26"
+    },
+    {
+      "path": "docs/10_delivery_plan.md",
+      "bytes": 3063,
+      "sha256": "d5ba7dc8cd4501ce7451da7732aef66d07ca76c2f2b2130cb3e55e9ba3274755"
+    },
+    {
+      "path": "docs/11_quality_and_acceptance.md",
+      "bytes": 4838,
+      "sha256": "fd6ad1c36493f2d13212a4baf7a8d241143e5462d06266c442e852052d9abeb8"
+    },
+    {
+      "path": "docs/12_security.md",
+      "bytes": 3378,
+      "sha256": "7e3f731e59d25b8c1289cd5c54b6ec4926e629087cb81ed58043efb9cc3f4a4e"
+    },
+    {
+      "path": "docs/13_operations.md",
+      "bytes": 3042,
+      "sha256": "ce0db48684d0ed728e39fd3e24498d005d664d2d05c6f64c9b5954b8b732a58e"
+    },
+    {
+      "path": "docs/14_risks_and_decisions.md",
+      "bytes": 2549,
+      "sha256": "405541932477abf2abc05c4a9d6e0de59c284140016772293838dd41a49dc6aa"
+    },
+    {
+      "path": "docs/15_glossary.md",
+      "bytes": 1907,
+      "sha256": "bd4084fd5e1c0db61c66ab5b97c03fde90365cdeda19a0b9fd20710ae354c62e"
+    },
+    {
+      "path": "docs/16_sources.md",
+      "bytes": 2811,
+      "sha256": "692ee657e81c75a4d62bd75a6cc03c77b00d35d977a900b08aa04b9c1fb9ab5a"
+    },
+    {
+      "path": "docs/17_content_workplan.md",
+      "bytes": 3203,
+      "sha256": "c02457d5cca6aec035e66a446048a525d1a09dc93e9471b92e63d5b1c22f7cb7"
+    },
+    {
+      "path": "examples/README.md",
+      "bytes": 1192,
+      "sha256": "d877e011446097e5fd633f7590232117df9e749ceb3822f18857fcba6a3ca0f1"
+    },
+    {
+      "path": "examples/assessment.json",
+      "bytes": 978,
+      "sha256": "957ea29c35ad156bb75a4d2ed3d2376b8635f20f64301c2a7bc815a72e023942"
+    },
+    {
+      "path": "examples/assessment_result.json",
+      "bytes": 425,
+      "sha256": "e2c0eb11fa859ca4eb61e19d6a6c1404610c12b27c85b4aefccc7d4ea1a76226"
+    },
+    {
+      "path": "examples/criterion.json",
+      "bytes": 499,
+      "sha256": "c7065236b0c087eb00604e90d077ac994053f8c74f17f52c9ade870e1eba89ed"
+    },
+    {
+      "path": "examples/explanation.json",
+      "bytes": 567,
+      "sha256": "e97bfd7cc69b92963d02e98310c87878e9eea4009abea9a931431cb1c291cbe2"
+    },
+    {
+      "path": "examples/grade_profile.json",
+      "bytes": 250,
+      "sha256": "a557bcf73487982e01cd3f638db107a74a0c90616d6c0867c07f7cf503f2ca6a"
+    },
+    {
+      "path": "examples/grade_result.json",
+      "bytes": 233,
+      "sha256": "0956a096a88b8422d3e8cebb896b114f5364b59d1c1d1d93e1a0dcae57bb6471"
+    },
+    {
+      "path": "examples/job.json",
+      "bytes": 1585,
+      "sha256": "fd547828ffc30975539eec96abdb45db8a99b7bc0605562ee76652181b4ee4af"
+    },
+    {
+      "path": "examples/market.json",
+      "bytes": 993,
+      "sha256": "ca1521ea8a347289f5e70d3164a7e2dc4d182100da7f22381deae1fcc01bbd18"
+    },
+    {
+      "path": "examples/match.json",
+      "bytes": 1137,
+      "sha256": "62c41ddf8d4afbfd20580198f5a883db18ff2a4586f0dc74ccc708dff961ebfa"
+    },
+    {
+      "path": "examples/match_calculation.json",
+      "bytes": 420,
+      "sha256": "3344960f89e01f932899899e32e2ad81797d8c301a60c435dfc7ab597bbe64d2"
+    },
+    {
+      "path": "examples/profile.json",
+      "bytes": 1371,
+      "sha256": "346ab1d393ee6bbb18a7b57d82a3ba0cc05491e5e52fc618bc64a5af811236ab"
+    },
+    {
+      "path": "examples/public_question.json",
+      "bytes": 704,
+      "sha256": "05d206bed672b3b90d89d0ea4f5bc377400b3c558519536f4e590199e5d8117e"
+    },
+    {
+      "path": "examples/rag_eval_cases.jsonl",
+      "bytes": 1894,
+      "sha256": "030ee4cafc6a4bd34adf06633fb2b24a713cac2d33c527bb697fd78932aecc81"
+    },
+    {
+      "path": "examples/roles.json",
+      "bytes": 4349,
+      "sha256": "4e4be62bd70b3983a72e0b01fdf6e7a9465c8cf14b4ebab6aa574a99218c58fc"
+    },
+    {
+      "path": "examples/salary_stats.json",
+      "bytes": 445,
+      "sha256": "b5827347982ddcc2bdd377ecf0c197328e6fb63e7845ab69081d079e1bb19d7a"
+    },
+    {
+      "path": "examples/skills.json",
+      "bytes": 974,
+      "sha256": "cc4d21509937854c4eb05288dd6caf292f31d4c73ac78c91b3cdc114eb3b9c7b"
+    },
+    {
+      "path": "examples/source.json",
+      "bytes": 242,
+      "sha256": "3fc9790a16ba14fc37798df4c54b055ef1f60ef641543740f3a570a9398ffeac"
+    },
+    {
+      "path": "examples/source_manifest.json",
+      "bytes": 482,
+      "sha256": "23259c473c05621cbea9e3bc6cc1905c5010f066aa3e79798fdcb3458bef9132"
+    },
+    {
+      "path": "quality/acceptance.feature",
+      "bytes": 2156,
+      "sha256": "be9a7baa9551873300b70d10704fe447ed12d810c42a1c706084b674431f0a88"
+    },
+    {
+      "path": "quality/api_structural_report.json",
+      "bytes": 413,
+      "sha256": "9a2f8fd8cdeb83d878858c285f0dba0094f885508a326ab2fee18ef5d34552ae"
+    },
+    {
+      "path": "quality/release_checklist.md",
+      "bytes": 1333,
+      "sha256": "a1c42b1535cc27ddaf09a0e2143e653ba79ca428a9b7b0943ccdb6a96d31fa30"
+    },
+    {
+      "path": "quality/traceability.csv",
+      "bytes": 1532,
+      "sha256": "dcd51d9a179696512afe7c8065f470702f8b96931b2db9a24ad6446fe0e37a8b"
+    },
+    {
+      "path": "quality/validation_report.json",
+      "bytes": 4181,
+      "sha256": "5b2a4871188d1100704de5f3989f9144aaacb1af672504bba4f37bf3d4ea32ac"
+    },
+    {
+      "path": "schemas/domain.schema.json",
+      "bytes": 27095,
+      "sha256": "aedfc2a06e0beeb21412367ef3c071e84a98d58466a35dbb74f49eadb134a4f7"
+    },
+    {
+      "path": "specs/001_catalog_profile/plan.md",
+      "bytes": 1117,
+      "sha256": "c13e9932876f8f76b40e0c2a95d9e4054e9c86b96a406f40e107a69eb79ac026"
+    },
+    {
+      "path": "specs/001_catalog_profile/spec.md",
+      "bytes": 2138,
+      "sha256": "0788922bfc359dbc568c596e639579cb6cbf250ba2cc60bae0ef614a6584d7bf"
+    },
+    {
+      "path": "specs/001_catalog_profile/tasks.md",
+      "bytes": 1033,
+      "sha256": "11abfe18e1ea53f621e88096d5d4393a4811f46d02b034544eeeb32d4050814c"
+    },
+    {
+      "path": "specs/002_assessment/plan.md",
+      "bytes": 1082,
+      "sha256": "035867dfdd13ee7601ee2b4866e1ed514826806ea0e71e6805f62fe7ba6404d1"
+    },
+    {
+      "path": "specs/002_assessment/spec.md",
+      "bytes": 2078,
+      "sha256": "bec9a69c2b31166874f34bf96a9e0ee3b00120d69ec05910ef608d75b7689d6f"
+    },
+    {
+      "path": "specs/002_assessment/tasks.md",
+      "bytes": 1008,
+      "sha256": "39ceb7b27b3caa4849a4ca401ba2c70f2ccdef7f787db2724314cf62fbf89d61"
+    },
+    {
+      "path": "specs/003_jobs_market/plan.md",
+      "bytes": 1090,
+      "sha256": "5261cb65ceb91492af9437dd606b8e9aae180bde0c557d4d6a558cab33c18fe1"
+    },
+    {
+      "path": "specs/003_jobs_market/spec.md",
+      "bytes": 2120,
+      "sha256": "ae0a4d48c1cf858d2170e5c7f20c2b99919e88f2887b8467d76a2da067742444"
+    },
+    {
+      "path": "specs/003_jobs_market/tasks.md",
+      "bytes": 1043,
+      "sha256": "7cb1e1d2f477da7d9d6b39db63a2186f3b3f21d09651c7f28e763586207ac18e"
+    },
+    {
+      "path": "specs/004_matching/plan.md",
+      "bytes": 1099,
+      "sha256": "7db95ac8ee45ad714ad578c1d641b2858c260217cdce6f315669e55891e10ca2"
+    },
+    {
+      "path": "specs/004_matching/spec.md",
+      "bytes": 2079,
+      "sha256": "40bbfa8f9210bffdb59a06810ebfdc79cf0ab3b1ea78b9756b3058b037d619a6"
+    },
+    {
+      "path": "specs/004_matching/tasks.md",
+      "bytes": 989,
+      "sha256": "bf3ae23a9db19deee97acd4e482720bebeaeed7135227590897612e6f1464a35"
+    },
+    {
+      "path": "specs/005_rag_explanation/plan.md",
+      "bytes": 1084,
+      "sha256": "073605865520081d01479674fa59af848b6a64164326da5783b96da96fcb85ef"
+    },
+    {
+      "path": "specs/005_rag_explanation/spec.md",
+      "bytes": 2074,
+      "sha256": "72c9a608541678e5cc120fea37e50ebdc729521c9edfecaccf5d85dbfc894aac"
+    },
+    {
+      "path": "specs/005_rag_explanation/tasks.md",
+      "bytes": 1028,
+      "sha256": "c9181b347477067c790a26b78b843df657abde692f782be2e7e994176b43e731"
+    },
+    {
+      "path": "specs/006_privacy/plan.md",
+      "bytes": 1078,
+      "sha256": "8e6e23f1ae0e10e017074bdd124a4da5e6d534ed13af976f44159bd1c09f878f"
+    },
+    {
+      "path": "specs/006_privacy/spec.md",
+      "bytes": 2046,
+      "sha256": "25994a2aaa279776b525ac6b6c9e2ac1b78e39fc21791b8ed14cd255c02da7f1"
+    },
+    {
+      "path": "specs/006_privacy/tasks.md",
+      "bytes": 956,
+      "sha256": "0ee4cf8bf1d6c7267e929cbabc7174e98e4ba4a1bc7272b09b6f9532a262ff2b"
+    },
+    {
+      "path": "specs/007_cover_letter/plan.md",
+      "bytes": 1078,
+      "sha256": "657b541d9cf205774dde9166c599ab354627a61b23ee0e2cc97dd3d3516a0272"
+    },
+    {
+      "path": "specs/007_cover_letter/spec.md",
+      "bytes": 2075,
+      "sha256": "1b5a03e80ec30c006140d88602208808da51c3ceeacd14eef1df8df95506d524"
+    },
+    {
+      "path": "specs/007_cover_letter/tasks.md",
+      "bytes": 1035,
+      "sha256": "2ff1b486cc3c518986f1e01a86c1b86c3d9241d1bfe642cc3c1c4e97c5efca66"
+    },
+    {
+      "path": "tools/verify_package.py",
+      "bytes": 6104,
+      "sha256": "b27e449a0426a71bd1fb0132059198887b626b62eb5117c656f890b448cddc28"
+    }
+  ]
+}
