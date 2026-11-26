@@ -1,0 +1,73 @@
+.overview-page { max-width: 1120px; margin-inline: auto; }
+.overview-intro {
+  display: grid;
+  grid-template-columns: minmax(0,.97fr) minmax(0,1fr);
+  align-items: center;
+  gap: clamp(26px,4vw,64px);
+  padding-block: clamp(22px,4vw,60px);
+}
+.overview-proposition { min-width: 0; }
+.overview-proposition h1 {
+  max-width: 13ch;
+  font-size: clamp(39px,4.45vw,66px);
+  letter-spacing: -.063em;
+  line-height: 1.025;
+  text-wrap: balance;
+}
+.overview-proposition p { max-width: 34ch; margin: 18px 0 24px; font-size: clamp(16px,1.35vw,19px); }
+.overview-proposition .button { min-height: 48px; max-width: 100%; white-space: normal; }
+.overview-preview {
+  min-width: 0;
+  padding: clamp(14px,2.1vw,28px);
+  border: 1px solid var(--line);
+  border-top: 3px solid var(--accent);
+  border-radius: var(--radius);
+  background: var(--panel);
+}
+.overview-preview-head { display: flex; justify-content: space-between; align-items: start; gap: 8px; }
+.overview-preview-head div { min-width: 0; }
+.overview-preview-head h2 { margin-top: 4px; font-size: clamp(17px,2vw,26px); line-height: 1.2; letter-spacing: -.03em; overflow-wrap: anywhere; }
+.overview-preview-head p, .overview-preview-mode { color: var(--muted); font-size: 12px; }
+.overview-preview-mode { color: var(--accent); font-weight: 650; }
+.overview-scores { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 12px; margin: 20px 0 14px; }
+.overview-scores div { display: grid; justify-content: start; align-content: start; gap: 3px; }
+.overview-scores dt { color: var(--muted); font-size: 12px; }
+.overview-scores dd { margin: 0; grid-row: 1; font-weight: 700; font-variant-numeric: tabular-nums; font-size: clamp(33px,3.5vw,49px); letter-spacing: -.055em; line-height: 1; }
+.overview-scores div:first-child dd { color: var(--accent); }
+.overview-requirements { width: 100%; border-collapse: collapse; text-align: start; font-size: 13px; line-height: 1.4; }
+.overview-requirements th, .overview-requirements td { border-top: 1px solid var(--line); padding: 9px 8px 9px 0; text-align: start; overflow-wrap: anywhere; }
+.overview-requirements thead th { color: var(--muted); font-weight: 550; font-size: 12px; }
+.overview-requirements tbody td { color: var(--muted); }
+.overview-requirements tbody th { min-width: 74px; }
+.overview-requirements :is(th, td):last-child { padding-right: 0; }
+.overview-requirements td.is-covered { color: var(--accent); font-weight: 650; }
+.overview-requirements td.is-gap { color: #7f4a28; font-weight: 650; }
+.overview-preview-note { border-top: 1px solid var(--line); padding-top: 12px; font-size: 13px; }
+.overview-preview-empty p { margin-top: 8px; max-width: 42ch; }
+
+.overview-columns { display: grid; grid-template-columns: minmax(0,.97fr) minmax(0,1fr); gap: clamp(26px,4vw,64px); margin: 8px 0 30px; }
+.overview-workbench { padding-top: 15px; border-top: 1px solid var(--line); }
+.overview-workbench header { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 4px 10px; margin: 0 0 11px; }
+.overview-workbench header h2 { font-size: 20px; letter-spacing: -.025em; }
+.overview-workbench header p, .overview-workbench header a { font-size: 13px; color: var(--muted); }
+.overview-workbench header a { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+.overview-activity { display: flex; align-items: center; justify-content: space-between; gap: 10px; min-height: 53px; padding: 9px 0; border-top: 1px solid var(--line); }
+.overview-activity:hover strong { color: var(--accent); }
+.overview-activity span { display: grid; }
+.overview-activity strong { font-size: 15px; }
+.overview-activity small { color: var(--muted); font-size: 13px; }
+.overview-activity strong { color: var(--accent); text-decoration: underline; text-underline-offset: .2em; text-decoration-color: #648c7c; }
+
+@media (max-width: 900px) {
+  .overview-intro { grid-template-columns: 1fr; gap: 24px; padding-block: 18px 28px; }
+  .overview-proposition h1 { max-width: 17ch; }
+  .overview-proposition p { margin: 12px 0 17px; }
+  .overview-preview { max-width: 620px; }
+}
+@media (max-width: 525px) {
+  .overview-proposition h1 { max-width: none; font-size: clamp(34px,9vw,42px); }
+  .overview-columns { grid-template-columns: 1fr; gap: 22px; }
+  .overview-requirements th, .overview-requirements td { padding-block: 7px; }
+  .overview-requirements { font-size: 12px; }
+  .overview-scores { margin: 16px 0 12px; }
+}

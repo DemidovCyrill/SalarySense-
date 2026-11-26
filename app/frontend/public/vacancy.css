@@ -1,0 +1,188 @@
+.vacancy-report {
+  max-width: 1120px;
+  margin-inline: auto;
+  min-width: 0;
+}
+
+.vacancy-report h2 {
+  font-size: clamp(20px, 2.1vw, 26px);
+  line-height: 1.25;
+  letter-spacing: -.025em;
+}
+
+.vacancy-report > .back-link { margin: 0 0 12px; }
+
+.report-heading {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 16px 28px;
+  padding-bottom: 22px;
+  border-bottom: 1px solid var(--line);
+}
+
+.report-identity { min-width: 0; }
+.report-kicker { font-size: 13px; font-weight: 650; color: var(--accent); }
+.report-kicker span { color: var(--muted); font-weight: 500; }
+.report-heading h1 {
+  margin: 4px 0 7px;
+  font-size: clamp(27px, 3.6vw, 51px);
+  line-height: 1.08;
+  letter-spacing: -.05em;
+  overflow-wrap: anywhere;
+}
+.report-meta { font-size: 14px; }
+.report-meta strong { color: var(--text); }
+.report-offer {
+  display: grid;
+  flex-shrink: 0;
+  justify-items: end;
+  gap: 2px;
+  text-align: right;
+}
+.report-offer > strong { font-size: clamp(17px, 2vw, 23px); font-variant-numeric: tabular-nums; }
+.report-offer > small { color: var(--muted); }
+.report-offer .button { margin-top: 5px; }
+.vacancy-report > .callout { margin-top: 14px; }
+
+.report-match { margin: 24px 0 28px; }
+.report-match h2 { margin-bottom: 10px; }
+.report-match-panel {
+  display: grid;
+  grid-template-columns: minmax(0, 3fr) minmax(165px, 2fr);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--panel);
+}
+.report-scores {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: clamp(14px, 3.5vw, 46px);
+  padding: 14px clamp(14px, 2.6vw, 32px);
+}
+.report-score dt { color: var(--muted); font-size: 13px; font-weight: 650; }
+.report-score dd { margin: 0; }
+.report-score strong {
+  display: block;
+  margin: 3px 0 1px;
+  color: var(--accent);
+  font-size: clamp(32px, 4.1vw, 54px);
+  font-variant-numeric: tabular-nums;
+  line-height: 1;
+  letter-spacing: -.055em;
+}
+.report-score p { font-size: 13px; }
+.report-score .bar-track { margin-top: 7px; background: var(--line); }
+.report-score .fill { background: var(--accent); }
+.report-score:nth-child(2) .fill { background: #608475; }
+.report-match-notes {
+  display: grid;
+  align-content: center;
+  padding: 14px clamp(14px, 2.1vw, 28px);
+  border-left: 1px solid var(--line);
+}
+.report-gap strong { display: block; color: #775315; font-size: 13px; }
+.report-gap span { color: var(--text); font-size: 14px; }
+.report-unknown, .report-version { margin-top: 4px; font-size: 12px; }
+.report-missing {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 8px;
+  margin-bottom: 9px;
+  font-size: 14px;
+}
+
+.report-content {
+  display: grid;
+  grid-template-columns: minmax(0, 2.1fr) minmax(215px, 1fr);
+  gap: clamp(20px, 3.2vw, 48px);
+}
+.report-content > * { min-width: 0; }
+.report-requirements, .report-evidence, .vacancy-report .explanation-sources { margin: 0; padding: 0; list-style: none; }
+.report-requirements { margin-top: 10px; border-top: 1px solid var(--line); }
+.report-requirement {
+  display: grid;
+  grid-template-columns: minmax(105px, 1fr) minmax(0, 2.4fr);
+  gap: 6px 14px;
+  padding: 11px 0;
+  border-bottom: 1px solid var(--line);
+}
+.report-requirement-title { line-height: 1.4; }
+.report-requirement-title h3 { font-size: 16px; overflow-wrap: anywhere; }
+.report-requirement-title span { color: var(--muted); font-size: 12px; }
+.report-requirement-proof {
+  min-width: 0;
+  font-size: 13px;
+  overflow-wrap: anywhere;
+}
+.report-requirement-proof > strong { display: block; }
+.report-requirement-proof strong.has-evidence { color: var(--accent); }
+.report-requirement-proof .quiet { padding-left: 0; }
+.report-evidence { color: var(--muted); line-height: 1.45; }
+.report-evidence li { margin-top: 5px; }
+.report-evidence small { display: block; font-size: 12px; }
+.vacancy-report .source-details { margin: 2px 0 0; max-width: 100%; }
+.vacancy-report .source-details summary {
+  padding: 0;
+  min-height: 32px;
+  line-height: 32px;
+  font-weight: 650;
+}
+.vacancy-report .source-details blockquote {
+  color: var(--text);
+  border-color: #91a39a;
+}
+.report-why { margin-top: 25px; }
+.report-subhead { display: flex; flex-wrap: wrap; align-items: baseline; gap: 3px 11px; }
+.report-subhead small { color: var(--muted); }
+.report-explanations { margin-top: 10px; border-top: 1px solid var(--line); }
+.report-explanations article { padding: 10px 0; border-bottom: 1px solid var(--line); }
+.report-explanations article > p { color: var(--text); font-size: 14px; }
+.vacancy-report .explanation-sources { display: grid; }
+.vacancy-report .explanation-sources li { margin: 5px 0; }
+
+.report-context {
+  border-top: 1px solid var(--line);
+  padding-top: 13px;
+  align-self: start;
+}
+.report-context-section + .report-context-section {
+  border-top: 1px solid var(--line);
+  margin-top: 15px;
+  padding-top: 15px;
+}
+.report-context-section h2 { font-size: 17px; margin-bottom: 7px; }
+.report-context-section > p { font-size: 13px; }
+.report-context-section > .quiet { padding-inline: 0; text-align: start; }
+.report-facts > div {
+  display: flex;
+  justify-content: space-between;
+  gap: 7px;
+  padding: 7px 0;
+  border-top: 1px solid var(--line);
+  font-size: 13px;
+}
+.report-facts { margin-top: 6px; }
+.report-facts dt { min-width: 0; color: var(--muted); }
+.report-facts dd { min-width: 0; margin: 0; text-align: right; overflow-wrap: anywhere; }
+.report-condition { display: block; color: var(--muted); font-size: 12px; }
+.report-condition.mint { color: var(--accent); }
+.report-condition.amber { color: #775315; }
+
+@media (max-width: 930px) {
+  .report-content { grid-template-columns: minmax(0, 1fr); gap: 24px; }
+}
+
+@media (max-width: 650px) {
+  .report-heading { display: grid; gap: 10px; padding-bottom: 16px; }
+  .report-offer { justify-items: start; text-align: start; }
+  .report-meta { font-size: 13px; }
+  .report-match { margin: 17px 0 23px; }
+  .report-match-panel { grid-template-columns: minmax(0, 1fr); }
+  .report-match-notes { padding-block: 9px; border-left: 0; border-top: 1px solid var(--line); }
+  .report-match h2 { font-size: 20px; }
+  .report-requirement { grid-template-columns: minmax(80px, .9fr) minmax(0, 1.55fr); }
+  .vacancy-report .source-details summary { min-height: 40px; line-height: 40px; }
+}

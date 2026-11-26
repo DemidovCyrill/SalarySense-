@@ -1,0 +1,33 @@
+.letter-page { max-width: 1040px; }
+.letter-grid {
+  display: grid;
+  grid-template-columns: minmax(0,.83fr) minmax(0,1.17fr);
+  gap: clamp(22px,4vw,56px);
+}
+.letter-section { min-width: 0; border-top: 1px solid var(--line); padding-top: 15px; }
+.letter-section h2 { font-size: 20px; letter-spacing: -.025em; }
+.letter-section > p { font-size: 14px; margin-block: 5px 15px; }
+.letter-fact-group { min-width: 0; margin: 16px 0 0; padding: 0; border: 0; }
+.letter-fact-group legend { padding: 0 0 4px; font-size: 13px; font-weight: 650; color: var(--muted); }
+.letter-choice {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 48px;
+  padding: 7px 4px 7px 0;
+  border-bottom: 1px solid var(--line);
+  cursor: pointer;
+}
+.letter-choice:hover { background: var(--panel-hover); }
+.letter-choice input { flex: none; }
+.letter-choice span { display: grid; gap: 2px; min-width: 0; }
+.letter-choice strong, .letter-choice small { overflow-wrap: anywhere; }
+.letter-choice strong { font-size: 14px; }
+.letter-choice small { color: var(--muted); font-size: 13px; }
+.letter-writing textarea { min-height: 265px; }
+.letter-actions { margin-top: 14px; }
+
+@media (max-width: 680px) {
+  .letter-grid { grid-template-columns: 1fr; }
+  .letter-writing textarea { min-height: 220px; }
+}

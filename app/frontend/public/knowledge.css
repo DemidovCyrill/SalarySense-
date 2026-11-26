@@ -1,0 +1,80 @@
+.knowledge-workspace {
+  display: grid;
+  grid-template-columns: minmax(0, 680px);
+  gap: 26px;
+  max-width: 980px;
+}
+
+.knowledge-workspace.has-examples {
+  grid-template-columns: minmax(0, 680px) minmax(190px, 250px);
+  column-gap: clamp(24px, 4vw, 56px);
+}
+
+#knowledge-form {
+  display: grid;
+  justify-items: start;
+  align-self: start;
+  gap: 14px;
+}
+
+#knowledge-form .form-field { width: 100%; }
+#knowledge-form textarea { min-height: 100px; }
+
+.knowledge-examples {
+  align-self: start;
+  margin: 0;
+  border-left: 1px solid var(--line);
+  padding-left: 20px;
+}
+
+.knowledge-examples h2, .knowledge-sources h3 { font-size: 16px; }
+.knowledge-examples p { margin: 5px 0 10px; font-size: 13px; line-height: 1.45; }
+.knowledge-examples ul { list-style: none; margin: 0; padding: 0; }
+.knowledge-examples .button {
+  width: 100%;
+  justify-content: start;
+  text-align: left;
+  min-height: 44px;
+  font-size: 14px;
+  font-weight: 590;
+}
+
+.knowledge-answer {
+  grid-column: 1;
+  padding-top: 20px;
+  border-top: 1px solid var(--line);
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.knowledge-answer-heading { display: flex; align-items: baseline; gap: 10px; margin-bottom: 8px; }
+.knowledge-answer h2 { font-size: 20px; }
+.knowledge-answer-heading span { font-size: 13px; }
+.knowledge-answer-text { color: var(--text); max-width: 68ch; white-space: pre-wrap; }
+.knowledge-answer-text + p { margin-top: 7px; font-size: 13px; }
+.knowledge-answer.knowledge-loading { display: flex; align-items: center; gap: 9px; color: var(--muted); min-height: 0; }
+.knowledge-error h2 { color: var(--amber); }
+
+.knowledge-sources { margin-top: 21px; }
+.knowledge-sources h3 { margin-bottom: 9px; }
+.knowledge-source { border-top: 1px solid var(--line); padding: 0; }
+.knowledge-source summary {
+  min-height: 44px;
+  padding: 10px 0;
+  color: var(--accent);
+  line-height: 1.45;
+  overflow-wrap: anywhere;
+}
+.knowledge-source summary small { margin-left: 5px; color: var(--muted); }
+.knowledge-source blockquote {
+  margin: 0 0 8px;
+  border-left: 2px solid var(--control-line);
+  padding-inline: 10px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+@media (max-width: 720px) {
+  .knowledge-workspace.has-examples { grid-template-columns: minmax(0, 1fr); }
+  .knowledge-examples { padding: 14px 0 0; border-left: 0; border-top: 1px solid var(--line); }
+}
