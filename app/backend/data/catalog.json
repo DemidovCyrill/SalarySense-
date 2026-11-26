@@ -1,0 +1,6021 @@
+{
+  "meta": {
+    "version": "catalog-demo-v1",
+    "generated": "2026-11-26",
+    "generator": "tools/export_catalog.mjs",
+    "source": "app/frontend/demo/catalog.mjs"
+  },
+  "snapshot": {
+    "version": "demo-market-v1",
+    "date": "2026-11-26",
+    "from": "2026-11-01",
+    "source": "Учебная выборка SalarySense",
+    "mode": "demo"
+  },
+  "regions": [
+    "Любой регион",
+    "Москва",
+    "Санкт-Петербург",
+    "Казань"
+  ],
+  "formats": [
+    "Любой формат",
+    "Удалённо",
+    "Гибрид",
+    "Офис"
+  ],
+  "levels": [
+    "Intern",
+    "Junior",
+    "Middle",
+    "Senior",
+    "Lead"
+  ],
+  "dimensions": [
+    "Знания",
+    "Практика",
+    "Самостоятельность",
+    "Ответственность",
+    "Влияние"
+  ],
+  "experience": [
+    "Изучал",
+    "Учебный проект",
+    "Рабочая задача",
+    "Самостоятельное внедрение"
+  ],
+  "skills": {
+    "html-css": {
+      "id": "html-css",
+      "name": "HTML и CSS",
+      "group": "Разработка",
+      "description": "Разметка, адаптивные сетки и каскад стилей.",
+      "aliases": [
+        "вёрстка",
+        "верстка",
+        "семантика",
+        "layout"
+      ]
+    },
+    "javascript": {
+      "id": "javascript",
+      "name": "JavaScript",
+      "group": "Разработка",
+      "description": "Типы данных, функции и асинхронный код.",
+      "aliases": [
+        "js",
+        "ecmascript",
+        "промисы"
+      ]
+    },
+    "typescript": {
+      "id": "typescript",
+      "name": "TypeScript",
+      "group": "Разработка",
+      "description": "Типы, интерфейсы и моделирование данных.",
+      "aliases": [
+        "ts",
+        "типизация"
+      ]
+    },
+    "react": {
+      "id": "react",
+      "name": "React",
+      "group": "Разработка",
+      "description": "Компоненты, состояние и эффекты.",
+      "aliases": [
+        "reactjs",
+        "hooks",
+        "хуки"
+      ]
+    },
+    "web-a11y": {
+      "id": "web-a11y",
+      "name": "Доступность",
+      "group": "Качество",
+      "description": "Семантика, клавиатурная навигация и фокус.",
+      "aliases": [
+        "a11y",
+        "accessibility",
+        "wcag"
+      ]
+    },
+    "testing": {
+      "id": "testing",
+      "name": "Автотесты",
+      "group": "Качество",
+      "description": "Модульные и интеграционные проверки.",
+      "aliases": [
+        "testing",
+        "jest",
+        "тестирование"
+      ]
+    },
+    "api": {
+      "id": "api",
+      "name": "REST API",
+      "group": "Инструменты",
+      "description": "HTTP, ресурсы и обработка ошибок.",
+      "aliases": [
+        "http",
+        "rest",
+        "запросы"
+      ]
+    },
+    "git": {
+      "id": "git",
+      "name": "Git",
+      "group": "Инструменты",
+      "description": "История, ветки и командная работа с кодом.",
+      "aliases": [
+        "github",
+        "gitlab",
+        "ветки"
+      ]
+    },
+    "sql": {
+      "id": "sql",
+      "name": "SQL",
+      "group": "Данные",
+      "description": "Запросы, объединения и агрегация таблиц.",
+      "aliases": [
+        "postgres",
+        "базы данных",
+        "join"
+      ]
+    },
+    "java": {
+      "id": "java",
+      "name": "Java",
+      "group": "Разработка",
+      "description": "Основы языка и коллекции.",
+      "aliases": []
+    },
+    "kotlin": {
+      "id": "kotlin",
+      "name": "Kotlin",
+      "group": "Разработка",
+      "description": "Модели данных и асинхронные операции.",
+      "aliases": []
+    },
+    "test-design": {
+      "id": "test-design",
+      "name": "Тест-дизайн",
+      "group": "Качество",
+      "description": "Классы эквивалентности и граничные значения.",
+      "aliases": [
+        "qa"
+      ]
+    },
+    "linux": {
+      "id": "linux",
+      "name": "Linux",
+      "group": "Инфраструктура",
+      "description": "Процессы, права и диагностика.",
+      "aliases": []
+    },
+    "ci": {
+      "id": "ci",
+      "name": "CI/CD",
+      "group": "Инфраструктура",
+      "description": "Автоматизация сборки и выпуска.",
+      "aliases": [
+        "пайплайн"
+      ]
+    },
+    "docker": {
+      "id": "docker",
+      "name": "Docker",
+      "group": "Инфраструктура",
+      "description": "Контейнеры и образы.",
+      "aliases": []
+    },
+    "threat": {
+      "id": "threat",
+      "name": "Моделирование угроз",
+      "group": "Безопасность",
+      "description": "Границы доверия и описание рисков.",
+      "aliases": []
+    },
+    "identity": {
+      "id": "identity",
+      "name": "Управление доступом",
+      "group": "Безопасность",
+      "description": "Роли, разрешения и аудит.",
+      "aliases": []
+    },
+    "python": {
+      "id": "python",
+      "name": "Python",
+      "group": "Данные",
+      "description": "Подготовка данных и автоматизация.",
+      "aliases": []
+    },
+    "metrics": {
+      "id": "metrics",
+      "name": "Метрики",
+      "group": "Аналитика",
+      "description": "Определение метрик и разбор изменений.",
+      "aliases": []
+    },
+    "ml": {
+      "id": "ml",
+      "name": "Оценка моделей",
+      "group": "Данные",
+      "description": "Валидация, ошибки и качество прогнозов.",
+      "aliases": []
+    },
+    "research": {
+      "id": "research",
+      "name": "Исследования",
+      "group": "Дизайн",
+      "description": "Интервью, наблюдение и синтез.",
+      "aliases": []
+    },
+    "prototyping": {
+      "id": "prototyping",
+      "name": "Прототипирование",
+      "group": "Дизайн",
+      "description": "Сценарии взаимодействия и прототипы.",
+      "aliases": [
+        "figma"
+      ]
+    },
+    "product": {
+      "id": "product",
+      "name": "Продуктовые гипотезы",
+      "group": "Управление",
+      "description": "Постановка и проверка гипотез.",
+      "aliases": []
+    },
+    "delivery": {
+      "id": "delivery",
+      "name": "Управление поставкой",
+      "group": "Управление",
+      "description": "Риски, зависимости и планирование.",
+      "aliases": []
+    },
+    "mentoring": {
+      "id": "mentoring",
+      "name": "Наставничество",
+      "group": "Управление",
+      "description": "Обратная связь и развитие команды.",
+      "aliases": []
+    }
+  },
+  "directions": [
+    {
+      "id": "development",
+      "name": "Разработка",
+      "icon": "code"
+    },
+    {
+      "id": "quality",
+      "name": "Тестирование",
+      "icon": "shield"
+    },
+    {
+      "id": "infra",
+      "name": "Инфраструктура",
+      "icon": "layers"
+    },
+    {
+      "id": "security",
+      "name": "Безопасность",
+      "icon": "lock"
+    },
+    {
+      "id": "data",
+      "name": "Данные и аналитика",
+      "icon": "chart"
+    },
+    {
+      "id": "design",
+      "name": "Дизайн",
+      "icon": "pen"
+    },
+    {
+      "id": "management",
+      "name": "Продукт и управление",
+      "icon": "target"
+    }
+  ],
+  "roles": [
+    {
+      "id": "frontend",
+      "direction": "development",
+      "name": "Frontend-разработчик",
+      "description": "Интерфейсы веб-приложений и качество пользовательского опыта.",
+      "skillIds": [
+        "html-css",
+        "javascript",
+        "typescript",
+        "react",
+        "web-a11y",
+        "testing",
+        "api",
+        "git"
+      ],
+      "criteria": true,
+      "catalog": "Демо-каталог"
+    },
+    {
+      "id": "backend",
+      "direction": "development",
+      "name": "Backend-разработчик",
+      "description": "Серверные сервисы, API и хранение данных.",
+      "skillIds": [
+        "java",
+        "api",
+        "sql",
+        "git",
+        "testing",
+        "ci"
+      ],
+      "criteria": true,
+      "catalog": "Демо-каталог"
+    },
+    {
+      "id": "mobile",
+      "direction": "development",
+      "name": "Mobile-разработчик",
+      "description": "Приложения и взаимодействие с мобильной платформой.",
+      "skillIds": [
+        "kotlin",
+        "api",
+        "git",
+        "testing",
+        "ci"
+      ],
+      "criteria": false,
+      "catalog": "Демо-каталог"
+    },
+    {
+      "id": "qa",
+      "direction": "quality",
+      "name": "QA-инженер",
+      "description": "Сценарии проверки, автоматизация и качество продукта.",
+      "skillIds": [
+        "test-design",
+        "testing",
+        "api",
+        "sql",
+        "git"
+      ],
+      "criteria": true,
+      "catalog": "Демо-каталог"
+    },
+    {
+      "id": "devops",
+      "direction": "infra",
+      "name": "DevOps-инженер",
+      "description": "Инфраструктура, доставка изменений и надежность сервисов.",
+      "skillIds": [
+        "linux",
+        "docker",
+        "ci",
+        "git"
+      ],
+      "criteria": false,
+      "catalog": "Базовый каталог"
+    },
+    {
+      "id": "security",
+      "direction": "security",
+      "name": "Инженер безопасности",
+      "description": "Анализ рисков и проектирование защитных мер.",
+      "skillIds": [
+        "threat",
+        "identity",
+        "linux",
+        "api"
+      ],
+      "criteria": false,
+      "catalog": "Базовый каталог"
+    },
+    {
+      "id": "analyst",
+      "direction": "data",
+      "name": "Аналитик данных",
+      "description": "Измерение продукта, запросы и интерпретация данных.",
+      "skillIds": [
+        "sql",
+        "python",
+        "metrics",
+        "git"
+      ],
+      "criteria": false,
+      "catalog": "Базовый каталог"
+    },
+    {
+      "id": "ml",
+      "direction": "data",
+      "name": "ML-инженер",
+      "description": "Подготовка данных, модели и оценка качества.",
+      "skillIds": [
+        "python",
+        "sql",
+        "ml",
+        "docker"
+      ],
+      "criteria": false,
+      "catalog": "Базовый каталог"
+    },
+    {
+      "id": "designer",
+      "direction": "design",
+      "name": "Продуктовый дизайнер",
+      "description": "Исследования, прототипы и доступность интерфейсов.",
+      "skillIds": [
+        "research",
+        "prototyping",
+        "web-a11y",
+        "metrics"
+      ],
+      "criteria": false,
+      "catalog": "Базовый каталог"
+    },
+    {
+      "id": "pm",
+      "direction": "management",
+      "name": "Продакт-менеджер",
+      "description": "Гипотезы, продуктовые метрики и работа с командой.",
+      "skillIds": [
+        "product",
+        "metrics",
+        "research",
+        "delivery"
+      ],
+      "criteria": false,
+      "catalog": "Базовый каталог"
+    },
+    {
+      "id": "lead",
+      "direction": "management",
+      "name": "Tech Lead",
+      "description": "Техническое направление, поставка и развитие команды.",
+      "skillIds": [
+        "delivery",
+        "mentoring",
+        "ci",
+        "api"
+      ],
+      "criteria": false,
+      "catalog": "Базовый каталог"
+    }
+  ],
+  "vacancies": [
+    {
+      "id": "frontend-1",
+      "roleId": "frontend",
+      "title": "Frontend Developer (React)",
+      "company": "Orbit Studio",
+      "brand": 0,
+      "level": "Middle",
+      "region": "Москва",
+      "format": "Удалённо",
+      "mode": "demo",
+      "source": "Учебная выборка SalarySense",
+      "snapshotVersion": "demo-market-v1",
+      "url": null,
+      "published": "2026-11-25",
+      "fetched": "2026-11-26",
+      "status": "active",
+      "salary": {
+        "min": 220000,
+        "max": 270000,
+        "currency": "RUB",
+        "tax": "gross",
+        "period": "month"
+      },
+      "requirements": [
+        {
+          "id": "javascript",
+          "text": "Работать с промисами, обрабатывать ошибки асинхронных операций.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "async",
+          "skill": "JavaScript",
+          "expected": 1
+        },
+        {
+          "id": "react",
+          "text": "Разрабатывать компоненты и управлять состоянием интерфейса.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "state",
+          "skill": "React",
+          "expected": 1
+        },
+        {
+          "id": "typescript",
+          "text": "Описывать типы данных и интерфейсы приложения.",
+          "weight": 2,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "TypeScript",
+          "expected": 1
+        },
+        {
+          "id": "testing",
+          "text": "Поддерживать модульные тесты интерфейсов.",
+          "weight": 2,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "Автотесты",
+          "expected": 1
+        }
+      ],
+      "language": "Английский B1",
+      "summary": "Демонстрационная вакансия для роли «Frontend-разработчик». Команда развивает продукт и ищет специалиста для работы над основными сценариями."
+    },
+    {
+      "id": "frontend-2",
+      "roleId": "frontend",
+      "title": "Frontend-разработчик",
+      "company": "Northstar Labs",
+      "brand": 1,
+      "level": "Middle",
+      "region": "Санкт-Петербург",
+      "format": "Гибрид",
+      "mode": "demo",
+      "source": "Учебная выборка SalarySense",
+      "snapshotVersion": "demo-market-v1",
+      "url": null,
+      "published": "2026-11-24",
+      "fetched": "2026-11-26",
+      "status": "active",
+      "salary": {
+        "min": 205000,
+        "max": 255000,
+        "currency": "RUB",
+        "tax": "gross",
+        "period": "month"
+      },
+      "requirements": [
+        {
+          "id": "html-css",
+          "text": "Верстать доступные адаптивные интерфейсы по макетам.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "HTML и CSS",
+          "expected": 1
+        },
+        {
+          "id": "javascript",
+          "text": "Работать с промисами, обрабатывать ошибки асинхронных операций.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "async",
+          "skill": "JavaScript",
+          "expected": 1
+        },
+        {
+          "id": "react",
+          "text": "Разрабатывать компоненты и управлять состоянием интерфейса.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "state",
+          "skill": "React",
+          "expected": 1
+        },
+        {
+          "id": "git",
+          "text": "Работать с ветками и участвовать в ревью изменений.",
+          "weight": 1,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "Git",
+          "expected": 1
+        }
+      ],
+      "language": "Уровень языка не указан",
+      "summary": "Демонстрационная вакансия для роли «Frontend-разработчик». Команда развивает продукт и ищет специалиста для работы над основными сценариями."
+    },
+    {
+      "id": "frontend-3",
+      "roleId": "frontend",
+      "title": "Senior Frontend Engineer",
+      "company": "Forma Digital",
+      "brand": 2,
+      "level": "Senior",
+      "region": "Казань",
+      "format": "Удалённо",
+      "mode": "demo",
+      "source": "Учебная выборка SalarySense",
+      "snapshotVersion": "demo-market-v1",
+      "url": null,
+      "published": "2026-11-23",
+      "fetched": "2026-11-26",
+      "status": "active",
+      "salary": {
+        "min": 190000,
+        "max": 240000,
+        "currency": "RUB",
+        "tax": "gross",
+        "period": "month"
+      },
+      "requirements": [
+        {
+          "id": "react",
+          "text": "Проектировать состояние сложных приложений и границы модулей.",
+          "weight": 4,
+          "mandatory": true,
+          "topic": "architecture",
+          "skill": "React",
+          "expected": 1
+        },
+        {
+          "id": "web-a11y",
+          "text": "Разбирать проблемы фокуса и навигации с клавиатуры.",
+          "weight": 2,
+          "mandatory": true,
+          "topic": "interaction",
+          "skill": "Доступность",
+          "expected": 1
+        },
+        {
+          "id": "typescript",
+          "text": "Описывать типы данных и интерфейсы приложения.",
+          "weight": 2,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "TypeScript",
+          "expected": 1
+        },
+        {
+          "id": "testing",
+          "text": "Поддерживать модульные тесты интерфейсов.",
+          "weight": 2,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "Автотесты",
+          "expected": 1
+        }
+      ],
+      "language": "Уровень языка не указан",
+      "summary": "Демонстрационная вакансия для роли «Frontend-разработчик». Команда развивает продукт и ищет специалиста для работы над основными сценариями."
+    },
+    {
+      "id": "frontend-4",
+      "roleId": "frontend",
+      "title": "Frontend-разработчик · Junior",
+      "company": "Vertex Team",
+      "brand": 3,
+      "level": "Junior",
+      "region": "Москва",
+      "format": "Удалённо",
+      "mode": "demo",
+      "source": "Учебная выборка SalarySense",
+      "snapshotVersion": "demo-market-v1",
+      "url": null,
+      "published": "2026-11-22",
+      "fetched": "2026-11-26",
+      "status": "active",
+      "salary": {
+        "min": 125000,
+        "max": 175000,
+        "currency": "RUB",
+        "tax": "gross",
+        "period": "month"
+      },
+      "requirements": [
+        {
+          "id": "javascript",
+          "text": "Работать с промисами, обрабатывать ошибки асинхронных операций.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "async",
+          "skill": "JavaScript",
+          "expected": 1
+        },
+        {
+          "id": "react",
+          "text": "Разрабатывать компоненты и управлять состоянием интерфейса.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "state",
+          "skill": "React",
+          "expected": 1
+        },
+        {
+          "id": "typescript",
+          "text": "Описывать типы данных и интерфейсы приложения.",
+          "weight": 2,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "TypeScript",
+          "expected": 1
+        },
+        {
+          "id": "testing",
+          "text": "Поддерживать модульные тесты интерфейсов.",
+          "weight": 2,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "Автотесты",
+          "expected": 1
+        }
+      ],
+      "language": "Английский B1",
+      "summary": "Демонстрационная вакансия для роли «Frontend-разработчик». Команда развивает продукт и ищет специалиста для работы над основными сценариями."
+    },
+    {
+      "id": "frontend-5",
+      "roleId": "frontend",
+      "title": "Frontend-разработчик · Middle",
+      "company": "Signal Works",
+      "brand": 0,
+      "level": "Middle",
+      "region": "Санкт-Петербург",
+      "format": "Гибрид",
+      "mode": "demo",
+      "source": "Учебная выборка SalarySense",
+      "snapshotVersion": "demo-market-v1",
+      "url": null,
+      "published": "2026-11-21",
+      "fetched": "2026-11-26",
+      "status": "active",
+      "salary": {
+        "min": 135000,
+        "max": 185000,
+        "currency": "RUB",
+        "tax": "gross",
+        "period": "month"
+      },
+      "requirements": [
+        {
+          "id": "javascript",
+          "text": "Работать с промисами, обрабатывать ошибки асинхронных операций.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "async",
+          "skill": "JavaScript",
+          "expected": 1
+        },
+        {
+          "id": "react",
+          "text": "Разрабатывать компоненты и управлять состоянием интерфейса.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "state",
+          "skill": "React",
+          "expected": 1
+        },
+        {
+          "id": "typescript",
+          "text": "Описывать типы данных и интерфейсы приложения.",
+          "weight": 2,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "TypeScript",
+          "expected": 1
+        },
+        {
+          "id": "testing",
+          "text": "Поддерживать модульные тесты интерфейсов.",
+          "weight": 2,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "Автотесты",
+          "expected": 1
+        }
+      ],
+      "language": "Уровень языка не указан",
+      "summary": "Демонстрационная вакансия для роли «Frontend-разработчик». Команда развивает продукт и ищет специалиста для работы над основными сценариями."
+    },
+    {
+      "id": "frontend-6",
+      "roleId": "frontend",
+      "title": "Frontend-разработчик · Junior",
+      "company": "Nova Collective",
+      "brand": 1,
+      "level": "Junior",
+      "region": "Казань",
+      "format": "Офис",
+      "mode": "demo",
+      "source": "Учебная выборка SalarySense",
+      "snapshotVersion": "demo-market-v1",
+      "url": null,
+      "published": "2026-11-20",
+      "fetched": "2026-11-26",
+      "status": "active",
+      "salary": {
+        "min": 145000,
+        "max": 195000,
+        "currency": "RUB",
+        "tax": "gross",
+        "period": "month"
+      },
+      "requirements": [
+        {
+          "id": "javascript",
+          "text": "Работать с промисами, обрабатывать ошибки асинхронных операций.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "async",
+          "skill": "JavaScript",
+          "expected": 1
+        },
+        {
+          "id": "react",
+          "text": "Разрабатывать компоненты и управлять состоянием интерфейса.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "state",
+          "skill": "React",
+          "expected": 1
+        },
+        {
+          "id": "typescript",
+          "text": "Описывать типы данных и интерфейсы приложения.",
+          "weight": 2,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "TypeScript",
+          "expected": 1
+        },
+        {
+          "id": "testing",
+          "text": "Поддерживать модульные тесты интерфейсов.",
+          "weight": 2,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "Автотесты",
+          "expected": 1
+        }
+      ],
+      "language": "Уровень языка не указан",
+      "summary": "Демонстрационная вакансия для роли «Frontend-разработчик». Команда развивает продукт и ищет специалиста для работы над основными сценариями."
+    },
+    {
+      "id": "frontend-7",
+      "roleId": "frontend",
+      "title": "Frontend-разработчик · Middle",
+      "company": "Kite Systems",
+      "brand": 2,
+      "level": "Middle",
+      "region": "Москва",
+      "format": "Удалённо",
+      "mode": "demo",
+      "source": "Учебная выборка SalarySense",
+      "snapshotVersion": "demo-market-v1",
+      "url": null,
+      "published": "2026-11-19",
+      "fetched": "2026-11-26",
+      "status": "active",
+      "salary": {
+        "min": 155000,
+        "max": 205000,
+        "currency": "RUB",
+        "tax": "gross",
+        "period": "month"
+      },
+      "requirements": [
+        {
+          "id": "javascript",
+          "text": "Работать с промисами, обрабатывать ошибки асинхронных операций.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "async",
+          "skill": "JavaScript",
+          "expected": 1
+        },
+        {
+          "id": "react",
+          "text": "Разрабатывать компоненты и управлять состоянием интерфейса.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "state",
+          "skill": "React",
+          "expected": 1
+        },
+        {
+          "id": "typescript",
+          "text": "Описывать типы данных и интерфейсы приложения.",
+          "weight": 2,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "TypeScript",
+          "expected": 1
+        },
+        {
+          "id": "testing",
+          "text": "Поддерживать модульные тесты интерфейсов.",
+          "weight": 2,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "Автотесты",
+          "expected": 1
+        }
+      ],
+      "language": "Английский B1",
+      "summary": "Демонстрационная вакансия для роли «Frontend-разработчик». Команда развивает продукт и ищет специалиста для работы над основными сценариями."
+    },
+    {
+      "id": "frontend-8",
+      "roleId": "frontend",
+      "title": "Frontend-разработчик · Middle",
+      "company": "Layer Studio",
+      "brand": 3,
+      "level": "Middle",
+      "region": "Санкт-Петербург",
+      "format": "Гибрид",
+      "mode": "demo",
+      "source": "Учебная выборка SalarySense",
+      "snapshotVersion": "demo-market-v1",
+      "url": null,
+      "published": "2026-11-18",
+      "fetched": "2026-11-26",
+      "status": "active",
+      "salary": {
+        "min": 165000,
+        "max": 215000,
+        "currency": "RUB",
+        "tax": "gross",
+        "period": "month"
+      },
+      "requirements": [
+        {
+          "id": "javascript",
+          "text": "Работать с промисами, обрабатывать ошибки асинхронных операций.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "async",
+          "skill": "JavaScript",
+          "expected": 1
+        },
+        {
+          "id": "react",
+          "text": "Разрабатывать компоненты и управлять состоянием интерфейса.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "state",
+          "skill": "React",
+          "expected": 1
+        },
+        {
+          "id": "typescript",
+          "text": "Описывать типы данных и интерфейсы приложения.",
+          "weight": 2,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "TypeScript",
+          "expected": 1
+        },
+        {
+          "id": "testing",
+          "text": "Поддерживать модульные тесты интерфейсов.",
+          "weight": 2,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "Автотесты",
+          "expected": 1
+        }
+      ],
+      "language": "Уровень языка не указан",
+      "summary": "Демонстрационная вакансия для роли «Frontend-разработчик». Команда развивает продукт и ищет специалиста для работы над основными сценариями."
+    },
+    {
+      "id": "frontend-9",
+      "roleId": "frontend",
+      "title": "Frontend-разработчик · Middle",
+      "company": "Atlas Works",
+      "brand": 0,
+      "level": "Middle",
+      "region": "Казань",
+      "format": "Офис",
+      "mode": "demo",
+      "source": "Учебная выборка SalarySense",
+      "snapshotVersion": "demo-market-v1",
+      "url": null,
+      "published": "2026-11-17",
+      "fetched": "2026-11-26",
+      "status": "active",
+      "salary": {
+        "min": 175000,
+        "max": 225000,
+        "currency": "RUB",
+        "tax": "gross",
+        "period": "month"
+      },
+      "requirements": [
+        {
+          "id": "javascript",
+          "text": "Работать с промисами, обрабатывать ошибки асинхронных операций.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "async",
+          "skill": "JavaScript",
+          "expected": 1
+        },
+        {
+          "id": "react",
+          "text": "Разрабатывать компоненты и управлять состоянием интерфейса.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "state",
+          "skill": "React",
+          "expected": 1
+        },
+        {
+          "id": "typescript",
+          "text": "Описывать типы данных и интерфейсы приложения.",
+          "weight": 2,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "TypeScript",
+          "expected": 1
+        },
+        {
+          "id": "testing",
+          "text": "Поддерживать модульные тесты интерфейсов.",
+          "weight": 2,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "Автотесты",
+          "expected": 1
+        }
+      ],
+      "language": "Уровень языка не указан",
+      "summary": "Демонстрационная вакансия для роли «Frontend-разработчик». Команда развивает продукт и ищет специалиста для работы над основными сценариями."
+    },
+    {
+      "id": "frontend-10",
+      "roleId": "frontend",
+      "title": "Frontend-разработчик · Middle",
+      "company": "Grid Space",
+      "brand": 1,
+      "level": "Middle",
+      "region": "Москва",
+      "format": "Удалённо",
+      "mode": "demo",
+      "source": "Учебная выборка SalarySense",
+      "snapshotVersion": "demo-market-v1",
+      "url": null,
+      "published": "2026-11-16",
+      "fetched": "2026-11-26",
+      "status": "active",
+      "salary": {
+        "min": 185000,
+        "max": 235000,
+        "currency": "RUB",
+        "tax": "gross",
+        "period": "month"
+      },
+      "requirements": [
+        {
+          "id": "javascript",
+          "text": "Работать с промисами, обрабатывать ошибки асинхронных операций.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "async",
+          "skill": "JavaScript",
+          "expected": 1
+        },
+        {
+          "id": "react",
+          "text": "Разрабатывать компоненты и управлять состоянием интерфейса.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "state",
+          "skill": "React",
+          "expected": 1
+        },
+        {
+          "id": "typescript",
+          "text": "Описывать типы данных и интерфейсы приложения.",
+          "weight": 2,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "TypeScript",
+          "expected": 1
+        },
+        {
+          "id": "testing",
+          "text": "Поддерживать модульные тесты интерфейсов.",
+          "weight": 2,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "Автотесты",
+          "expected": 1
+        }
+      ],
+      "language": "Английский B1",
+      "summary": "Демонстрационная вакансия для роли «Frontend-разработчик». Команда развивает продукт и ищет специалиста для работы над основными сценариями."
+    },
+    {
+      "id": "frontend-11",
+      "roleId": "frontend",
+      "title": "Frontend-разработчик · Middle",
+      "company": "Tidal Code",
+      "brand": 2,
+      "level": "Middle",
+      "region": "Санкт-Петербург",
+      "format": "Гибрид",
+      "mode": "demo",
+      "source": "Учебная выборка SalarySense",
+      "snapshotVersion": "demo-market-v1",
+      "url": null,
+      "published": "2026-11-15",
+      "fetched": "2026-11-26",
+      "status": "active",
+      "salary": {
+        "min": 195000,
+        "max": 245000,
+        "currency": "RUB",
+        "tax": "gross",
+        "period": "month"
+      },
+      "requirements": [
+        {
+          "id": "javascript",
+          "text": "Работать с промисами, обрабатывать ошибки асинхронных операций.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "async",
+          "skill": "JavaScript",
+          "expected": 1
+        },
+        {
+          "id": "react",
+          "text": "Разрабатывать компоненты и управлять состоянием интерфейса.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "state",
+          "skill": "React",
+          "expected": 1
+        },
+        {
+          "id": "typescript",
+          "text": "Описывать типы данных и интерфейсы приложения.",
+          "weight": 2,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "TypeScript",
+          "expected": 1
+        },
+        {
+          "id": "testing",
+          "text": "Поддерживать модульные тесты интерфейсов.",
+          "weight": 2,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "Автотесты",
+          "expected": 1
+        }
+      ],
+      "language": "Уровень языка не указан",
+      "summary": "Демонстрационная вакансия для роли «Frontend-разработчик». Команда развивает продукт и ищет специалиста для работы над основными сценариями."
+    },
+    {
+      "id": "frontend-12",
+      "roleId": "frontend",
+      "title": "Frontend-разработчик · Senior",
+      "company": "Vector Lab",
+      "brand": 3,
+      "level": "Senior",
+      "region": "Казань",
+      "format": "Офис",
+      "mode": "demo",
+      "source": "Учебная выборка SalarySense",
+      "snapshotVersion": "demo-market-v1",
+      "url": null,
+      "published": "2026-11-14",
+      "fetched": "2026-11-26",
+      "status": "active",
+      "salary": {
+        "min": 215000,
+        "max": 265000,
+        "currency": "RUB",
+        "tax": "gross",
+        "period": "month"
+      },
+      "requirements": [
+        {
+          "id": "javascript",
+          "text": "Работать с промисами, обрабатывать ошибки асинхронных операций.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "async",
+          "skill": "JavaScript",
+          "expected": 1
+        },
+        {
+          "id": "react",
+          "text": "Разрабатывать компоненты и управлять состоянием интерфейса.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "state",
+          "skill": "React",
+          "expected": 1
+        },
+        {
+          "id": "typescript",
+          "text": "Описывать типы данных и интерфейсы приложения.",
+          "weight": 2,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "TypeScript",
+          "expected": 1
+        },
+        {
+          "id": "testing",
+          "text": "Поддерживать модульные тесты интерфейсов.",
+          "weight": 2,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "Автотесты",
+          "expected": 1
+        }
+      ],
+      "language": "Уровень языка не указан",
+      "summary": "Демонстрационная вакансия для роли «Frontend-разработчик». Команда развивает продукт и ищет специалиста для работы над основными сценариями."
+    },
+    {
+      "id": "frontend-13",
+      "roleId": "frontend",
+      "title": "Frontend-разработчик · Senior",
+      "company": "Basis Team",
+      "brand": 0,
+      "level": "Senior",
+      "region": "Москва",
+      "format": "Удалённо",
+      "mode": "demo",
+      "source": "Учебная выборка SalarySense",
+      "snapshotVersion": "demo-market-v1",
+      "url": null,
+      "published": "2026-11-13",
+      "fetched": "2026-11-26",
+      "status": "active",
+      "salary": {
+        "min": 225000,
+        "max": 275000,
+        "currency": "RUB",
+        "tax": "gross",
+        "period": "month"
+      },
+      "requirements": [
+        {
+          "id": "javascript",
+          "text": "Работать с промисами, обрабатывать ошибки асинхронных операций.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "async",
+          "skill": "JavaScript",
+          "expected": 1
+        },
+        {
+          "id": "react",
+          "text": "Разрабатывать компоненты и управлять состоянием интерфейса.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "state",
+          "skill": "React",
+          "expected": 1
+        },
+        {
+          "id": "typescript",
+          "text": "Описывать типы данных и интерфейсы приложения.",
+          "weight": 2,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "TypeScript",
+          "expected": 1
+        },
+        {
+          "id": "testing",
+          "text": "Поддерживать модульные тесты интерфейсов.",
+          "weight": 2,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "Автотесты",
+          "expected": 1
+        }
+      ],
+      "language": "Английский B1",
+      "summary": "Демонстрационная вакансия для роли «Frontend-разработчик». Команда развивает продукт и ищет специалиста для работы над основными сценариями."
+    },
+    {
+      "id": "frontend-14",
+      "roleId": "frontend",
+      "title": "Frontend-разработчик · Senior",
+      "company": "Pulse Works",
+      "brand": 1,
+      "level": "Senior",
+      "region": "Санкт-Петербург",
+      "format": "Гибрид",
+      "mode": "demo",
+      "source": "Учебная выборка SalarySense",
+      "snapshotVersion": "demo-market-v1",
+      "url": null,
+      "published": "2026-11-12",
+      "fetched": "2026-11-26",
+      "status": "active",
+      "salary": {
+        "min": 235000,
+        "max": 285000,
+        "currency": "RUB",
+        "tax": "gross",
+        "period": "month"
+      },
+      "requirements": [
+        {
+          "id": "javascript",
+          "text": "Работать с промисами, обрабатывать ошибки асинхронных операций.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "async",
+          "skill": "JavaScript",
+          "expected": 1
+        },
+        {
+          "id": "react",
+          "text": "Разрабатывать компоненты и управлять состоянием интерфейса.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "state",
+          "skill": "React",
+          "expected": 1
+        },
+        {
+          "id": "typescript",
+          "text": "Описывать типы данных и интерфейсы приложения.",
+          "weight": 2,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "TypeScript",
+          "expected": 1
+        },
+        {
+          "id": "testing",
+          "text": "Поддерживать модульные тесты интерфейсов.",
+          "weight": 2,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "Автотесты",
+          "expected": 1
+        }
+      ],
+      "language": "Уровень языка не указан",
+      "summary": "Демонстрационная вакансия для роли «Frontend-разработчик». Команда развивает продукт и ищет специалиста для работы над основными сценариями."
+    },
+    {
+      "id": "frontend-15",
+      "roleId": "frontend",
+      "title": "Frontend-разработчик · Senior",
+      "company": "Mosaic Lab",
+      "brand": 2,
+      "level": "Senior",
+      "region": "Казань",
+      "format": "Офис",
+      "mode": "demo",
+      "source": "Учебная выборка SalarySense",
+      "snapshotVersion": "demo-market-v1",
+      "url": null,
+      "published": "2026-11-11",
+      "fetched": "2026-11-26",
+      "status": "active",
+      "salary": {
+        "min": 245000,
+        "max": 295000,
+        "currency": "RUB",
+        "tax": "gross",
+        "period": "month"
+      },
+      "requirements": [
+        {
+          "id": "javascript",
+          "text": "Работать с промисами, обрабатывать ошибки асинхронных операций.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "async",
+          "skill": "JavaScript",
+          "expected": 1
+        },
+        {
+          "id": "react",
+          "text": "Разрабатывать компоненты и управлять состоянием интерфейса.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "state",
+          "skill": "React",
+          "expected": 1
+        },
+        {
+          "id": "typescript",
+          "text": "Описывать типы данных и интерфейсы приложения.",
+          "weight": 2,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "TypeScript",
+          "expected": 1
+        },
+        {
+          "id": "testing",
+          "text": "Поддерживать модульные тесты интерфейсов.",
+          "weight": 2,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "Автотесты",
+          "expected": 1
+        }
+      ],
+      "language": "Уровень языка не указан",
+      "summary": "Демонстрационная вакансия для роли «Frontend-разработчик». Команда развивает продукт и ищет специалиста для работы над основными сценариями."
+    },
+    {
+      "id": "frontend-16",
+      "roleId": "frontend",
+      "title": "Frontend-разработчик · Senior",
+      "company": "Lumen Team",
+      "brand": 3,
+      "level": "Senior",
+      "region": "Москва",
+      "format": "Удалённо",
+      "mode": "demo",
+      "source": "Учебная выборка SalarySense",
+      "snapshotVersion": "demo-market-v1",
+      "url": null,
+      "published": "2026-11-10",
+      "fetched": "2026-11-26",
+      "status": "active",
+      "salary": {
+        "min": 255000,
+        "max": 305000,
+        "currency": "RUB",
+        "tax": "gross",
+        "period": "month"
+      },
+      "requirements": [
+        {
+          "id": "javascript",
+          "text": "Работать с промисами, обрабатывать ошибки асинхронных операций.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "async",
+          "skill": "JavaScript",
+          "expected": 1
+        },
+        {
+          "id": "react",
+          "text": "Разрабатывать компоненты и управлять состоянием интерфейса.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "state",
+          "skill": "React",
+          "expected": 1
+        },
+        {
+          "id": "typescript",
+          "text": "Описывать типы данных и интерфейсы приложения.",
+          "weight": 2,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "TypeScript",
+          "expected": 1
+        },
+        {
+          "id": "testing",
+          "text": "Поддерживать модульные тесты интерфейсов.",
+          "weight": 2,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "Автотесты",
+          "expected": 1
+        }
+      ],
+      "language": "Английский B1",
+      "summary": "Демонстрационная вакансия для роли «Frontend-разработчик». Команда развивает продукт и ищет специалиста для работы над основными сценариями."
+    },
+    {
+      "id": "frontend-17",
+      "roleId": "frontend",
+      "title": "Frontend-разработчик · Lead",
+      "company": "Shift Studio",
+      "brand": 0,
+      "level": "Lead",
+      "region": "Санкт-Петербург",
+      "format": "Гибрид",
+      "mode": "demo",
+      "source": "Учебная выборка SalarySense",
+      "snapshotVersion": "demo-market-v1",
+      "url": null,
+      "published": "2026-11-09",
+      "fetched": "2026-11-26",
+      "status": "active",
+      "salary": {
+        "min": 275000,
+        "max": 325000,
+        "currency": "RUB",
+        "tax": "gross",
+        "period": "month"
+      },
+      "requirements": [
+        {
+          "id": "javascript",
+          "text": "Работать с промисами, обрабатывать ошибки асинхронных операций.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "async",
+          "skill": "JavaScript",
+          "expected": 1
+        },
+        {
+          "id": "react",
+          "text": "Разрабатывать компоненты и управлять состоянием интерфейса.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "state",
+          "skill": "React",
+          "expected": 1
+        },
+        {
+          "id": "typescript",
+          "text": "Описывать типы данных и интерфейсы приложения.",
+          "weight": 2,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "TypeScript",
+          "expected": 1
+        },
+        {
+          "id": "testing",
+          "text": "Поддерживать модульные тесты интерфейсов.",
+          "weight": 2,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "Автотесты",
+          "expected": 1
+        }
+      ],
+      "language": "Уровень языка не указан",
+      "summary": "Демонстрационная вакансия для роли «Frontend-разработчик». Команда развивает продукт и ищет специалиста для работы над основными сценариями."
+    },
+    {
+      "id": "frontend-18",
+      "roleId": "frontend",
+      "title": "Frontend-разработчик · Lead",
+      "company": "Index Lab",
+      "brand": 1,
+      "level": "Lead",
+      "region": "Казань",
+      "format": "Офис",
+      "mode": "demo",
+      "source": "Учебная выборка SalarySense",
+      "snapshotVersion": "demo-market-v1",
+      "url": null,
+      "published": "2026-11-08",
+      "fetched": "2026-11-26",
+      "status": "active",
+      "salary": {
+        "min": 295000,
+        "max": 345000,
+        "currency": "RUB",
+        "tax": "gross",
+        "period": "month"
+      },
+      "requirements": [
+        {
+          "id": "javascript",
+          "text": "Работать с промисами, обрабатывать ошибки асинхронных операций.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "async",
+          "skill": "JavaScript",
+          "expected": 1
+        },
+        {
+          "id": "react",
+          "text": "Разрабатывать компоненты и управлять состоянием интерфейса.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "state",
+          "skill": "React",
+          "expected": 1
+        },
+        {
+          "id": "typescript",
+          "text": "Описывать типы данных и интерфейсы приложения.",
+          "weight": 2,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "TypeScript",
+          "expected": 1
+        },
+        {
+          "id": "testing",
+          "text": "Поддерживать модульные тесты интерфейсов.",
+          "weight": 2,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "Автотесты",
+          "expected": 1
+        }
+      ],
+      "language": "Уровень языка не указан",
+      "summary": "Демонстрационная вакансия для роли «Frontend-разработчик». Команда развивает продукт и ищет специалиста для работы над основными сценариями."
+    },
+    {
+      "id": "frontend-19",
+      "roleId": "frontend",
+      "title": "Frontend-разработчик · Junior",
+      "company": "Pixel Group",
+      "brand": 2,
+      "level": "Junior",
+      "region": "Москва",
+      "format": "Удалённо",
+      "mode": "demo",
+      "source": "Учебная выборка SalarySense",
+      "snapshotVersion": "demo-market-v1",
+      "url": null,
+      "published": "2026-11-07",
+      "fetched": "2026-11-26",
+      "status": "active",
+      "salary": {
+        "min": 210000,
+        "max": 260000,
+        "currency": "RUB",
+        "tax": "gross",
+        "period": "month"
+      },
+      "requirements": [
+        {
+          "id": "javascript",
+          "text": "Работать с промисами, обрабатывать ошибки асинхронных операций.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "async",
+          "skill": "JavaScript",
+          "expected": 1
+        },
+        {
+          "id": "react",
+          "text": "Разрабатывать компоненты и управлять состоянием интерфейса.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "state",
+          "skill": "React",
+          "expected": 1
+        },
+        {
+          "id": "typescript",
+          "text": "Описывать типы данных и интерфейсы приложения.",
+          "weight": 2,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "TypeScript",
+          "expected": 1
+        },
+        {
+          "id": "testing",
+          "text": "Поддерживать модульные тесты интерфейсов.",
+          "weight": 2,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "Автотесты",
+          "expected": 1
+        }
+      ],
+      "language": "Английский B1",
+      "summary": "Демонстрационная вакансия для роли «Frontend-разработчик». Команда развивает продукт и ищет специалиста для работы над основными сценариями."
+    },
+    {
+      "id": "frontend-20",
+      "roleId": "frontend",
+      "title": "Frontend-разработчик · Middle",
+      "company": "Core Space",
+      "brand": 3,
+      "level": "Middle",
+      "region": "Санкт-Петербург",
+      "format": "Гибрид",
+      "mode": "demo",
+      "source": "Учебная выборка SalarySense",
+      "snapshotVersion": "demo-market-v1",
+      "url": null,
+      "published": "2026-11-06",
+      "fetched": "2026-11-26",
+      "status": "active",
+      "salary": {
+        "min": 225000,
+        "max": 275000,
+        "currency": "RUB",
+        "tax": "net",
+        "period": "month"
+      },
+      "requirements": [
+        {
+          "id": "javascript",
+          "text": "Работать с промисами, обрабатывать ошибки асинхронных операций.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "async",
+          "skill": "JavaScript",
+          "expected": 1
+        },
+        {
+          "id": "react",
+          "text": "Разрабатывать компоненты и управлять состоянием интерфейса.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "state",
+          "skill": "React",
+          "expected": 1
+        },
+        {
+          "id": "typescript",
+          "text": "Описывать типы данных и интерфейсы приложения.",
+          "weight": 2,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "TypeScript",
+          "expected": 1
+        },
+        {
+          "id": "testing",
+          "text": "Поддерживать модульные тесты интерфейсов.",
+          "weight": 2,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "Автотесты",
+          "expected": 1
+        }
+      ],
+      "language": "Уровень языка не указан",
+      "summary": "Демонстрационная вакансия для роли «Frontend-разработчик». Команда развивает продукт и ищет специалиста для работы над основными сценариями."
+    },
+    {
+      "id": "frontend-21",
+      "roleId": "frontend",
+      "title": "Frontend-разработчик · Middle",
+      "company": "Unit Works",
+      "brand": 0,
+      "level": "Middle",
+      "region": "Казань",
+      "format": "Офис",
+      "mode": "demo",
+      "source": "Учебная выборка SalarySense",
+      "snapshotVersion": "demo-market-v1",
+      "url": null,
+      "published": "2026-11-05",
+      "fetched": "2026-11-26",
+      "status": "active",
+      "salary": {
+        "min": 705000,
+        "max": null,
+        "currency": "RUB",
+        "tax": "gross",
+        "period": "month"
+      },
+      "requirements": [
+        {
+          "id": "javascript",
+          "text": "Работать с промисами, обрабатывать ошибки асинхронных операций.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "async",
+          "skill": "JavaScript",
+          "expected": 1
+        },
+        {
+          "id": "react",
+          "text": "Разрабатывать компоненты и управлять состоянием интерфейса.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "state",
+          "skill": "React",
+          "expected": 1
+        },
+        {
+          "id": "typescript",
+          "text": "Описывать типы данных и интерфейсы приложения.",
+          "weight": 2,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "TypeScript",
+          "expected": 1
+        },
+        {
+          "id": "testing",
+          "text": "Поддерживать модульные тесты интерфейсов.",
+          "weight": 2,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "Автотесты",
+          "expected": 1
+        }
+      ],
+      "language": "Уровень языка не указан",
+      "summary": "Демонстрационная вакансия для роли «Frontend-разработчик». Команда развивает продукт и ищет специалиста для работы над основными сценариями."
+    },
+    {
+      "id": "frontend-22",
+      "roleId": "frontend",
+      "title": "Frontend-разработчик · Middle",
+      "company": "Scale Lab",
+      "brand": 1,
+      "level": "Middle",
+      "region": "Москва",
+      "format": "Удалённо",
+      "mode": "demo",
+      "source": "Учебная выборка SalarySense",
+      "snapshotVersion": "demo-market-v1",
+      "url": null,
+      "published": "2026-11-04",
+      "fetched": "2026-11-26",
+      "status": "active",
+      "salary": {
+        "min": null,
+        "max": 785000,
+        "currency": "RUB",
+        "tax": "gross",
+        "period": "month"
+      },
+      "requirements": [
+        {
+          "id": "javascript",
+          "text": "Работать с промисами, обрабатывать ошибки асинхронных операций.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "async",
+          "skill": "JavaScript",
+          "expected": 1
+        },
+        {
+          "id": "react",
+          "text": "Разрабатывать компоненты и управлять состоянием интерфейса.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "state",
+          "skill": "React",
+          "expected": 1
+        },
+        {
+          "id": "typescript",
+          "text": "Описывать типы данных и интерфейсы приложения.",
+          "weight": 2,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "TypeScript",
+          "expected": 1
+        },
+        {
+          "id": "testing",
+          "text": "Поддерживать модульные тесты интерфейсов.",
+          "weight": 2,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "Автотесты",
+          "expected": 1
+        }
+      ],
+      "language": "Английский B1",
+      "summary": "Демонстрационная вакансия для роли «Frontend-разработчик». Команда развивает продукт и ищет специалиста для работы над основными сценариями."
+    },
+    {
+      "id": "frontend-23",
+      "roleId": "frontend",
+      "title": "Frontend-разработчик · Middle",
+      "company": "Field Studio",
+      "brand": 2,
+      "level": "Middle",
+      "region": "Санкт-Петербург",
+      "format": "Гибрид",
+      "mode": "demo",
+      "source": "Учебная выборка SalarySense",
+      "snapshotVersion": "demo-market-previous-v1",
+      "url": null,
+      "published": "2026-11-03",
+      "fetched": "2026-11-15",
+      "status": "stale",
+      "salary": null,
+      "requirements": [
+        {
+          "id": "javascript",
+          "text": "Работать с промисами, обрабатывать ошибки асинхронных операций.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "async",
+          "skill": "JavaScript",
+          "expected": 1
+        },
+        {
+          "id": "react",
+          "text": "Разрабатывать компоненты и управлять состоянием интерфейса.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "state",
+          "skill": "React",
+          "expected": 1
+        },
+        {
+          "id": "typescript",
+          "text": "Описывать типы данных и интерфейсы приложения.",
+          "weight": 2,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "TypeScript",
+          "expected": 1
+        },
+        {
+          "id": "testing",
+          "text": "Поддерживать модульные тесты интерфейсов.",
+          "weight": 2,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "Автотесты",
+          "expected": 1
+        }
+      ],
+      "language": "Уровень языка не указан",
+      "summary": "Демонстрационная вакансия для роли «Frontend-разработчик». Команда развивает продукт и ищет специалиста для работы над основными сценариями."
+    },
+    {
+      "id": "frontend-24",
+      "roleId": "frontend",
+      "title": "Frontend-разработчик · Middle",
+      "company": "Cloud Team",
+      "brand": 3,
+      "level": "Middle",
+      "region": "Казань",
+      "format": "Офис",
+      "mode": "demo",
+      "source": "Учебная выборка SalarySense",
+      "snapshotVersion": "demo-market-previous-v1",
+      "url": null,
+      "published": "2026-11-02",
+      "fetched": "2026-11-15",
+      "status": "archived",
+      "salary": null,
+      "requirements": [
+        {
+          "id": "javascript",
+          "text": "Работать с промисами, обрабатывать ошибки асинхронных операций.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "async",
+          "skill": "JavaScript",
+          "expected": 1
+        },
+        {
+          "id": "react",
+          "text": "Разрабатывать компоненты и управлять состоянием интерфейса.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "state",
+          "skill": "React",
+          "expected": 1
+        },
+        {
+          "id": "typescript",
+          "text": "Описывать типы данных и интерфейсы приложения.",
+          "weight": 2,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "TypeScript",
+          "expected": 1
+        },
+        {
+          "id": "testing",
+          "text": "Поддерживать модульные тесты интерфейсов.",
+          "weight": 2,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "Автотесты",
+          "expected": 1
+        }
+      ],
+      "language": "Уровень языка не указан",
+      "summary": "Демонстрационная вакансия для роли «Frontend-разработчик». Команда развивает продукт и ищет специалиста для работы над основными сценариями."
+    },
+    {
+      "id": "backend-1",
+      "roleId": "backend",
+      "title": "Backend-разработчик · Middle",
+      "company": "Orbit Studio",
+      "brand": 0,
+      "level": "Middle",
+      "region": "Москва",
+      "format": "Удалённо",
+      "mode": "demo",
+      "source": "Учебная выборка SalarySense",
+      "snapshotVersion": "demo-market-v1",
+      "url": null,
+      "published": "2026-11-25",
+      "fetched": "2026-11-26",
+      "status": "active",
+      "salary": {
+        "min": 235000,
+        "max": 285000,
+        "currency": "RUB",
+        "tax": "gross",
+        "period": "month"
+      },
+      "requirements": [
+        {
+          "id": "java",
+          "text": "Использовать основные коллекции и типы Java.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "Java",
+          "expected": 1
+        },
+        {
+          "id": "api",
+          "text": "Разрабатывать и поддерживать REST API.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "REST API",
+          "expected": 1
+        },
+        {
+          "id": "sql",
+          "text": "Объединять таблицы и агрегировать результаты.",
+          "weight": 2,
+          "mandatory": true,
+          "topic": "joins",
+          "skill": "SQL",
+          "expected": 1
+        },
+        {
+          "id": "ci",
+          "text": "Поддерживать пайплайны сборки и доставки.",
+          "weight": 2,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "CI/CD",
+          "expected": 1
+        }
+      ],
+      "language": "Английский B1",
+      "summary": "Демонстрационная вакансия для роли «Backend-разработчик». Команда развивает продукт и ищет специалиста для работы над основными сценариями."
+    },
+    {
+      "id": "backend-2",
+      "roleId": "backend",
+      "title": "Backend-разработчик · Middle",
+      "company": "Northstar Labs",
+      "brand": 1,
+      "level": "Middle",
+      "region": "Санкт-Петербург",
+      "format": "Гибрид",
+      "mode": "demo",
+      "source": "Учебная выборка SalarySense",
+      "snapshotVersion": "demo-market-v1",
+      "url": null,
+      "published": "2026-11-24",
+      "fetched": "2026-11-26",
+      "status": "active",
+      "salary": {
+        "min": 225000,
+        "max": 275000,
+        "currency": "RUB",
+        "tax": "gross",
+        "period": "month"
+      },
+      "requirements": [
+        {
+          "id": "java",
+          "text": "Использовать основные коллекции и типы Java.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "Java",
+          "expected": 1
+        },
+        {
+          "id": "api",
+          "text": "Разрабатывать и поддерживать REST API.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "REST API",
+          "expected": 1
+        },
+        {
+          "id": "sql",
+          "text": "Объединять таблицы и агрегировать результаты.",
+          "weight": 2,
+          "mandatory": true,
+          "topic": "joins",
+          "skill": "SQL",
+          "expected": 1
+        },
+        {
+          "id": "ci",
+          "text": "Поддерживать пайплайны сборки и доставки.",
+          "weight": 2,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "CI/CD",
+          "expected": 1
+        }
+      ],
+      "language": "Уровень языка не указан",
+      "summary": "Демонстрационная вакансия для роли «Backend-разработчик». Команда развивает продукт и ищет специалиста для работы над основными сценариями."
+    },
+    {
+      "id": "backend-3",
+      "roleId": "backend",
+      "title": "Backend-разработчик · Senior",
+      "company": "Forma Digital",
+      "brand": 2,
+      "level": "Senior",
+      "region": "Казань",
+      "format": "Удалённо",
+      "mode": "demo",
+      "source": "Учебная выборка SalarySense",
+      "snapshotVersion": "demo-market-v1",
+      "url": null,
+      "published": "2026-11-23",
+      "fetched": "2026-11-26",
+      "status": "active",
+      "salary": {
+        "min": 210000,
+        "max": 260000,
+        "currency": "RUB",
+        "tax": "gross",
+        "period": "month"
+      },
+      "requirements": [
+        {
+          "id": "java",
+          "text": "Использовать основные коллекции и типы Java.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "Java",
+          "expected": 1
+        },
+        {
+          "id": "api",
+          "text": "Разрабатывать и поддерживать REST API.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "REST API",
+          "expected": 1
+        },
+        {
+          "id": "sql",
+          "text": "Объединять таблицы и агрегировать результаты.",
+          "weight": 2,
+          "mandatory": true,
+          "topic": "joins",
+          "skill": "SQL",
+          "expected": 1
+        },
+        {
+          "id": "ci",
+          "text": "Поддерживать пайплайны сборки и доставки.",
+          "weight": 2,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "CI/CD",
+          "expected": 1
+        }
+      ],
+      "language": "Уровень языка не указан",
+      "summary": "Демонстрационная вакансия для роли «Backend-разработчик». Команда развивает продукт и ищет специалиста для работы над основными сценариями."
+    },
+    {
+      "id": "backend-4",
+      "roleId": "backend",
+      "title": "Backend-разработчик · Junior",
+      "company": "Vertex Team",
+      "brand": 3,
+      "level": "Junior",
+      "region": "Москва",
+      "format": "Удалённо",
+      "mode": "demo",
+      "source": "Учебная выборка SalarySense",
+      "snapshotVersion": "demo-market-v1",
+      "url": null,
+      "published": "2026-11-22",
+      "fetched": "2026-11-26",
+      "status": "active",
+      "salary": {
+        "min": 145000,
+        "max": 195000,
+        "currency": "RUB",
+        "tax": "gross",
+        "period": "month"
+      },
+      "requirements": [
+        {
+          "id": "java",
+          "text": "Использовать основные коллекции и типы Java.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "Java",
+          "expected": 1
+        },
+        {
+          "id": "api",
+          "text": "Разрабатывать и поддерживать REST API.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "REST API",
+          "expected": 1
+        },
+        {
+          "id": "sql",
+          "text": "Объединять таблицы и агрегировать результаты.",
+          "weight": 2,
+          "mandatory": true,
+          "topic": "joins",
+          "skill": "SQL",
+          "expected": 1
+        },
+        {
+          "id": "ci",
+          "text": "Поддерживать пайплайны сборки и доставки.",
+          "weight": 2,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "CI/CD",
+          "expected": 1
+        }
+      ],
+      "language": "Английский B1",
+      "summary": "Демонстрационная вакансия для роли «Backend-разработчик». Команда развивает продукт и ищет специалиста для работы над основными сценариями."
+    },
+    {
+      "id": "backend-5",
+      "roleId": "backend",
+      "title": "Backend-разработчик · Middle",
+      "company": "Signal Works",
+      "brand": 0,
+      "level": "Middle",
+      "region": "Санкт-Петербург",
+      "format": "Гибрид",
+      "mode": "demo",
+      "source": "Учебная выборка SalarySense",
+      "snapshotVersion": "demo-market-v1",
+      "url": null,
+      "published": "2026-11-21",
+      "fetched": "2026-11-26",
+      "status": "active",
+      "salary": {
+        "min": 155000,
+        "max": 205000,
+        "currency": "RUB",
+        "tax": "gross",
+        "period": "month"
+      },
+      "requirements": [
+        {
+          "id": "java",
+          "text": "Использовать основные коллекции и типы Java.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "Java",
+          "expected": 1
+        },
+        {
+          "id": "api",
+          "text": "Разрабатывать и поддерживать REST API.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "REST API",
+          "expected": 1
+        },
+        {
+          "id": "sql",
+          "text": "Объединять таблицы и агрегировать результаты.",
+          "weight": 2,
+          "mandatory": true,
+          "topic": "joins",
+          "skill": "SQL",
+          "expected": 1
+        },
+        {
+          "id": "ci",
+          "text": "Поддерживать пайплайны сборки и доставки.",
+          "weight": 2,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "CI/CD",
+          "expected": 1
+        }
+      ],
+      "language": "Уровень языка не указан",
+      "summary": "Демонстрационная вакансия для роли «Backend-разработчик». Команда развивает продукт и ищет специалиста для работы над основными сценариями."
+    },
+    {
+      "id": "backend-6",
+      "roleId": "backend",
+      "title": "Backend-разработчик · Junior",
+      "company": "Nova Collective",
+      "brand": 1,
+      "level": "Junior",
+      "region": "Казань",
+      "format": "Офис",
+      "mode": "demo",
+      "source": "Учебная выборка SalarySense",
+      "snapshotVersion": "demo-market-v1",
+      "url": null,
+      "published": "2026-11-20",
+      "fetched": "2026-11-26",
+      "status": "active",
+      "salary": {
+        "min": 165000,
+        "max": 215000,
+        "currency": "RUB",
+        "tax": "gross",
+        "period": "month"
+      },
+      "requirements": [
+        {
+          "id": "java",
+          "text": "Использовать основные коллекции и типы Java.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "Java",
+          "expected": 1
+        },
+        {
+          "id": "api",
+          "text": "Разрабатывать и поддерживать REST API.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "REST API",
+          "expected": 1
+        },
+        {
+          "id": "sql",
+          "text": "Объединять таблицы и агрегировать результаты.",
+          "weight": 2,
+          "mandatory": true,
+          "topic": "joins",
+          "skill": "SQL",
+          "expected": 1
+        },
+        {
+          "id": "ci",
+          "text": "Поддерживать пайплайны сборки и доставки.",
+          "weight": 2,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "CI/CD",
+          "expected": 1
+        }
+      ],
+      "language": "Уровень языка не указан",
+      "summary": "Демонстрационная вакансия для роли «Backend-разработчик». Команда развивает продукт и ищет специалиста для работы над основными сценариями."
+    },
+    {
+      "id": "backend-7",
+      "roleId": "backend",
+      "title": "Backend-разработчик · Middle",
+      "company": "Kite Systems",
+      "brand": 2,
+      "level": "Middle",
+      "region": "Москва",
+      "format": "Удалённо",
+      "mode": "demo",
+      "source": "Учебная выборка SalarySense",
+      "snapshotVersion": "demo-market-v1",
+      "url": null,
+      "published": "2026-11-19",
+      "fetched": "2026-11-26",
+      "status": "active",
+      "salary": {
+        "min": 175000,
+        "max": 225000,
+        "currency": "RUB",
+        "tax": "gross",
+        "period": "month"
+      },
+      "requirements": [
+        {
+          "id": "java",
+          "text": "Использовать основные коллекции и типы Java.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "Java",
+          "expected": 1
+        },
+        {
+          "id": "api",
+          "text": "Разрабатывать и поддерживать REST API.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "REST API",
+          "expected": 1
+        },
+        {
+          "id": "sql",
+          "text": "Объединять таблицы и агрегировать результаты.",
+          "weight": 2,
+          "mandatory": true,
+          "topic": "joins",
+          "skill": "SQL",
+          "expected": 1
+        },
+        {
+          "id": "ci",
+          "text": "Поддерживать пайплайны сборки и доставки.",
+          "weight": 2,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "CI/CD",
+          "expected": 1
+        }
+      ],
+      "language": "Английский B1",
+      "summary": "Демонстрационная вакансия для роли «Backend-разработчик». Команда развивает продукт и ищет специалиста для работы над основными сценариями."
+    },
+    {
+      "id": "backend-8",
+      "roleId": "backend",
+      "title": "Backend-разработчик · Middle",
+      "company": "Layer Studio",
+      "brand": 3,
+      "level": "Middle",
+      "region": "Санкт-Петербург",
+      "format": "Гибрид",
+      "mode": "demo",
+      "source": "Учебная выборка SalarySense",
+      "snapshotVersion": "demo-market-v1",
+      "url": null,
+      "published": "2026-11-18",
+      "fetched": "2026-11-26",
+      "status": "active",
+      "salary": {
+        "min": 185000,
+        "max": 235000,
+        "currency": "RUB",
+        "tax": "gross",
+        "period": "month"
+      },
+      "requirements": [
+        {
+          "id": "java",
+          "text": "Использовать основные коллекции и типы Java.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "Java",
+          "expected": 1
+        },
+        {
+          "id": "api",
+          "text": "Разрабатывать и поддерживать REST API.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "REST API",
+          "expected": 1
+        },
+        {
+          "id": "sql",
+          "text": "Объединять таблицы и агрегировать результаты.",
+          "weight": 2,
+          "mandatory": true,
+          "topic": "joins",
+          "skill": "SQL",
+          "expected": 1
+        },
+        {
+          "id": "ci",
+          "text": "Поддерживать пайплайны сборки и доставки.",
+          "weight": 2,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "CI/CD",
+          "expected": 1
+        }
+      ],
+      "language": "Уровень языка не указан",
+      "summary": "Демонстрационная вакансия для роли «Backend-разработчик». Команда развивает продукт и ищет специалиста для работы над основными сценариями."
+    },
+    {
+      "id": "backend-9",
+      "roleId": "backend",
+      "title": "Backend-разработчик · Middle",
+      "company": "Atlas Works",
+      "brand": 0,
+      "level": "Middle",
+      "region": "Казань",
+      "format": "Офис",
+      "mode": "demo",
+      "source": "Учебная выборка SalarySense",
+      "snapshotVersion": "demo-market-v1",
+      "url": null,
+      "published": "2026-11-17",
+      "fetched": "2026-11-26",
+      "status": "active",
+      "salary": {
+        "min": 195000,
+        "max": 245000,
+        "currency": "RUB",
+        "tax": "gross",
+        "period": "month"
+      },
+      "requirements": [
+        {
+          "id": "java",
+          "text": "Использовать основные коллекции и типы Java.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "Java",
+          "expected": 1
+        },
+        {
+          "id": "api",
+          "text": "Разрабатывать и поддерживать REST API.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "REST API",
+          "expected": 1
+        },
+        {
+          "id": "sql",
+          "text": "Объединять таблицы и агрегировать результаты.",
+          "weight": 2,
+          "mandatory": true,
+          "topic": "joins",
+          "skill": "SQL",
+          "expected": 1
+        },
+        {
+          "id": "ci",
+          "text": "Поддерживать пайплайны сборки и доставки.",
+          "weight": 2,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "CI/CD",
+          "expected": 1
+        }
+      ],
+      "language": "Уровень языка не указан",
+      "summary": "Демонстрационная вакансия для роли «Backend-разработчик». Команда развивает продукт и ищет специалиста для работы над основными сценариями."
+    },
+    {
+      "id": "backend-10",
+      "roleId": "backend",
+      "title": "Backend-разработчик · Middle",
+      "company": "Grid Space",
+      "brand": 1,
+      "level": "Middle",
+      "region": "Москва",
+      "format": "Удалённо",
+      "mode": "demo",
+      "source": "Учебная выборка SalarySense",
+      "snapshotVersion": "demo-market-v1",
+      "url": null,
+      "published": "2026-11-16",
+      "fetched": "2026-11-26",
+      "status": "active",
+      "salary": {
+        "min": 205000,
+        "max": 255000,
+        "currency": "RUB",
+        "tax": "gross",
+        "period": "month"
+      },
+      "requirements": [
+        {
+          "id": "java",
+          "text": "Использовать основные коллекции и типы Java.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "Java",
+          "expected": 1
+        },
+        {
+          "id": "api",
+          "text": "Разрабатывать и поддерживать REST API.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "REST API",
+          "expected": 1
+        },
+        {
+          "id": "sql",
+          "text": "Объединять таблицы и агрегировать результаты.",
+          "weight": 2,
+          "mandatory": true,
+          "topic": "joins",
+          "skill": "SQL",
+          "expected": 1
+        },
+        {
+          "id": "ci",
+          "text": "Поддерживать пайплайны сборки и доставки.",
+          "weight": 2,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "CI/CD",
+          "expected": 1
+        }
+      ],
+      "language": "Английский B1",
+      "summary": "Демонстрационная вакансия для роли «Backend-разработчик». Команда развивает продукт и ищет специалиста для работы над основными сценариями."
+    },
+    {
+      "id": "backend-11",
+      "roleId": "backend",
+      "title": "Backend-разработчик · Middle",
+      "company": "Tidal Code",
+      "brand": 2,
+      "level": "Middle",
+      "region": "Санкт-Петербург",
+      "format": "Гибрид",
+      "mode": "demo",
+      "source": "Учебная выборка SalarySense",
+      "snapshotVersion": "demo-market-v1",
+      "url": null,
+      "published": "2026-11-15",
+      "fetched": "2026-11-26",
+      "status": "active",
+      "salary": {
+        "min": 215000,
+        "max": 265000,
+        "currency": "RUB",
+        "tax": "gross",
+        "period": "month"
+      },
+      "requirements": [
+        {
+          "id": "java",
+          "text": "Использовать основные коллекции и типы Java.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "Java",
+          "expected": 1
+        },
+        {
+          "id": "api",
+          "text": "Разрабатывать и поддерживать REST API.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "REST API",
+          "expected": 1
+        },
+        {
+          "id": "sql",
+          "text": "Объединять таблицы и агрегировать результаты.",
+          "weight": 2,
+          "mandatory": true,
+          "topic": "joins",
+          "skill": "SQL",
+          "expected": 1
+        },
+        {
+          "id": "ci",
+          "text": "Поддерживать пайплайны сборки и доставки.",
+          "weight": 2,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "CI/CD",
+          "expected": 1
+        }
+      ],
+      "language": "Уровень языка не указан",
+      "summary": "Демонстрационная вакансия для роли «Backend-разработчик». Команда развивает продукт и ищет специалиста для работы над основными сценариями."
+    },
+    {
+      "id": "backend-12",
+      "roleId": "backend",
+      "title": "Backend-разработчик · Senior",
+      "company": "Vector Lab",
+      "brand": 3,
+      "level": "Senior",
+      "region": "Казань",
+      "format": "Офис",
+      "mode": "demo",
+      "source": "Учебная выборка SalarySense",
+      "snapshotVersion": "demo-market-v1",
+      "url": null,
+      "published": "2026-11-14",
+      "fetched": "2026-11-26",
+      "status": "active",
+      "salary": {
+        "min": 225000,
+        "max": 275000,
+        "currency": "RUB",
+        "tax": "gross",
+        "period": "month"
+      },
+      "requirements": [
+        {
+          "id": "java",
+          "text": "Использовать основные коллекции и типы Java.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "Java",
+          "expected": 1
+        },
+        {
+          "id": "api",
+          "text": "Разрабатывать и поддерживать REST API.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "REST API",
+          "expected": 1
+        },
+        {
+          "id": "sql",
+          "text": "Объединять таблицы и агрегировать результаты.",
+          "weight": 2,
+          "mandatory": true,
+          "topic": "joins",
+          "skill": "SQL",
+          "expected": 1
+        },
+        {
+          "id": "ci",
+          "text": "Поддерживать пайплайны сборки и доставки.",
+          "weight": 2,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "CI/CD",
+          "expected": 1
+        }
+      ],
+      "language": "Уровень языка не указан",
+      "summary": "Демонстрационная вакансия для роли «Backend-разработчик». Команда развивает продукт и ищет специалиста для работы над основными сценариями."
+    },
+    {
+      "id": "backend-13",
+      "roleId": "backend",
+      "title": "Backend-разработчик · Senior",
+      "company": "Basis Team",
+      "brand": 0,
+      "level": "Senior",
+      "region": "Москва",
+      "format": "Удалённо",
+      "mode": "demo",
+      "source": "Учебная выборка SalarySense",
+      "snapshotVersion": "demo-market-v1",
+      "url": null,
+      "published": "2026-11-13",
+      "fetched": "2026-11-26",
+      "status": "active",
+      "salary": {
+        "min": 235000,
+        "max": 285000,
+        "currency": "RUB",
+        "tax": "gross",
+        "period": "month"
+      },
+      "requirements": [
+        {
+          "id": "java",
+          "text": "Использовать основные коллекции и типы Java.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "Java",
+          "expected": 1
+        },
+        {
+          "id": "api",
+          "text": "Разрабатывать и поддерживать REST API.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "REST API",
+          "expected": 1
+        },
+        {
+          "id": "sql",
+          "text": "Объединять таблицы и агрегировать результаты.",
+          "weight": 2,
+          "mandatory": true,
+          "topic": "joins",
+          "skill": "SQL",
+          "expected": 1
+        },
+        {
+          "id": "ci",
+          "text": "Поддерживать пайплайны сборки и доставки.",
+          "weight": 2,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "CI/CD",
+          "expected": 1
+        }
+      ],
+      "language": "Английский B1",
+      "summary": "Демонстрационная вакансия для роли «Backend-разработчик». Команда развивает продукт и ищет специалиста для работы над основными сценариями."
+    },
+    {
+      "id": "backend-14",
+      "roleId": "backend",
+      "title": "Backend-разработчик · Senior",
+      "company": "Pulse Works",
+      "brand": 1,
+      "level": "Senior",
+      "region": "Санкт-Петербург",
+      "format": "Гибрид",
+      "mode": "demo",
+      "source": "Учебная выборка SalarySense",
+      "snapshotVersion": "demo-market-v1",
+      "url": null,
+      "published": "2026-11-12",
+      "fetched": "2026-11-26",
+      "status": "active",
+      "salary": {
+        "min": 245000,
+        "max": 295000,
+        "currency": "RUB",
+        "tax": "gross",
+        "period": "month"
+      },
+      "requirements": [
+        {
+          "id": "java",
+          "text": "Использовать основные коллекции и типы Java.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "Java",
+          "expected": 1
+        },
+        {
+          "id": "api",
+          "text": "Разрабатывать и поддерживать REST API.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "REST API",
+          "expected": 1
+        },
+        {
+          "id": "sql",
+          "text": "Объединять таблицы и агрегировать результаты.",
+          "weight": 2,
+          "mandatory": true,
+          "topic": "joins",
+          "skill": "SQL",
+          "expected": 1
+        },
+        {
+          "id": "ci",
+          "text": "Поддерживать пайплайны сборки и доставки.",
+          "weight": 2,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "CI/CD",
+          "expected": 1
+        }
+      ],
+      "language": "Уровень языка не указан",
+      "summary": "Демонстрационная вакансия для роли «Backend-разработчик». Команда развивает продукт и ищет специалиста для работы над основными сценариями."
+    },
+    {
+      "id": "backend-15",
+      "roleId": "backend",
+      "title": "Backend-разработчик · Senior",
+      "company": "Mosaic Lab",
+      "brand": 2,
+      "level": "Senior",
+      "region": "Казань",
+      "format": "Офис",
+      "mode": "demo",
+      "source": "Учебная выборка SalarySense",
+      "snapshotVersion": "demo-market-v1",
+      "url": null,
+      "published": "2026-11-11",
+      "fetched": "2026-11-26",
+      "status": "active",
+      "salary": {
+        "min": 255000,
+        "max": 305000,
+        "currency": "RUB",
+        "tax": "gross",
+        "period": "month"
+      },
+      "requirements": [
+        {
+          "id": "java",
+          "text": "Использовать основные коллекции и типы Java.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "Java",
+          "expected": 1
+        },
+        {
+          "id": "api",
+          "text": "Разрабатывать и поддерживать REST API.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "REST API",
+          "expected": 1
+        },
+        {
+          "id": "sql",
+          "text": "Объединять таблицы и агрегировать результаты.",
+          "weight": 2,
+          "mandatory": true,
+          "topic": "joins",
+          "skill": "SQL",
+          "expected": 1
+        },
+        {
+          "id": "ci",
+          "text": "Поддерживать пайплайны сборки и доставки.",
+          "weight": 2,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "CI/CD",
+          "expected": 1
+        }
+      ],
+      "language": "Уровень языка не указан",
+      "summary": "Демонстрационная вакансия для роли «Backend-разработчик». Команда развивает продукт и ищет специалиста для работы над основными сценариями."
+    },
+    {
+      "id": "backend-16",
+      "roleId": "backend",
+      "title": "Backend-разработчик · Senior",
+      "company": "Lumen Team",
+      "brand": 3,
+      "level": "Senior",
+      "region": "Москва",
+      "format": "Удалённо",
+      "mode": "demo",
+      "source": "Учебная выборка SalarySense",
+      "snapshotVersion": "demo-market-v1",
+      "url": null,
+      "published": "2026-11-10",
+      "fetched": "2026-11-26",
+      "status": "active",
+      "salary": {
+        "min": 265000,
+        "max": 315000,
+        "currency": "RUB",
+        "tax": "gross",
+        "period": "month"
+      },
+      "requirements": [
+        {
+          "id": "java",
+          "text": "Использовать основные коллекции и типы Java.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "Java",
+          "expected": 1
+        },
+        {
+          "id": "api",
+          "text": "Разрабатывать и поддерживать REST API.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "REST API",
+          "expected": 1
+        },
+        {
+          "id": "sql",
+          "text": "Объединять таблицы и агрегировать результаты.",
+          "weight": 2,
+          "mandatory": true,
+          "topic": "joins",
+          "skill": "SQL",
+          "expected": 1
+        },
+        {
+          "id": "ci",
+          "text": "Поддерживать пайплайны сборки и доставки.",
+          "weight": 2,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "CI/CD",
+          "expected": 1
+        }
+      ],
+      "language": "Английский B1",
+      "summary": "Демонстрационная вакансия для роли «Backend-разработчик». Команда развивает продукт и ищет специалиста для работы над основными сценариями."
+    },
+    {
+      "id": "backend-17",
+      "roleId": "backend",
+      "title": "Backend-разработчик · Lead",
+      "company": "Shift Studio",
+      "brand": 0,
+      "level": "Lead",
+      "region": "Санкт-Петербург",
+      "format": "Гибрид",
+      "mode": "demo",
+      "source": "Учебная выборка SalarySense",
+      "snapshotVersion": "demo-market-v1",
+      "url": null,
+      "published": "2026-11-09",
+      "fetched": "2026-11-26",
+      "status": "active",
+      "salary": {
+        "min": 285000,
+        "max": 335000,
+        "currency": "RUB",
+        "tax": "gross",
+        "period": "month"
+      },
+      "requirements": [
+        {
+          "id": "java",
+          "text": "Использовать основные коллекции и типы Java.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "Java",
+          "expected": 1
+        },
+        {
+          "id": "api",
+          "text": "Разрабатывать и поддерживать REST API.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "REST API",
+          "expected": 1
+        },
+        {
+          "id": "sql",
+          "text": "Объединять таблицы и агрегировать результаты.",
+          "weight": 2,
+          "mandatory": true,
+          "topic": "joins",
+          "skill": "SQL",
+          "expected": 1
+        },
+        {
+          "id": "ci",
+          "text": "Поддерживать пайплайны сборки и доставки.",
+          "weight": 2,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "CI/CD",
+          "expected": 1
+        }
+      ],
+      "language": "Уровень языка не указан",
+      "summary": "Демонстрационная вакансия для роли «Backend-разработчик». Команда развивает продукт и ищет специалиста для работы над основными сценариями."
+    },
+    {
+      "id": "backend-18",
+      "roleId": "backend",
+      "title": "Backend-разработчик · Lead",
+      "company": "Index Lab",
+      "brand": 1,
+      "level": "Lead",
+      "region": "Казань",
+      "format": "Офис",
+      "mode": "demo",
+      "source": "Учебная выборка SalarySense",
+      "snapshotVersion": "demo-market-v1",
+      "url": null,
+      "published": "2026-11-08",
+      "fetched": "2026-11-26",
+      "status": "active",
+      "salary": {
+        "min": 305000,
+        "max": 355000,
+        "currency": "RUB",
+        "tax": "gross",
+        "period": "month"
+      },
+      "requirements": [
+        {
+          "id": "java",
+          "text": "Использовать основные коллекции и типы Java.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "Java",
+          "expected": 1
+        },
+        {
+          "id": "api",
+          "text": "Разрабатывать и поддерживать REST API.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "REST API",
+          "expected": 1
+        },
+        {
+          "id": "sql",
+          "text": "Объединять таблицы и агрегировать результаты.",
+          "weight": 2,
+          "mandatory": true,
+          "topic": "joins",
+          "skill": "SQL",
+          "expected": 1
+        },
+        {
+          "id": "ci",
+          "text": "Поддерживать пайплайны сборки и доставки.",
+          "weight": 2,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "CI/CD",
+          "expected": 1
+        }
+      ],
+      "language": "Уровень языка не указан",
+      "summary": "Демонстрационная вакансия для роли «Backend-разработчик». Команда развивает продукт и ищет специалиста для работы над основными сценариями."
+    },
+    {
+      "id": "backend-19",
+      "roleId": "backend",
+      "title": "Backend-разработчик · Junior",
+      "company": "Pixel Group",
+      "brand": 2,
+      "level": "Junior",
+      "region": "Москва",
+      "format": "Удалённо",
+      "mode": "demo",
+      "source": "Учебная выборка SalarySense",
+      "snapshotVersion": "demo-market-v1",
+      "url": null,
+      "published": "2026-11-07",
+      "fetched": "2026-11-26",
+      "status": "active",
+      "salary": {
+        "min": 225000,
+        "max": 275000,
+        "currency": "RUB",
+        "tax": "gross",
+        "period": "month"
+      },
+      "requirements": [
+        {
+          "id": "java",
+          "text": "Использовать основные коллекции и типы Java.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "Java",
+          "expected": 1
+        },
+        {
+          "id": "api",
+          "text": "Разрабатывать и поддерживать REST API.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "REST API",
+          "expected": 1
+        },
+        {
+          "id": "sql",
+          "text": "Объединять таблицы и агрегировать результаты.",
+          "weight": 2,
+          "mandatory": true,
+          "topic": "joins",
+          "skill": "SQL",
+          "expected": 1
+        },
+        {
+          "id": "ci",
+          "text": "Поддерживать пайплайны сборки и доставки.",
+          "weight": 2,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "CI/CD",
+          "expected": 1
+        }
+      ],
+      "language": "Английский B1",
+      "summary": "Демонстрационная вакансия для роли «Backend-разработчик». Команда развивает продукт и ищет специалиста для работы над основными сценариями."
+    },
+    {
+      "id": "backend-20",
+      "roleId": "backend",
+      "title": "Backend-разработчик · Middle",
+      "company": "Core Space",
+      "brand": 3,
+      "level": "Middle",
+      "region": "Санкт-Петербург",
+      "format": "Гибрид",
+      "mode": "demo",
+      "source": "Учебная выборка SalarySense",
+      "snapshotVersion": "demo-market-v1",
+      "url": null,
+      "published": "2026-11-06",
+      "fetched": "2026-11-26",
+      "status": "active",
+      "salary": {
+        "min": 255000,
+        "max": 305000,
+        "currency": "RUB",
+        "tax": "net",
+        "period": "month"
+      },
+      "requirements": [
+        {
+          "id": "java",
+          "text": "Использовать основные коллекции и типы Java.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "Java",
+          "expected": 1
+        },
+        {
+          "id": "api",
+          "text": "Разрабатывать и поддерживать REST API.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "REST API",
+          "expected": 1
+        },
+        {
+          "id": "sql",
+          "text": "Объединять таблицы и агрегировать результаты.",
+          "weight": 2,
+          "mandatory": true,
+          "topic": "joins",
+          "skill": "SQL",
+          "expected": 1
+        },
+        {
+          "id": "ci",
+          "text": "Поддерживать пайплайны сборки и доставки.",
+          "weight": 2,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "CI/CD",
+          "expected": 1
+        }
+      ],
+      "language": "Уровень языка не указан",
+      "summary": "Демонстрационная вакансия для роли «Backend-разработчик». Команда развивает продукт и ищет специалиста для работы над основными сценариями."
+    },
+    {
+      "id": "backend-21",
+      "roleId": "backend",
+      "title": "Backend-разработчик · Middle",
+      "company": "Unit Works",
+      "brand": 0,
+      "level": "Middle",
+      "region": "Казань",
+      "format": "Офис",
+      "mode": "demo",
+      "source": "Учебная выборка SalarySense",
+      "snapshotVersion": "demo-market-v1",
+      "url": null,
+      "published": "2026-11-05",
+      "fetched": "2026-11-26",
+      "status": "active",
+      "salary": {
+        "min": 705000,
+        "max": null,
+        "currency": "RUB",
+        "tax": "gross",
+        "period": "month"
+      },
+      "requirements": [
+        {
+          "id": "java",
+          "text": "Использовать основные коллекции и типы Java.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "Java",
+          "expected": 1
+        },
+        {
+          "id": "api",
+          "text": "Разрабатывать и поддерживать REST API.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "REST API",
+          "expected": 1
+        },
+        {
+          "id": "sql",
+          "text": "Объединять таблицы и агрегировать результаты.",
+          "weight": 2,
+          "mandatory": true,
+          "topic": "joins",
+          "skill": "SQL",
+          "expected": 1
+        },
+        {
+          "id": "ci",
+          "text": "Поддерживать пайплайны сборки и доставки.",
+          "weight": 2,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "CI/CD",
+          "expected": 1
+        }
+      ],
+      "language": "Уровень языка не указан",
+      "summary": "Демонстрационная вакансия для роли «Backend-разработчик». Команда развивает продукт и ищет специалиста для работы над основными сценариями."
+    },
+    {
+      "id": "backend-22",
+      "roleId": "backend",
+      "title": "Backend-разработчик · Middle",
+      "company": "Scale Lab",
+      "brand": 1,
+      "level": "Middle",
+      "region": "Москва",
+      "format": "Удалённо",
+      "mode": "demo",
+      "source": "Учебная выборка SalarySense",
+      "snapshotVersion": "demo-market-v1",
+      "url": null,
+      "published": "2026-11-04",
+      "fetched": "2026-11-26",
+      "status": "active",
+      "salary": {
+        "min": null,
+        "max": 785000,
+        "currency": "RUB",
+        "tax": "gross",
+        "period": "month"
+      },
+      "requirements": [
+        {
+          "id": "java",
+          "text": "Использовать основные коллекции и типы Java.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "Java",
+          "expected": 1
+        },
+        {
+          "id": "api",
+          "text": "Разрабатывать и поддерживать REST API.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "REST API",
+          "expected": 1
+        },
+        {
+          "id": "sql",
+          "text": "Объединять таблицы и агрегировать результаты.",
+          "weight": 2,
+          "mandatory": true,
+          "topic": "joins",
+          "skill": "SQL",
+          "expected": 1
+        },
+        {
+          "id": "ci",
+          "text": "Поддерживать пайплайны сборки и доставки.",
+          "weight": 2,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "CI/CD",
+          "expected": 1
+        }
+      ],
+      "language": "Английский B1",
+      "summary": "Демонстрационная вакансия для роли «Backend-разработчик». Команда развивает продукт и ищет специалиста для работы над основными сценариями."
+    },
+    {
+      "id": "backend-23",
+      "roleId": "backend",
+      "title": "Backend-разработчик · Middle",
+      "company": "Field Studio",
+      "brand": 2,
+      "level": "Middle",
+      "region": "Санкт-Петербург",
+      "format": "Гибрид",
+      "mode": "demo",
+      "source": "Учебная выборка SalarySense",
+      "snapshotVersion": "demo-market-previous-v1",
+      "url": null,
+      "published": "2026-11-03",
+      "fetched": "2026-11-15",
+      "status": "stale",
+      "salary": null,
+      "requirements": [
+        {
+          "id": "java",
+          "text": "Использовать основные коллекции и типы Java.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "Java",
+          "expected": 1
+        },
+        {
+          "id": "api",
+          "text": "Разрабатывать и поддерживать REST API.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "REST API",
+          "expected": 1
+        },
+        {
+          "id": "sql",
+          "text": "Объединять таблицы и агрегировать результаты.",
+          "weight": 2,
+          "mandatory": true,
+          "topic": "joins",
+          "skill": "SQL",
+          "expected": 1
+        },
+        {
+          "id": "ci",
+          "text": "Поддерживать пайплайны сборки и доставки.",
+          "weight": 2,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "CI/CD",
+          "expected": 1
+        }
+      ],
+      "language": "Уровень языка не указан",
+      "summary": "Демонстрационная вакансия для роли «Backend-разработчик». Команда развивает продукт и ищет специалиста для работы над основными сценариями."
+    },
+    {
+      "id": "backend-24",
+      "roleId": "backend",
+      "title": "Backend-разработчик · Middle",
+      "company": "Cloud Team",
+      "brand": 3,
+      "level": "Middle",
+      "region": "Казань",
+      "format": "Офис",
+      "mode": "demo",
+      "source": "Учебная выборка SalarySense",
+      "snapshotVersion": "demo-market-previous-v1",
+      "url": null,
+      "published": "2026-11-02",
+      "fetched": "2026-11-15",
+      "status": "archived",
+      "salary": null,
+      "requirements": [
+        {
+          "id": "java",
+          "text": "Использовать основные коллекции и типы Java.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "Java",
+          "expected": 1
+        },
+        {
+          "id": "api",
+          "text": "Разрабатывать и поддерживать REST API.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "REST API",
+          "expected": 1
+        },
+        {
+          "id": "sql",
+          "text": "Объединять таблицы и агрегировать результаты.",
+          "weight": 2,
+          "mandatory": true,
+          "topic": "joins",
+          "skill": "SQL",
+          "expected": 1
+        },
+        {
+          "id": "ci",
+          "text": "Поддерживать пайплайны сборки и доставки.",
+          "weight": 2,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "CI/CD",
+          "expected": 1
+        }
+      ],
+      "language": "Уровень языка не указан",
+      "summary": "Демонстрационная вакансия для роли «Backend-разработчик». Команда развивает продукт и ищет специалиста для работы над основными сценариями."
+    },
+    {
+      "id": "mobile-1",
+      "roleId": "mobile",
+      "title": "Mobile-разработчик · Middle",
+      "company": "Orbit Studio",
+      "brand": 0,
+      "level": "Middle",
+      "region": "Москва",
+      "format": "Удалённо",
+      "mode": "demo",
+      "source": "Учебная выборка SalarySense",
+      "snapshotVersion": "demo-market-v1",
+      "url": null,
+      "published": "2026-11-25",
+      "fetched": "2026-11-26",
+      "status": "active",
+      "salary": {
+        "min": 105000,
+        "max": 155000,
+        "currency": "RUB",
+        "tax": "gross",
+        "period": "month"
+      },
+      "requirements": [
+        {
+          "id": "kotlin",
+          "text": "Модели данных и асинхронные операции.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "Kotlin",
+          "expected": 1
+        },
+        {
+          "id": "api",
+          "text": "HTTP, ресурсы и обработка ошибок.",
+          "weight": 2,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "REST API",
+          "expected": 1
+        },
+        {
+          "id": "git",
+          "text": "История, ветки и командная работа с кодом.",
+          "weight": 1,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "Git",
+          "expected": 1
+        }
+      ],
+      "language": "Английский B1",
+      "summary": "Демонстрационная вакансия для роли «Mobile-разработчик». Команда развивает продукт и ищет специалиста для работы над основными сценариями."
+    },
+    {
+      "id": "mobile-2",
+      "roleId": "mobile",
+      "title": "Mobile-разработчик · Middle",
+      "company": "Northstar Labs",
+      "brand": 1,
+      "level": "Middle",
+      "region": "Санкт-Петербург",
+      "format": "Гибрид",
+      "mode": "demo",
+      "source": "Учебная выборка SalarySense",
+      "snapshotVersion": "demo-market-v1",
+      "url": null,
+      "published": "2026-11-24",
+      "fetched": "2026-11-26",
+      "status": "active",
+      "salary": {
+        "min": 135000,
+        "max": 185000,
+        "currency": "RUB",
+        "tax": "gross",
+        "period": "month"
+      },
+      "requirements": [
+        {
+          "id": "kotlin",
+          "text": "Модели данных и асинхронные операции.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "Kotlin",
+          "expected": 1
+        },
+        {
+          "id": "api",
+          "text": "HTTP, ресурсы и обработка ошибок.",
+          "weight": 2,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "REST API",
+          "expected": 1
+        },
+        {
+          "id": "git",
+          "text": "История, ветки и командная работа с кодом.",
+          "weight": 1,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "Git",
+          "expected": 1
+        }
+      ],
+      "language": "Уровень языка не указан",
+      "summary": "Демонстрационная вакансия для роли «Mobile-разработчик». Команда развивает продукт и ищет специалиста для работы над основными сценариями."
+    },
+    {
+      "id": "mobile-3",
+      "roleId": "mobile",
+      "title": "Mobile-разработчик · Senior",
+      "company": "Forma Digital",
+      "brand": 2,
+      "level": "Senior",
+      "region": "Казань",
+      "format": "Удалённо",
+      "mode": "demo",
+      "source": "Учебная выборка SalarySense",
+      "snapshotVersion": "demo-market-v1",
+      "url": null,
+      "published": "2026-11-23",
+      "fetched": "2026-11-26",
+      "status": "active",
+      "salary": {
+        "min": 165000,
+        "max": 215000,
+        "currency": "RUB",
+        "tax": "gross",
+        "period": "month"
+      },
+      "requirements": [
+        {
+          "id": "kotlin",
+          "text": "Модели данных и асинхронные операции.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "Kotlin",
+          "expected": 1
+        },
+        {
+          "id": "api",
+          "text": "HTTP, ресурсы и обработка ошибок.",
+          "weight": 2,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "REST API",
+          "expected": 1
+        },
+        {
+          "id": "git",
+          "text": "История, ветки и командная работа с кодом.",
+          "weight": 1,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "Git",
+          "expected": 1
+        }
+      ],
+      "language": "Уровень языка не указан",
+      "summary": "Демонстрационная вакансия для роли «Mobile-разработчик». Команда развивает продукт и ищет специалиста для работы над основными сценариями."
+    },
+    {
+      "id": "qa-1",
+      "roleId": "qa",
+      "title": "QA-инженер · Middle",
+      "company": "Orbit Studio",
+      "brand": 0,
+      "level": "Middle",
+      "region": "Москва",
+      "format": "Удалённо",
+      "mode": "demo",
+      "source": "Учебная выборка SalarySense",
+      "snapshotVersion": "demo-market-v1",
+      "url": null,
+      "published": "2026-11-25",
+      "fetched": "2026-11-26",
+      "status": "active",
+      "salary": {
+        "min": 105000,
+        "max": 155000,
+        "currency": "RUB",
+        "tax": "gross",
+        "period": "month"
+      },
+      "requirements": [
+        {
+          "id": "test-design",
+          "text": "Классы эквивалентности и граничные значения.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "Тест-дизайн",
+          "expected": 1
+        },
+        {
+          "id": "testing",
+          "text": "Модульные и интеграционные проверки.",
+          "weight": 2,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "Автотесты",
+          "expected": 1
+        },
+        {
+          "id": "api",
+          "text": "HTTP, ресурсы и обработка ошибок.",
+          "weight": 1,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "REST API",
+          "expected": 1
+        }
+      ],
+      "language": "Английский B1",
+      "summary": "Демонстрационная вакансия для роли «QA-инженер». Команда развивает продукт и ищет специалиста для работы над основными сценариями."
+    },
+    {
+      "id": "qa-2",
+      "roleId": "qa",
+      "title": "QA-инженер · Middle",
+      "company": "Northstar Labs",
+      "brand": 1,
+      "level": "Middle",
+      "region": "Санкт-Петербург",
+      "format": "Гибрид",
+      "mode": "demo",
+      "source": "Учебная выборка SalarySense",
+      "snapshotVersion": "demo-market-v1",
+      "url": null,
+      "published": "2026-11-24",
+      "fetched": "2026-11-26",
+      "status": "active",
+      "salary": {
+        "min": 135000,
+        "max": 185000,
+        "currency": "RUB",
+        "tax": "gross",
+        "period": "month"
+      },
+      "requirements": [
+        {
+          "id": "test-design",
+          "text": "Классы эквивалентности и граничные значения.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "Тест-дизайн",
+          "expected": 1
+        },
+        {
+          "id": "testing",
+          "text": "Модульные и интеграционные проверки.",
+          "weight": 2,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "Автотесты",
+          "expected": 1
+        },
+        {
+          "id": "api",
+          "text": "HTTP, ресурсы и обработка ошибок.",
+          "weight": 1,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "REST API",
+          "expected": 1
+        }
+      ],
+      "language": "Уровень языка не указан",
+      "summary": "Демонстрационная вакансия для роли «QA-инженер». Команда развивает продукт и ищет специалиста для работы над основными сценариями."
+    },
+    {
+      "id": "qa-3",
+      "roleId": "qa",
+      "title": "QA-инженер · Senior",
+      "company": "Forma Digital",
+      "brand": 2,
+      "level": "Senior",
+      "region": "Казань",
+      "format": "Удалённо",
+      "mode": "demo",
+      "source": "Учебная выборка SalarySense",
+      "snapshotVersion": "demo-market-v1",
+      "url": null,
+      "published": "2026-11-23",
+      "fetched": "2026-11-26",
+      "status": "active",
+      "salary": {
+        "min": 165000,
+        "max": 215000,
+        "currency": "RUB",
+        "tax": "gross",
+        "period": "month"
+      },
+      "requirements": [
+        {
+          "id": "test-design",
+          "text": "Классы эквивалентности и граничные значения.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "Тест-дизайн",
+          "expected": 1
+        },
+        {
+          "id": "testing",
+          "text": "Модульные и интеграционные проверки.",
+          "weight": 2,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "Автотесты",
+          "expected": 1
+        },
+        {
+          "id": "api",
+          "text": "HTTP, ресурсы и обработка ошибок.",
+          "weight": 1,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "REST API",
+          "expected": 1
+        }
+      ],
+      "language": "Уровень языка не указан",
+      "summary": "Демонстрационная вакансия для роли «QA-инженер». Команда развивает продукт и ищет специалиста для работы над основными сценариями."
+    },
+    {
+      "id": "devops-1",
+      "roleId": "devops",
+      "title": "DevOps-инженер · Middle",
+      "company": "Orbit Studio",
+      "brand": 0,
+      "level": "Middle",
+      "region": "Москва",
+      "format": "Удалённо",
+      "mode": "demo",
+      "source": "Учебная выборка SalarySense",
+      "snapshotVersion": "demo-market-v1",
+      "url": null,
+      "published": "2026-11-25",
+      "fetched": "2026-11-26",
+      "status": "active",
+      "salary": {
+        "min": 105000,
+        "max": 155000,
+        "currency": "RUB",
+        "tax": "gross",
+        "period": "month"
+      },
+      "requirements": [
+        {
+          "id": "linux",
+          "text": "Процессы, права и диагностика.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "Linux",
+          "expected": 1
+        },
+        {
+          "id": "docker",
+          "text": "Контейнеры и образы.",
+          "weight": 2,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "Docker",
+          "expected": 1
+        },
+        {
+          "id": "ci",
+          "text": "Автоматизация сборки и выпуска.",
+          "weight": 1,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "CI/CD",
+          "expected": 1
+        }
+      ],
+      "language": "Английский B1",
+      "summary": "Демонстрационная вакансия для роли «DevOps-инженер». Команда развивает продукт и ищет специалиста для работы над основными сценариями."
+    },
+    {
+      "id": "devops-2",
+      "roleId": "devops",
+      "title": "DevOps-инженер · Middle",
+      "company": "Northstar Labs",
+      "brand": 1,
+      "level": "Middle",
+      "region": "Санкт-Петербург",
+      "format": "Гибрид",
+      "mode": "demo",
+      "source": "Учебная выборка SalarySense",
+      "snapshotVersion": "demo-market-v1",
+      "url": null,
+      "published": "2026-11-24",
+      "fetched": "2026-11-26",
+      "status": "active",
+      "salary": {
+        "min": 135000,
+        "max": 185000,
+        "currency": "RUB",
+        "tax": "gross",
+        "period": "month"
+      },
+      "requirements": [
+        {
+          "id": "linux",
+          "text": "Процессы, права и диагностика.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "Linux",
+          "expected": 1
+        },
+        {
+          "id": "docker",
+          "text": "Контейнеры и образы.",
+          "weight": 2,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "Docker",
+          "expected": 1
+        },
+        {
+          "id": "ci",
+          "text": "Автоматизация сборки и выпуска.",
+          "weight": 1,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "CI/CD",
+          "expected": 1
+        }
+      ],
+      "language": "Уровень языка не указан",
+      "summary": "Демонстрационная вакансия для роли «DevOps-инженер». Команда развивает продукт и ищет специалиста для работы над основными сценариями."
+    },
+    {
+      "id": "devops-3",
+      "roleId": "devops",
+      "title": "DevOps-инженер · Senior",
+      "company": "Forma Digital",
+      "brand": 2,
+      "level": "Senior",
+      "region": "Казань",
+      "format": "Удалённо",
+      "mode": "demo",
+      "source": "Учебная выборка SalarySense",
+      "snapshotVersion": "demo-market-v1",
+      "url": null,
+      "published": "2026-11-23",
+      "fetched": "2026-11-26",
+      "status": "active",
+      "salary": {
+        "min": 165000,
+        "max": 215000,
+        "currency": "RUB",
+        "tax": "gross",
+        "period": "month"
+      },
+      "requirements": [
+        {
+          "id": "linux",
+          "text": "Процессы, права и диагностика.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "Linux",
+          "expected": 1
+        },
+        {
+          "id": "docker",
+          "text": "Контейнеры и образы.",
+          "weight": 2,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "Docker",
+          "expected": 1
+        },
+        {
+          "id": "ci",
+          "text": "Автоматизация сборки и выпуска.",
+          "weight": 1,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "CI/CD",
+          "expected": 1
+        }
+      ],
+      "language": "Уровень языка не указан",
+      "summary": "Демонстрационная вакансия для роли «DevOps-инженер». Команда развивает продукт и ищет специалиста для работы над основными сценариями."
+    },
+    {
+      "id": "security-1",
+      "roleId": "security",
+      "title": "Инженер безопасности · Middle",
+      "company": "Orbit Studio",
+      "brand": 0,
+      "level": "Middle",
+      "region": "Москва",
+      "format": "Удалённо",
+      "mode": "demo",
+      "source": "Учебная выборка SalarySense",
+      "snapshotVersion": "demo-market-v1",
+      "url": null,
+      "published": "2026-11-25",
+      "fetched": "2026-11-26",
+      "status": "active",
+      "salary": {
+        "min": 105000,
+        "max": 155000,
+        "currency": "RUB",
+        "tax": "gross",
+        "period": "month"
+      },
+      "requirements": [
+        {
+          "id": "threat",
+          "text": "Границы доверия и описание рисков.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "Моделирование угроз",
+          "expected": 1
+        },
+        {
+          "id": "identity",
+          "text": "Роли, разрешения и аудит.",
+          "weight": 2,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "Управление доступом",
+          "expected": 1
+        },
+        {
+          "id": "linux",
+          "text": "Процессы, права и диагностика.",
+          "weight": 1,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "Linux",
+          "expected": 1
+        }
+      ],
+      "language": "Английский B1",
+      "summary": "Демонстрационная вакансия для роли «Инженер безопасности». Команда развивает продукт и ищет специалиста для работы над основными сценариями."
+    },
+    {
+      "id": "security-2",
+      "roleId": "security",
+      "title": "Инженер безопасности · Middle",
+      "company": "Northstar Labs",
+      "brand": 1,
+      "level": "Middle",
+      "region": "Санкт-Петербург",
+      "format": "Гибрид",
+      "mode": "demo",
+      "source": "Учебная выборка SalarySense",
+      "snapshotVersion": "demo-market-v1",
+      "url": null,
+      "published": "2026-11-24",
+      "fetched": "2026-11-26",
+      "status": "active",
+      "salary": {
+        "min": 135000,
+        "max": 185000,
+        "currency": "RUB",
+        "tax": "gross",
+        "period": "month"
+      },
+      "requirements": [
+        {
+          "id": "threat",
+          "text": "Границы доверия и описание рисков.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "Моделирование угроз",
+          "expected": 1
+        },
+        {
+          "id": "identity",
+          "text": "Роли, разрешения и аудит.",
+          "weight": 2,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "Управление доступом",
+          "expected": 1
+        },
+        {
+          "id": "linux",
+          "text": "Процессы, права и диагностика.",
+          "weight": 1,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "Linux",
+          "expected": 1
+        }
+      ],
+      "language": "Уровень языка не указан",
+      "summary": "Демонстрационная вакансия для роли «Инженер безопасности». Команда развивает продукт и ищет специалиста для работы над основными сценариями."
+    },
+    {
+      "id": "security-3",
+      "roleId": "security",
+      "title": "Инженер безопасности · Senior",
+      "company": "Forma Digital",
+      "brand": 2,
+      "level": "Senior",
+      "region": "Казань",
+      "format": "Удалённо",
+      "mode": "demo",
+      "source": "Учебная выборка SalarySense",
+      "snapshotVersion": "demo-market-v1",
+      "url": null,
+      "published": "2026-11-23",
+      "fetched": "2026-11-26",
+      "status": "active",
+      "salary": {
+        "min": 165000,
+        "max": 215000,
+        "currency": "RUB",
+        "tax": "gross",
+        "period": "month"
+      },
+      "requirements": [
+        {
+          "id": "threat",
+          "text": "Границы доверия и описание рисков.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "Моделирование угроз",
+          "expected": 1
+        },
+        {
+          "id": "identity",
+          "text": "Роли, разрешения и аудит.",
+          "weight": 2,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "Управление доступом",
+          "expected": 1
+        },
+        {
+          "id": "linux",
+          "text": "Процессы, права и диагностика.",
+          "weight": 1,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "Linux",
+          "expected": 1
+        }
+      ],
+      "language": "Уровень языка не указан",
+      "summary": "Демонстрационная вакансия для роли «Инженер безопасности». Команда развивает продукт и ищет специалиста для работы над основными сценариями."
+    },
+    {
+      "id": "analyst-1",
+      "roleId": "analyst",
+      "title": "Аналитик данных · Middle",
+      "company": "Orbit Studio",
+      "brand": 0,
+      "level": "Middle",
+      "region": "Москва",
+      "format": "Удалённо",
+      "mode": "demo",
+      "source": "Учебная выборка SalarySense",
+      "snapshotVersion": "demo-market-v1",
+      "url": null,
+      "published": "2026-11-25",
+      "fetched": "2026-11-26",
+      "status": "active",
+      "salary": {
+        "min": 105000,
+        "max": 155000,
+        "currency": "RUB",
+        "tax": "gross",
+        "period": "month"
+      },
+      "requirements": [
+        {
+          "id": "sql",
+          "text": "Запросы, объединения и агрегация таблиц.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "joins",
+          "skill": "SQL",
+          "expected": 1
+        },
+        {
+          "id": "python",
+          "text": "Подготовка данных и автоматизация.",
+          "weight": 2,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "Python",
+          "expected": 1
+        },
+        {
+          "id": "metrics",
+          "text": "Определение метрик и разбор изменений.",
+          "weight": 1,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "Метрики",
+          "expected": 1
+        }
+      ],
+      "language": "Английский B1",
+      "summary": "Демонстрационная вакансия для роли «Аналитик данных». Команда развивает продукт и ищет специалиста для работы над основными сценариями."
+    },
+    {
+      "id": "analyst-2",
+      "roleId": "analyst",
+      "title": "Аналитик данных · Middle",
+      "company": "Northstar Labs",
+      "brand": 1,
+      "level": "Middle",
+      "region": "Санкт-Петербург",
+      "format": "Гибрид",
+      "mode": "demo",
+      "source": "Учебная выборка SalarySense",
+      "snapshotVersion": "demo-market-v1",
+      "url": null,
+      "published": "2026-11-24",
+      "fetched": "2026-11-26",
+      "status": "active",
+      "salary": {
+        "min": 135000,
+        "max": 185000,
+        "currency": "RUB",
+        "tax": "gross",
+        "period": "month"
+      },
+      "requirements": [
+        {
+          "id": "sql",
+          "text": "Запросы, объединения и агрегация таблиц.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "joins",
+          "skill": "SQL",
+          "expected": 1
+        },
+        {
+          "id": "python",
+          "text": "Подготовка данных и автоматизация.",
+          "weight": 2,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "Python",
+          "expected": 1
+        },
+        {
+          "id": "metrics",
+          "text": "Определение метрик и разбор изменений.",
+          "weight": 1,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "Метрики",
+          "expected": 1
+        }
+      ],
+      "language": "Уровень языка не указан",
+      "summary": "Демонстрационная вакансия для роли «Аналитик данных». Команда развивает продукт и ищет специалиста для работы над основными сценариями."
+    },
+    {
+      "id": "analyst-3",
+      "roleId": "analyst",
+      "title": "Аналитик данных · Senior",
+      "company": "Forma Digital",
+      "brand": 2,
+      "level": "Senior",
+      "region": "Казань",
+      "format": "Удалённо",
+      "mode": "demo",
+      "source": "Учебная выборка SalarySense",
+      "snapshotVersion": "demo-market-v1",
+      "url": null,
+      "published": "2026-11-23",
+      "fetched": "2026-11-26",
+      "status": "active",
+      "salary": {
+        "min": 165000,
+        "max": 215000,
+        "currency": "RUB",
+        "tax": "gross",
+        "period": "month"
+      },
+      "requirements": [
+        {
+          "id": "sql",
+          "text": "Запросы, объединения и агрегация таблиц.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "joins",
+          "skill": "SQL",
+          "expected": 1
+        },
+        {
+          "id": "python",
+          "text": "Подготовка данных и автоматизация.",
+          "weight": 2,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "Python",
+          "expected": 1
+        },
+        {
+          "id": "metrics",
+          "text": "Определение метрик и разбор изменений.",
+          "weight": 1,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "Метрики",
+          "expected": 1
+        }
+      ],
+      "language": "Уровень языка не указан",
+      "summary": "Демонстрационная вакансия для роли «Аналитик данных». Команда развивает продукт и ищет специалиста для работы над основными сценариями."
+    },
+    {
+      "id": "ml-1",
+      "roleId": "ml",
+      "title": "ML-инженер · Middle",
+      "company": "Orbit Studio",
+      "brand": 0,
+      "level": "Middle",
+      "region": "Москва",
+      "format": "Удалённо",
+      "mode": "demo",
+      "source": "Учебная выборка SalarySense",
+      "snapshotVersion": "demo-market-v1",
+      "url": null,
+      "published": "2026-11-25",
+      "fetched": "2026-11-26",
+      "status": "active",
+      "salary": {
+        "min": 105000,
+        "max": 155000,
+        "currency": "RUB",
+        "tax": "gross",
+        "period": "month"
+      },
+      "requirements": [
+        {
+          "id": "python",
+          "text": "Подготовка данных и автоматизация.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "Python",
+          "expected": 1
+        },
+        {
+          "id": "sql",
+          "text": "Запросы, объединения и агрегация таблиц.",
+          "weight": 2,
+          "mandatory": false,
+          "topic": "joins",
+          "skill": "SQL",
+          "expected": 1
+        },
+        {
+          "id": "ml",
+          "text": "Валидация, ошибки и качество прогнозов.",
+          "weight": 1,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "Оценка моделей",
+          "expected": 1
+        }
+      ],
+      "language": "Английский B1",
+      "summary": "Демонстрационная вакансия для роли «ML-инженер». Команда развивает продукт и ищет специалиста для работы над основными сценариями."
+    },
+    {
+      "id": "ml-2",
+      "roleId": "ml",
+      "title": "ML-инженер · Middle",
+      "company": "Northstar Labs",
+      "brand": 1,
+      "level": "Middle",
+      "region": "Санкт-Петербург",
+      "format": "Гибрид",
+      "mode": "demo",
+      "source": "Учебная выборка SalarySense",
+      "snapshotVersion": "demo-market-v1",
+      "url": null,
+      "published": "2026-11-24",
+      "fetched": "2026-11-26",
+      "status": "active",
+      "salary": {
+        "min": 135000,
+        "max": 185000,
+        "currency": "RUB",
+        "tax": "gross",
+        "period": "month"
+      },
+      "requirements": [
+        {
+          "id": "python",
+          "text": "Подготовка данных и автоматизация.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "Python",
+          "expected": 1
+        },
+        {
+          "id": "sql",
+          "text": "Запросы, объединения и агрегация таблиц.",
+          "weight": 2,
+          "mandatory": false,
+          "topic": "joins",
+          "skill": "SQL",
+          "expected": 1
+        },
+        {
+          "id": "ml",
+          "text": "Валидация, ошибки и качество прогнозов.",
+          "weight": 1,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "Оценка моделей",
+          "expected": 1
+        }
+      ],
+      "language": "Уровень языка не указан",
+      "summary": "Демонстрационная вакансия для роли «ML-инженер». Команда развивает продукт и ищет специалиста для работы над основными сценариями."
+    },
+    {
+      "id": "ml-3",
+      "roleId": "ml",
+      "title": "ML-инженер · Senior",
+      "company": "Forma Digital",
+      "brand": 2,
+      "level": "Senior",
+      "region": "Казань",
+      "format": "Удалённо",
+      "mode": "demo",
+      "source": "Учебная выборка SalarySense",
+      "snapshotVersion": "demo-market-v1",
+      "url": null,
+      "published": "2026-11-23",
+      "fetched": "2026-11-26",
+      "status": "active",
+      "salary": {
+        "min": 165000,
+        "max": 215000,
+        "currency": "RUB",
+        "tax": "gross",
+        "period": "month"
+      },
+      "requirements": [
+        {
+          "id": "python",
+          "text": "Подготовка данных и автоматизация.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "Python",
+          "expected": 1
+        },
+        {
+          "id": "sql",
+          "text": "Запросы, объединения и агрегация таблиц.",
+          "weight": 2,
+          "mandatory": false,
+          "topic": "joins",
+          "skill": "SQL",
+          "expected": 1
+        },
+        {
+          "id": "ml",
+          "text": "Валидация, ошибки и качество прогнозов.",
+          "weight": 1,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "Оценка моделей",
+          "expected": 1
+        }
+      ],
+      "language": "Уровень языка не указан",
+      "summary": "Демонстрационная вакансия для роли «ML-инженер». Команда развивает продукт и ищет специалиста для работы над основными сценариями."
+    },
+    {
+      "id": "designer-1",
+      "roleId": "designer",
+      "title": "Продуктовый дизайнер · Middle",
+      "company": "Orbit Studio",
+      "brand": 0,
+      "level": "Middle",
+      "region": "Москва",
+      "format": "Удалённо",
+      "mode": "demo",
+      "source": "Учебная выборка SalarySense",
+      "snapshotVersion": "demo-market-v1",
+      "url": null,
+      "published": "2026-11-25",
+      "fetched": "2026-11-26",
+      "status": "active",
+      "salary": {
+        "min": 105000,
+        "max": 155000,
+        "currency": "RUB",
+        "tax": "gross",
+        "period": "month"
+      },
+      "requirements": [
+        {
+          "id": "research",
+          "text": "Интервью, наблюдение и синтез.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "Исследования",
+          "expected": 1
+        },
+        {
+          "id": "prototyping",
+          "text": "Сценарии взаимодействия и прототипы.",
+          "weight": 2,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "Прототипирование",
+          "expected": 1
+        },
+        {
+          "id": "web-a11y",
+          "text": "Семантика, клавиатурная навигация и фокус.",
+          "weight": 1,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "Доступность",
+          "expected": 1
+        }
+      ],
+      "language": "Английский B1",
+      "summary": "Демонстрационная вакансия для роли «Продуктовый дизайнер». Команда развивает продукт и ищет специалиста для работы над основными сценариями."
+    },
+    {
+      "id": "designer-2",
+      "roleId": "designer",
+      "title": "Продуктовый дизайнер · Middle",
+      "company": "Northstar Labs",
+      "brand": 1,
+      "level": "Middle",
+      "region": "Санкт-Петербург",
+      "format": "Гибрид",
+      "mode": "demo",
+      "source": "Учебная выборка SalarySense",
+      "snapshotVersion": "demo-market-v1",
+      "url": null,
+      "published": "2026-11-24",
+      "fetched": "2026-11-26",
+      "status": "active",
+      "salary": {
+        "min": 135000,
+        "max": 185000,
+        "currency": "RUB",
+        "tax": "gross",
+        "period": "month"
+      },
+      "requirements": [
+        {
+          "id": "research",
+          "text": "Интервью, наблюдение и синтез.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "Исследования",
+          "expected": 1
+        },
+        {
+          "id": "prototyping",
+          "text": "Сценарии взаимодействия и прототипы.",
+          "weight": 2,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "Прототипирование",
+          "expected": 1
+        },
+        {
+          "id": "web-a11y",
+          "text": "Семантика, клавиатурная навигация и фокус.",
+          "weight": 1,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "Доступность",
+          "expected": 1
+        }
+      ],
+      "language": "Уровень языка не указан",
+      "summary": "Демонстрационная вакансия для роли «Продуктовый дизайнер». Команда развивает продукт и ищет специалиста для работы над основными сценариями."
+    },
+    {
+      "id": "designer-3",
+      "roleId": "designer",
+      "title": "Продуктовый дизайнер · Senior",
+      "company": "Forma Digital",
+      "brand": 2,
+      "level": "Senior",
+      "region": "Казань",
+      "format": "Удалённо",
+      "mode": "demo",
+      "source": "Учебная выборка SalarySense",
+      "snapshotVersion": "demo-market-v1",
+      "url": null,
+      "published": "2026-11-23",
+      "fetched": "2026-11-26",
+      "status": "active",
+      "salary": {
+        "min": 165000,
+        "max": 215000,
+        "currency": "RUB",
+        "tax": "gross",
+        "period": "month"
+      },
+      "requirements": [
+        {
+          "id": "research",
+          "text": "Интервью, наблюдение и синтез.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "Исследования",
+          "expected": 1
+        },
+        {
+          "id": "prototyping",
+          "text": "Сценарии взаимодействия и прототипы.",
+          "weight": 2,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "Прототипирование",
+          "expected": 1
+        },
+        {
+          "id": "web-a11y",
+          "text": "Семантика, клавиатурная навигация и фокус.",
+          "weight": 1,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "Доступность",
+          "expected": 1
+        }
+      ],
+      "language": "Уровень языка не указан",
+      "summary": "Демонстрационная вакансия для роли «Продуктовый дизайнер». Команда развивает продукт и ищет специалиста для работы над основными сценариями."
+    },
+    {
+      "id": "pm-1",
+      "roleId": "pm",
+      "title": "Продакт-менеджер · Middle",
+      "company": "Orbit Studio",
+      "brand": 0,
+      "level": "Middle",
+      "region": "Москва",
+      "format": "Удалённо",
+      "mode": "demo",
+      "source": "Учебная выборка SalarySense",
+      "snapshotVersion": "demo-market-v1",
+      "url": null,
+      "published": "2026-11-25",
+      "fetched": "2026-11-26",
+      "status": "active",
+      "salary": {
+        "min": 105000,
+        "max": 155000,
+        "currency": "RUB",
+        "tax": "gross",
+        "period": "month"
+      },
+      "requirements": [
+        {
+          "id": "product",
+          "text": "Постановка и проверка гипотез.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "Продуктовые гипотезы",
+          "expected": 1
+        },
+        {
+          "id": "metrics",
+          "text": "Определение метрик и разбор изменений.",
+          "weight": 2,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "Метрики",
+          "expected": 1
+        },
+        {
+          "id": "research",
+          "text": "Интервью, наблюдение и синтез.",
+          "weight": 1,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "Исследования",
+          "expected": 1
+        }
+      ],
+      "language": "Английский B1",
+      "summary": "Демонстрационная вакансия для роли «Продакт-менеджер». Команда развивает продукт и ищет специалиста для работы над основными сценариями."
+    },
+    {
+      "id": "pm-2",
+      "roleId": "pm",
+      "title": "Продакт-менеджер · Middle",
+      "company": "Northstar Labs",
+      "brand": 1,
+      "level": "Middle",
+      "region": "Санкт-Петербург",
+      "format": "Гибрид",
+      "mode": "demo",
+      "source": "Учебная выборка SalarySense",
+      "snapshotVersion": "demo-market-v1",
+      "url": null,
+      "published": "2026-11-24",
+      "fetched": "2026-11-26",
+      "status": "active",
+      "salary": {
+        "min": 135000,
+        "max": 185000,
+        "currency": "RUB",
+        "tax": "gross",
+        "period": "month"
+      },
+      "requirements": [
+        {
+          "id": "product",
+          "text": "Постановка и проверка гипотез.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "Продуктовые гипотезы",
+          "expected": 1
+        },
+        {
+          "id": "metrics",
+          "text": "Определение метрик и разбор изменений.",
+          "weight": 2,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "Метрики",
+          "expected": 1
+        },
+        {
+          "id": "research",
+          "text": "Интервью, наблюдение и синтез.",
+          "weight": 1,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "Исследования",
+          "expected": 1
+        }
+      ],
+      "language": "Уровень языка не указан",
+      "summary": "Демонстрационная вакансия для роли «Продакт-менеджер». Команда развивает продукт и ищет специалиста для работы над основными сценариями."
+    },
+    {
+      "id": "pm-3",
+      "roleId": "pm",
+      "title": "Продакт-менеджер · Senior",
+      "company": "Forma Digital",
+      "brand": 2,
+      "level": "Senior",
+      "region": "Казань",
+      "format": "Удалённо",
+      "mode": "demo",
+      "source": "Учебная выборка SalarySense",
+      "snapshotVersion": "demo-market-v1",
+      "url": null,
+      "published": "2026-11-23",
+      "fetched": "2026-11-26",
+      "status": "active",
+      "salary": {
+        "min": 165000,
+        "max": 215000,
+        "currency": "RUB",
+        "tax": "gross",
+        "period": "month"
+      },
+      "requirements": [
+        {
+          "id": "product",
+          "text": "Постановка и проверка гипотез.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "Продуктовые гипотезы",
+          "expected": 1
+        },
+        {
+          "id": "metrics",
+          "text": "Определение метрик и разбор изменений.",
+          "weight": 2,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "Метрики",
+          "expected": 1
+        },
+        {
+          "id": "research",
+          "text": "Интервью, наблюдение и синтез.",
+          "weight": 1,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "Исследования",
+          "expected": 1
+        }
+      ],
+      "language": "Уровень языка не указан",
+      "summary": "Демонстрационная вакансия для роли «Продакт-менеджер». Команда развивает продукт и ищет специалиста для работы над основными сценариями."
+    },
+    {
+      "id": "lead-1",
+      "roleId": "lead",
+      "title": "Tech Lead · Middle",
+      "company": "Orbit Studio",
+      "brand": 0,
+      "level": "Middle",
+      "region": "Москва",
+      "format": "Удалённо",
+      "mode": "demo",
+      "source": "Учебная выборка SalarySense",
+      "snapshotVersion": "demo-market-v1",
+      "url": null,
+      "published": "2026-11-25",
+      "fetched": "2026-11-26",
+      "status": "active",
+      "salary": {
+        "min": 105000,
+        "max": 155000,
+        "currency": "RUB",
+        "tax": "gross",
+        "period": "month"
+      },
+      "requirements": [
+        {
+          "id": "delivery",
+          "text": "Риски, зависимости и планирование.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "Управление поставкой",
+          "expected": 1
+        },
+        {
+          "id": "mentoring",
+          "text": "Обратная связь и развитие команды.",
+          "weight": 2,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "Наставничество",
+          "expected": 1
+        },
+        {
+          "id": "ci",
+          "text": "Автоматизация сборки и выпуска.",
+          "weight": 1,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "CI/CD",
+          "expected": 1
+        }
+      ],
+      "language": "Английский B1",
+      "summary": "Демонстрационная вакансия для роли «Tech Lead». Команда развивает продукт и ищет специалиста для работы над основными сценариями."
+    },
+    {
+      "id": "lead-2",
+      "roleId": "lead",
+      "title": "Tech Lead · Middle",
+      "company": "Northstar Labs",
+      "brand": 1,
+      "level": "Middle",
+      "region": "Санкт-Петербург",
+      "format": "Гибрид",
+      "mode": "demo",
+      "source": "Учебная выборка SalarySense",
+      "snapshotVersion": "demo-market-v1",
+      "url": null,
+      "published": "2026-11-24",
+      "fetched": "2026-11-26",
+      "status": "active",
+      "salary": {
+        "min": 135000,
+        "max": 185000,
+        "currency": "RUB",
+        "tax": "gross",
+        "period": "month"
+      },
+      "requirements": [
+        {
+          "id": "delivery",
+          "text": "Риски, зависимости и планирование.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "Управление поставкой",
+          "expected": 1
+        },
+        {
+          "id": "mentoring",
+          "text": "Обратная связь и развитие команды.",
+          "weight": 2,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "Наставничество",
+          "expected": 1
+        },
+        {
+          "id": "ci",
+          "text": "Автоматизация сборки и выпуска.",
+          "weight": 1,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "CI/CD",
+          "expected": 1
+        }
+      ],
+      "language": "Уровень языка не указан",
+      "summary": "Демонстрационная вакансия для роли «Tech Lead». Команда развивает продукт и ищет специалиста для работы над основными сценариями."
+    },
+    {
+      "id": "lead-3",
+      "roleId": "lead",
+      "title": "Tech Lead · Senior",
+      "company": "Forma Digital",
+      "brand": 2,
+      "level": "Senior",
+      "region": "Казань",
+      "format": "Удалённо",
+      "mode": "demo",
+      "source": "Учебная выборка SalarySense",
+      "snapshotVersion": "demo-market-v1",
+      "url": null,
+      "published": "2026-11-23",
+      "fetched": "2026-11-26",
+      "status": "active",
+      "salary": {
+        "min": 165000,
+        "max": 215000,
+        "currency": "RUB",
+        "tax": "gross",
+        "period": "month"
+      },
+      "requirements": [
+        {
+          "id": "delivery",
+          "text": "Риски, зависимости и планирование.",
+          "weight": 3,
+          "mandatory": true,
+          "topic": "general",
+          "skill": "Управление поставкой",
+          "expected": 1
+        },
+        {
+          "id": "mentoring",
+          "text": "Обратная связь и развитие команды.",
+          "weight": 2,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "Наставничество",
+          "expected": 1
+        },
+        {
+          "id": "ci",
+          "text": "Автоматизация сборки и выпуска.",
+          "weight": 1,
+          "mandatory": false,
+          "topic": "general",
+          "skill": "CI/CD",
+          "expected": 1
+        }
+      ],
+      "language": "Уровень языка не указан",
+      "summary": "Демонстрационная вакансия для роли «Tech Lead». Команда развивает продукт и ищет специалиста для работы над основными сценариями."
+    }
+  ],
+  "checks": [
+    {
+      "id": "frontend-js",
+      "roleId": "frontend",
+      "skillId": "javascript",
+      "topic": "async",
+      "title": "Асинхронный JavaScript",
+      "scope": "Промисы и обработка ошибок",
+      "limit": "Практика в коммерческом проекте и архитектура асинхронных систем.",
+      "version": "js-demo-v1",
+      "source": "Учебный банк SalarySense",
+      "minutes": 3,
+      "questions": [
+        {
+          "text": "Что вернёт вызов async-функции, если внутри она возвращает число 7?",
+          "options": [
+            "Число 7",
+            "Промис, который выполнится со значением 7",
+            "Объект события",
+            "Ничего до вызова await"
+          ],
+          "answer": 1,
+          "area": "Возвращаемое значение async-функции"
+        },
+        {
+          "text": "Как перехватить отклонение промиса при использовании await?",
+          "options": [
+            "Объявить переменную через const",
+            "Поместить await в блок try и обработать ошибку в catch",
+            "Вызвать Promise.all без ожидания",
+            "Добавить return перед await"
+          ],
+          "answer": 1,
+          "area": "Обработка ошибок"
+        },
+        {
+          "text": "Что происходит с Promise.all, если один из промисов отклоняется?",
+          "options": [
+            "Результат отклоняется",
+            "Результат выполняется со значением остальных промисов",
+            "Остальные промисы автоматически отменяются",
+            "Все операции запускаются заново"
+          ],
+          "answer": 0,
+          "area": "Параллельные операции"
+        }
+      ]
+    },
+    {
+      "id": "frontend-react",
+      "roleId": "frontend",
+      "skillId": "react",
+      "topic": "state",
+      "title": "Состояние в React",
+      "scope": "Локальное состояние и обновление компонентов",
+      "limit": "Архитектура приложений и опыт командной разработки.",
+      "version": "react-demo-v1",
+      "source": "Учебный банк SalarySense",
+      "minutes": 3,
+      "questions": [
+        {
+          "text": "Какой хук хранит локальное состояние функционального компонента?",
+          "options": [
+            "useRef",
+            "useMemo",
+            "useState",
+            "useEffect"
+          ],
+          "answer": 2,
+          "area": "Хранение состояния"
+        },
+        {
+          "text": "Как увеличить счётчик на основе предыдущего значения?",
+          "options": [
+            "count += 1",
+            "setCount(previous => previous + 1)",
+            "setCount(count++)",
+            "useEffect(count + 1)"
+          ],
+          "answer": 1,
+          "area": "Функциональное обновление"
+        },
+        {
+          "text": "Где разместить состояние, необходимое двум соседним компонентам?",
+          "options": [
+            "В каждом соседнем компоненте независимо",
+            "В их общем родителе",
+            "В атрибуте HTML",
+            "В CSS-переменной"
+          ],
+          "answer": 1,
+          "area": "Совместное состояние"
+        }
+      ]
+    },
+    {
+      "id": "backend-sql",
+      "roleId": "backend",
+      "skillId": "sql",
+      "topic": "joins",
+      "title": "SQL: JOIN и группировка",
+      "scope": "Объединение таблиц и агрегаты",
+      "limit": "Проектирование базы, оптимизация запросов и производственный опыт.",
+      "version": "sql-demo-v1",
+      "source": "Учебный банк SalarySense",
+      "minutes": 3,
+      "questions": [
+        {
+          "text": "Какое объединение оставит все строки левой таблицы?",
+          "options": [
+            "INNER JOIN",
+            "LEFT JOIN",
+            "CROSS JOIN",
+            "Ни одно"
+          ],
+          "answer": 1,
+          "area": "Семантика соединений"
+        },
+        {
+          "text": "Как отфильтровать группы после GROUP BY?",
+          "options": [
+            "WHERE",
+            "ORDER BY",
+            "HAVING",
+            "LIMIT"
+          ],
+          "answer": 2,
+          "area": "Условия для агрегатов"
+        },
+        {
+          "text": "Что считает COUNT(*) внутри каждой группы?",
+          "options": [
+            "Количество строк",
+            "Сумму значений",
+            "Количество уникальных таблиц",
+            "Среднее значение"
+          ],
+          "answer": 0,
+          "area": "Подсчёт строк"
+        }
+      ]
+    },
+    {
+      "id": "qa-sql",
+      "roleId": "qa",
+      "skillId": "sql",
+      "topic": "joins",
+      "title": "SQL: JOIN и группировка",
+      "scope": "Объединение таблиц и агрегаты",
+      "limit": "Проектирование базы, оптимизация запросов и производственный опыт.",
+      "version": "sql-demo-v1",
+      "source": "Учебный банк SalarySense",
+      "minutes": 3,
+      "questions": [
+        {
+          "text": "Какое объединение оставит все строки левой таблицы?",
+          "options": [
+            "INNER JOIN",
+            "LEFT JOIN",
+            "CROSS JOIN",
+            "Ни одно"
+          ],
+          "answer": 1,
+          "area": "Семантика соединений"
+        },
+        {
+          "text": "Как отфильтровать группы после GROUP BY?",
+          "options": [
+            "WHERE",
+            "ORDER BY",
+            "HAVING",
+            "LIMIT"
+          ],
+          "answer": 2,
+          "area": "Условия для агрегатов"
+        },
+        {
+          "text": "Что считает COUNT(*) внутри каждой группы?",
+          "options": [
+            "Количество строк",
+            "Сумму значений",
+            "Количество уникальных таблиц",
+            "Среднее значение"
+          ],
+          "answer": 0,
+          "area": "Подсчёт строк"
+        }
+      ]
+    },
+    {
+      "id": "analyst-sql",
+      "roleId": "analyst",
+      "skillId": "sql",
+      "topic": "joins",
+      "title": "SQL: JOIN и группировка",
+      "scope": "Объединение таблиц и агрегаты",
+      "limit": "Проектирование базы, оптимизация запросов и производственный опыт.",
+      "version": "sql-demo-v1",
+      "source": "Учебный банк SalarySense",
+      "minutes": 3,
+      "questions": [
+        {
+          "text": "Какое объединение оставит все строки левой таблицы?",
+          "options": [
+            "INNER JOIN",
+            "LEFT JOIN",
+            "CROSS JOIN",
+            "Ни одно"
+          ],
+          "answer": 1,
+          "area": "Семантика соединений"
+        },
+        {
+          "text": "Как отфильтровать группы после GROUP BY?",
+          "options": [
+            "WHERE",
+            "ORDER BY",
+            "HAVING",
+            "LIMIT"
+          ],
+          "answer": 2,
+          "area": "Условия для агрегатов"
+        },
+        {
+          "text": "Что считает COUNT(*) внутри каждой группы?",
+          "options": [
+            "Количество строк",
+            "Сумму значений",
+            "Количество уникальных таблиц",
+            "Среднее значение"
+          ],
+          "answer": 0,
+          "area": "Подсчёт строк"
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "id": "frontend-intern",
+      "roleId": "frontend",
+      "level": "Intern",
+      "type": "criterion",
+      "version": 1,
+      "status": "published",
+      "topic": "html-css",
+      "source": "Учебная матрица SalarySense",
+      "rights": "Оригинальный демонстрационный материал",
+      "content": [
+        {
+          "dimension": "Знания",
+          "text": "Объясняет основные понятия роли."
+        },
+        {
+          "dimension": "Практика",
+          "text": "Выполняет учебную задачу по инструкции."
+        },
+        {
+          "dimension": "Самостоятельность",
+          "text": "Нуждается в сопровождении."
+        },
+        {
+          "dimension": "Ответственность",
+          "text": "Сообщает о затруднениях."
+        },
+        {
+          "dimension": "Влияние",
+          "text": "Обсуждает решение с наставником."
+        }
+      ],
+      "date": "2026-11-26"
+    },
+    {
+      "id": "frontend-junior",
+      "roleId": "frontend",
+      "level": "Junior",
+      "type": "criterion",
+      "version": 1,
+      "status": "published",
+      "topic": "html-css",
+      "source": "Учебная матрица SalarySense",
+      "rights": "Оригинальный демонстрационный материал",
+      "content": [
+        {
+          "dimension": "Знания",
+          "text": "Применяет основные инструменты."
+        },
+        {
+          "dimension": "Практика",
+          "text": "Выполняет типовые задачи с ревью."
+        },
+        {
+          "dimension": "Самостоятельность",
+          "text": "Уточняет условия и ограничения."
+        },
+        {
+          "dimension": "Ответственность",
+          "text": "Отвечает за результат отдельной задачи."
+        },
+        {
+          "dimension": "Влияние",
+          "text": "Делится контекстом с командой."
+        }
+      ],
+      "date": "2026-11-26"
+    },
+    {
+      "id": "frontend-middle",
+      "roleId": "frontend",
+      "level": "Middle",
+      "type": "criterion",
+      "version": 1,
+      "status": "published",
+      "topic": "html-css",
+      "source": "Учебная матрица SalarySense",
+      "rights": "Оригинальный демонстрационный материал",
+      "content": [
+        {
+          "dimension": "Знания",
+          "text": "Выбирает подход к типовым задачам."
+        },
+        {
+          "dimension": "Практика",
+          "text": "Доводит функциональность до выпуска."
+        },
+        {
+          "dimension": "Самостоятельность",
+          "text": "Самостоятельно исследует проблему."
+        },
+        {
+          "dimension": "Ответственность",
+          "text": "Учитывает качество и эксплуатацию."
+        },
+        {
+          "dimension": "Влияние",
+          "text": "Предлагает локальные улучшения."
+        }
+      ],
+      "date": "2026-11-26"
+    },
+    {
+      "id": "frontend-senior",
+      "roleId": "frontend",
+      "level": "Senior",
+      "type": "criterion",
+      "version": 1,
+      "status": "published",
+      "topic": "html-css",
+      "source": "Учебная матрица SalarySense",
+      "rights": "Оригинальный демонстрационный материал",
+      "content": [
+        {
+          "dimension": "Знания",
+          "text": "Сравнивает подходы и компромиссы."
+        },
+        {
+          "dimension": "Практика",
+          "text": "Ведёт сложные изменения в продукте."
+        },
+        {
+          "dimension": "Самостоятельность",
+          "text": "Самостоятельно снижает неопределённость."
+        },
+        {
+          "dimension": "Ответственность",
+          "text": "Управляет рисками за пределами одной задачи."
+        },
+        {
+          "dimension": "Влияние",
+          "text": "Развивает инженерную практику команды."
+        }
+      ],
+      "date": "2026-11-26"
+    },
+    {
+      "id": "frontend-lead",
+      "roleId": "frontend",
+      "level": "Lead",
+      "type": "criterion",
+      "version": 1,
+      "status": "published",
+      "topic": "html-css",
+      "source": "Учебная матрица SalarySense",
+      "rights": "Оригинальный демонстрационный материал",
+      "content": [
+        {
+          "dimension": "Знания",
+          "text": "Формирует техническое направление."
+        },
+        {
+          "dimension": "Практика",
+          "text": "Организует поставку сложных изменений."
+        },
+        {
+          "dimension": "Самостоятельность",
+          "text": "Согласует решения между командами."
+        },
+        {
+          "dimension": "Ответственность",
+          "text": "Отвечает за устойчивость решений команды."
+        },
+        {
+          "dimension": "Влияние",
+          "text": "Развивает людей и меняет процессы."
+        }
+      ],
+      "date": "2026-11-26"
+    },
+    {
+      "id": "backend-intern",
+      "roleId": "backend",
+      "level": "Intern",
+      "type": "criterion",
+      "version": 1,
+      "status": "published",
+      "topic": "java",
+      "source": "Учебная матрица SalarySense",
+      "rights": "Оригинальный демонстрационный материал",
+      "content": [
+        {
+          "dimension": "Знания",
+          "text": "Объясняет основные понятия роли."
+        },
+        {
+          "dimension": "Практика",
+          "text": "Выполняет учебную задачу по инструкции."
+        },
+        {
+          "dimension": "Самостоятельность",
+          "text": "Нуждается в сопровождении."
+        },
+        {
+          "dimension": "Ответственность",
+          "text": "Сообщает о затруднениях."
+        },
+        {
+          "dimension": "Влияние",
+          "text": "Обсуждает решение с наставником."
+        }
+      ],
+      "date": "2026-11-26"
+    },
+    {
+      "id": "backend-junior",
+      "roleId": "backend",
+      "level": "Junior",
+      "type": "criterion",
+      "version": 1,
+      "status": "published",
+      "topic": "java",
+      "source": "Учебная матрица SalarySense",
+      "rights": "Оригинальный демонстрационный материал",
+      "content": [
+        {
+          "dimension": "Знания",
+          "text": "Применяет основные инструменты."
+        },
+        {
+          "dimension": "Практика",
+          "text": "Выполняет типовые задачи с ревью."
+        },
+        {
+          "dimension": "Самостоятельность",
+          "text": "Уточняет условия и ограничения."
+        },
+        {
+          "dimension": "Ответственность",
+          "text": "Отвечает за результат отдельной задачи."
+        },
+        {
+          "dimension": "Влияние",
+          "text": "Делится контекстом с командой."
+        }
+      ],
+      "date": "2026-11-26"
+    },
+    {
+      "id": "backend-middle",
+      "roleId": "backend",
+      "level": "Middle",
+      "type": "criterion",
+      "version": 1,
+      "status": "published",
+      "topic": "java",
+      "source": "Учебная матрица SalarySense",
+      "rights": "Оригинальный демонстрационный материал",
+      "content": [
+        {
+          "dimension": "Знания",
+          "text": "Выбирает подход к типовым задачам."
+        },
+        {
+          "dimension": "Практика",
+          "text": "Доводит функциональность до выпуска."
+        },
+        {
+          "dimension": "Самостоятельность",
+          "text": "Самостоятельно исследует проблему."
+        },
+        {
+          "dimension": "Ответственность",
+          "text": "Учитывает качество и эксплуатацию."
+        },
+        {
+          "dimension": "Влияние",
+          "text": "Предлагает локальные улучшения."
+        }
+      ],
+      "date": "2026-11-26"
+    },
+    {
+      "id": "backend-senior",
+      "roleId": "backend",
+      "level": "Senior",
+      "type": "criterion",
+      "version": 1,
+      "status": "published",
+      "topic": "java",
+      "source": "Учебная матрица SalarySense",
+      "rights": "Оригинальный демонстрационный материал",
+      "content": [
+        {
+          "dimension": "Знания",
+          "text": "Сравнивает подходы и компромиссы."
+        },
+        {
+          "dimension": "Практика",
+          "text": "Ведёт сложные изменения в продукте."
+        },
+        {
+          "dimension": "Самостоятельность",
+          "text": "Самостоятельно снижает неопределённость."
+        },
+        {
+          "dimension": "Ответственность",
+          "text": "Управляет рисками за пределами одной задачи."
+        },
+        {
+          "dimension": "Влияние",
+          "text": "Развивает инженерную практику команды."
+        }
+      ],
+      "date": "2026-11-26"
+    },
+    {
+      "id": "backend-lead",
+      "roleId": "backend",
+      "level": "Lead",
+      "type": "criterion",
+      "version": 1,
+      "status": "published",
+      "topic": "java",
+      "source": "Учебная матрица SalarySense",
+      "rights": "Оригинальный демонстрационный материал",
+      "content": [
+        {
+          "dimension": "Знания",
+          "text": "Формирует техническое направление."
+        },
+        {
+          "dimension": "Практика",
+          "text": "Организует поставку сложных изменений."
+        },
+        {
+          "dimension": "Самостоятельность",
+          "text": "Согласует решения между командами."
+        },
+        {
+          "dimension": "Ответственность",
+          "text": "Отвечает за устойчивость решений команды."
+        },
+        {
+          "dimension": "Влияние",
+          "text": "Развивает людей и меняет процессы."
+        }
+      ],
+      "date": "2026-11-26"
+    },
+    {
+      "id": "qa-intern",
+      "roleId": "qa",
+      "level": "Intern",
+      "type": "criterion",
+      "version": 1,
+      "status": "published",
+      "topic": "test-design",
+      "source": "Учебная матрица SalarySense",
+      "rights": "Оригинальный демонстрационный материал",
+      "content": [
+        {
+          "dimension": "Знания",
+          "text": "Объясняет основные понятия роли."
+        },
+        {
+          "dimension": "Практика",
+          "text": "Выполняет учебную задачу по инструкции."
+        },
+        {
+          "dimension": "Самостоятельность",
+          "text": "Нуждается в сопровождении."
+        },
+        {
+          "dimension": "Ответственность",
+          "text": "Сообщает о затруднениях."
+        },
+        {
+          "dimension": "Влияние",
+          "text": "Обсуждает решение с наставником."
+        }
+      ],
+      "date": "2026-11-26"
+    },
+    {
+      "id": "qa-junior",
+      "roleId": "qa",
+      "level": "Junior",
+      "type": "criterion",
+      "version": 1,
+      "status": "published",
+      "topic": "test-design",
+      "source": "Учебная матрица SalarySense",
+      "rights": "Оригинальный демонстрационный материал",
+      "content": [
+        {
+          "dimension": "Знания",
+          "text": "Применяет основные инструменты."
+        },
+        {
+          "dimension": "Практика",
+          "text": "Выполняет типовые задачи с ревью."
+        },
+        {
+          "dimension": "Самостоятельность",
+          "text": "Уточняет условия и ограничения."
+        },
+        {
+          "dimension": "Ответственность",
+          "text": "Отвечает за результат отдельной задачи."
+        },
+        {
+          "dimension": "Влияние",
+          "text": "Делится контекстом с командой."
+        }
+      ],
+      "date": "2026-11-26"
+    },
+    {
+      "id": "qa-middle",
+      "roleId": "qa",
+      "level": "Middle",
+      "type": "criterion",
+      "version": 1,
+      "status": "published",
+      "topic": "test-design",
+      "source": "Учебная матрица SalarySense",
+      "rights": "Оригинальный демонстрационный материал",
+      "content": [
+        {
+          "dimension": "Знания",
+          "text": "Выбирает подход к типовым задачам."
+        },
+        {
+          "dimension": "Практика",
+          "text": "Доводит функциональность до выпуска."
+        },
+        {
+          "dimension": "Самостоятельность",
+          "text": "Самостоятельно исследует проблему."
+        },
+        {
+          "dimension": "Ответственность",
+          "text": "Учитывает качество и эксплуатацию."
+        },
+        {
+          "dimension": "Влияние",
+          "text": "Предлагает локальные улучшения."
+        }
+      ],
+      "date": "2026-11-26"
+    },
+    {
+      "id": "qa-senior",
+      "roleId": "qa",
+      "level": "Senior",
+      "type": "criterion",
+      "version": 1,
+      "status": "published",
+      "topic": "test-design",
+      "source": "Учебная матрица SalarySense",
+      "rights": "Оригинальный демонстрационный материал",
+      "content": [
+        {
+          "dimension": "Знания",
+          "text": "Сравнивает подходы и компромиссы."
+        },
+        {
+          "dimension": "Практика",
+          "text": "Ведёт сложные изменения в продукте."
+        },
+        {
+          "dimension": "Самостоятельность",
+          "text": "Самостоятельно снижает неопределённость."
+        },
+        {
+          "dimension": "Ответственность",
+          "text": "Управляет рисками за пределами одной задачи."
+        },
+        {
+          "dimension": "Влияние",
+          "text": "Развивает инженерную практику команды."
+        }
+      ],
+      "date": "2026-11-26"
+    },
+    {
+      "id": "qa-lead",
+      "roleId": "qa",
+      "level": "Lead",
+      "type": "criterion",
+      "version": 1,
+      "status": "published",
+      "topic": "test-design",
+      "source": "Учебная матрица SalarySense",
+      "rights": "Оригинальный демонстрационный материал",
+      "content": [
+        {
+          "dimension": "Знания",
+          "text": "Формирует техническое направление."
+        },
+        {
+          "dimension": "Практика",
+          "text": "Организует поставку сложных изменений."
+        },
+        {
+          "dimension": "Самостоятельность",
+          "text": "Согласует решения между командами."
+        },
+        {
+          "dimension": "Ответственность",
+          "text": "Отвечает за устойчивость решений команды."
+        },
+        {
+          "dimension": "Влияние",
+          "text": "Развивает людей и меняет процессы."
+        }
+      ],
+      "date": "2026-11-26"
+    },
+    {
+      "id": "frontend-js",
+      "roleId": "frontend",
+      "level": null,
+      "type": "quiz",
+      "version": 1,
+      "status": "published",
+      "topic": "Промисы и обработка ошибок",
+      "source": "Учебный банк SalarySense",
+      "rights": "Оригинальный демонстрационный материал",
+      "content": [],
+      "date": "2026-11-26",
+      "title": "Асинхронный JavaScript",
+      "skillId": "javascript",
+      "checkTopic": "async",
+      "limit": "Практика в коммерческом проекте и архитектура асинхронных систем.",
+      "minutes": 3,
+      "bankVersion": "js-demo",
+      "questions": [
+        {
+          "text": "Что вернёт вызов async-функции, если внутри она возвращает число 7?",
+          "options": [
+            "Число 7",
+            "Промис, который выполнится со значением 7",
+            "Объект события",
+            "Ничего до вызова await"
+          ],
+          "answer": 1,
+          "area": "Возвращаемое значение async-функции"
+        },
+        {
+          "text": "Как перехватить отклонение промиса при использовании await?",
+          "options": [
+            "Объявить переменную через const",
+            "Поместить await в блок try и обработать ошибку в catch",
+            "Вызвать Promise.all без ожидания",
+            "Добавить return перед await"
+          ],
+          "answer": 1,
+          "area": "Обработка ошибок"
+        },
+        {
+          "text": "Что происходит с Promise.all, если один из промисов отклоняется?",
+          "options": [
+            "Результат отклоняется",
+            "Результат выполняется со значением остальных промисов",
+            "Остальные промисы автоматически отменяются",
+            "Все операции запускаются заново"
+          ],
+          "answer": 0,
+          "area": "Параллельные операции"
+        }
+      ]
+    },
+    {
+      "id": "frontend-react",
+      "roleId": "frontend",
+      "level": null,
+      "type": "quiz",
+      "version": 1,
+      "status": "published",
+      "topic": "Локальное состояние и обновление компонентов",
+      "source": "Учебный банк SalarySense",
+      "rights": "Оригинальный демонстрационный материал",
+      "content": [],
+      "date": "2026-11-26",
+      "title": "Состояние в React",
+      "skillId": "react",
+      "checkTopic": "state",
+      "limit": "Архитектура приложений и опыт командной разработки.",
+      "minutes": 3,
+      "bankVersion": "react-demo",
+      "questions": [
+        {
+          "text": "Какой хук хранит локальное состояние функционального компонента?",
+          "options": [
+            "useRef",
+            "useMemo",
+            "useState",
+            "useEffect"
+          ],
+          "answer": 2,
+          "area": "Хранение состояния"
+        },
+        {
+          "text": "Как увеличить счётчик на основе предыдущего значения?",
+          "options": [
+            "count += 1",
+            "setCount(previous => previous + 1)",
+            "setCount(count++)",
+            "useEffect(count + 1)"
+          ],
+          "answer": 1,
+          "area": "Функциональное обновление"
+        },
+        {
+          "text": "Где разместить состояние, необходимое двум соседним компонентам?",
+          "options": [
+            "В каждом соседнем компоненте независимо",
+            "В их общем родителе",
+            "В атрибуте HTML",
+            "В CSS-переменной"
+          ],
+          "answer": 1,
+          "area": "Совместное состояние"
+        }
+      ]
+    },
+    {
+      "id": "backend-sql",
+      "roleId": "backend",
+      "level": null,
+      "type": "quiz",
+      "version": 1,
+      "status": "published",
+      "topic": "Объединение таблиц и агрегаты",
+      "source": "Учебный банк SalarySense",
+      "rights": "Оригинальный демонстрационный материал",
+      "content": [],
+      "date": "2026-11-26",
+      "title": "SQL: JOIN и группировка",
+      "skillId": "sql",
+      "checkTopic": "joins",
+      "limit": "Проектирование базы, оптимизация запросов и производственный опыт.",
+      "minutes": 3,
+      "bankVersion": "sql-demo",
+      "questions": [
+        {
+          "text": "Какое объединение оставит все строки левой таблицы?",
+          "options": [
+            "INNER JOIN",
+            "LEFT JOIN",
+            "CROSS JOIN",
+            "Ни одно"
+          ],
+          "answer": 1,
+          "area": "Семантика соединений"
+        },
+        {
+          "text": "Как отфильтровать группы после GROUP BY?",
+          "options": [
+            "WHERE",
+            "ORDER BY",
+            "HAVING",
+            "LIMIT"
+          ],
+          "answer": 2,
+          "area": "Условия для агрегатов"
+        },
+        {
+          "text": "Что считает COUNT(*) внутри каждой группы?",
+          "options": [
+            "Количество строк",
+            "Сумму значений",
+            "Количество уникальных таблиц",
+            "Среднее значение"
+          ],
+          "answer": 0,
+          "area": "Подсчёт строк"
+        }
+      ]
+    },
+    {
+      "id": "qa-sql",
+      "roleId": "qa",
+      "level": null,
+      "type": "quiz",
+      "version": 1,
+      "status": "published",
+      "topic": "Объединение таблиц и агрегаты",
+      "source": "Учебный банк SalarySense",
+      "rights": "Оригинальный демонстрационный материал",
+      "content": [],
+      "date": "2026-11-26",
+      "title": "SQL: JOIN и группировка",
+      "skillId": "sql",
+      "checkTopic": "joins",
+      "limit": "Проектирование базы, оптимизация запросов и производственный опыт.",
+      "minutes": 3,
+      "bankVersion": "sql-demo",
+      "questions": [
+        {
+          "text": "Какое объединение оставит все строки левой таблицы?",
+          "options": [
+            "INNER JOIN",
+            "LEFT JOIN",
+            "CROSS JOIN",
+            "Ни одно"
+          ],
+          "answer": 1,
+          "area": "Семантика соединений"
+        },
+        {
+          "text": "Как отфильтровать группы после GROUP BY?",
+          "options": [
+            "WHERE",
+            "ORDER BY",
+            "HAVING",
+            "LIMIT"
+          ],
+          "answer": 2,
+          "area": "Условия для агрегатов"
+        },
+        {
+          "text": "Что считает COUNT(*) внутри каждой группы?",
+          "options": [
+            "Количество строк",
+            "Сумму значений",
+            "Количество уникальных таблиц",
+            "Среднее значение"
+          ],
+          "answer": 0,
+          "area": "Подсчёт строк"
+        }
+      ]
+    },
+    {
+      "id": "analyst-sql",
+      "roleId": "analyst",
+      "level": null,
+      "type": "quiz",
+      "version": 1,
+      "status": "published",
+      "topic": "Объединение таблиц и агрегаты",
+      "source": "Учебный банк SalarySense",
+      "rights": "Оригинальный демонстрационный материал",
+      "content": [],
+      "date": "2026-11-26",
+      "title": "SQL: JOIN и группировка",
+      "skillId": "sql",
+      "checkTopic": "joins",
+      "limit": "Проектирование базы, оптимизация запросов и производственный опыт.",
+      "minutes": 3,
+      "bankVersion": "sql-demo",
+      "questions": [
+        {
+          "text": "Какое объединение оставит все строки левой таблицы?",
+          "options": [
+            "INNER JOIN",
+            "LEFT JOIN",
+            "CROSS JOIN",
+            "Ни одно"
+          ],
+          "answer": 1,
+          "area": "Семантика соединений"
+        },
+        {
+          "text": "Как отфильтровать группы после GROUP BY?",
+          "options": [
+            "WHERE",
+            "ORDER BY",
+            "HAVING",
+            "LIMIT"
+          ],
+          "answer": 2,
+          "area": "Условия для агрегатов"
+        },
+        {
+          "text": "Что считает COUNT(*) внутри каждой группы?",
+          "options": [
+            "Количество строк",
+            "Сумму значений",
+            "Количество уникальных таблиц",
+            "Среднее значение"
+          ],
+          "answer": 0,
+          "area": "Подсчёт строк"
+        }
+      ]
+    }
+  ]
+}
