@@ -75,6 +75,8 @@ class Settings:
     rag_top_k: int = 5
     rag_min_score: float = 0.0
     rag_context_chars: int = 1200
+    corpus_path: Path | None = None
+    rag_prompt: str = "product"
     benchmark_judge: str = "both"
 
     @property
@@ -101,8 +103,12 @@ class Settings:
             llm_model=os.environ.get("OPENROUTER_MODEL", "openai/gpt-4o-mini").strip(),
             llm_fallbacks=fallbacks,
             llm_timeout=_env_float("OPENROUTER_TIMEOUT", 45.0),
-            rag_top_k=_env_int("RAG_TOP_K", 4),
+            rag_top_k=_env_int("RAG_TOP_K", 5),
             rag_min_score=_env_float("RAG_MIN_SCORE", 0.0),
             rag_context_chars=_env_int("RAG_CONTEXT_CHARS", 1200),
-            benchmark_judge=os.environ.get("BENCHMARK_JUDGE", "keyfacts").strip(),
+            corpus_path=(
+                Path(os.environ["RAG_CORPUS"]) if os.environ.get("RAG_CORPUS", "").strip() else None
+            ),
+            rag_prompt=os.environ.get("RAG_PROMPT", "product").strip().lower(),
+            benchmark_judge=os.environ.get("BENCHMARK_JUDGE", "both").strip(),
         )

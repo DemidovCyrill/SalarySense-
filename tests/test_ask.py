@@ -159,6 +159,23 @@ def test_corpus_file_is_required(settings: Settings, tmp_path: Path) -> None:
         assert response.status_code == 503
 
 
+def test_corpus_path_and_prompt_come_from_settings(
+    settings: Settings, vector_corpus_path: Path
+) -> None:
+    custom = dataclasses.replace(
+        settings,
+        corpus_path=vector_corpus_path,
+        rag_prompt="neutral",
+    )
+    fake = FakeClient(["Короткая проверка подтверждает тему [D01]."])
+    service = RagService(custom, client=fake)
+    result = service.answer("Что подтверждает короткая проверка?")
+    assert result["sources"][0]["id"] == "D01"
+    system_message = fake.calls[0][0]["content"]
+    assert "ассистент базы знаний" in system_message
+    assert "SalarySense" not in system_message
+
+
 def test_grounded_answer_meta(settings: Settings, vector_corpus_path: Path) -> None:
     service, _ = make_service(settings, vector_corpus_path, ["Тема [D01]."])
     trace = service.answer_with_trace("Что подтверждает короткая проверка?")
