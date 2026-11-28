@@ -1,0 +1,648 @@
+{
+  "schema": 1,
+  "created": "2026-11-28T10:08:56+00:00",
+  "corpus": {
+    "path": "corpus.jsonl (вне репозитория)",
+    "documents": 1000,
+    "committed": false,
+    "note": "Тексты песен не коммитятся из-за прав; корпус передаётся путём."
+  },
+  "benchmark": {
+    "version": "songs-benchmark-1",
+    "path": "benchmark\\external\\songs-questions.json",
+    "questions": 10
+  },
+  "model": "openai/gpt-4o-mini",
+  "prompt_version": "external-v1",
+  "params": {
+    "bm25": {
+      "k1": 1.2,
+      "b": 0.75
+    },
+    "top_k": 5,
+    "context_chars": 1200,
+    "stopwords": "встроенный список + лемматизация pymorphy3"
+  },
+  "rows": [
+    {
+      "id": 1,
+      "question": "В какой песне встречаются слова If I'm not your kind of woman?",
+      "gold_doc_ids": [
+        "4vFrrqDMc2pmbLStKMQJ9j"
+      ],
+      "reference_answer": "My Kind of Blues (Mega Man 3) — AES.",
+      "gold_rank": 1,
+      "in_top3": true,
+      "retrieved": [
+        {
+          "rank": 1,
+          "id": "4vFrrqDMc2pmbLStKMQJ9j",
+          "title": "My Kind of Blues (Mega Man 3)",
+          "artist": "AES",
+          "score": 21.9952
+        },
+        {
+          "rank": 2,
+          "id": "5VoBLKJTCp3umNtG8KAFeM",
+          "title": "Uncle Sam Blues",
+          "artist": "Jefferson Airplane",
+          "score": 13.9889
+        },
+        {
+          "rank": 3,
+          "id": "37PhUfMyEJoOmMSrUWehUf",
+          "title": "Just Because I'm a Woman - Live at Sevier County High School, Sevierville, TN - April 1970",
+          "artist": "Dolly Parton",
+          "score": 12.4071
+        },
+        {
+          "rank": 4,
+          "id": "5uYV8srt81IkN1jI0qbJvl",
+          "title": "On The Low",
+          "artist": "City Girls",
+          "score": 11.1771
+        },
+        {
+          "rank": 5,
+          "id": "0Kag9PzVOjLAKP91j27blx",
+          "title": "Old Friends",
+          "artist": "Sylvie Lewis",
+          "score": 10.8875
+        }
+      ],
+      "answer": "Слова \"If I'm not your kind of woman\" встречаются в песне \"My Kind of Blues\" [S1].",
+      "sources": [
+        {
+          "id": "4vFrrqDMc2pmbLStKMQJ9j",
+          "title": "My Kind of Blues (Mega Man 3)",
+          "artist": "AES"
+        }
+      ],
+      "citation_ids": [
+        "S1"
+      ],
+      "refused": false,
+      "coverage": 0.4,
+      "error": null,
+      "latency_ms": 2153
+    },
+    {
+      "id": 2,
+      "question": "Кто исполняет песню My Kind of Blues (Mega Man 3)?",
+      "gold_doc_ids": [
+        "4vFrrqDMc2pmbLStKMQJ9j"
+      ],
+      "reference_answer": "AES.",
+      "gold_rank": 1,
+      "in_top3": true,
+      "retrieved": [
+        {
+          "rank": 1,
+          "id": "4vFrrqDMc2pmbLStKMQJ9j",
+          "title": "My Kind of Blues (Mega Man 3)",
+          "artist": "AES",
+          "score": 22.2304
+        },
+        {
+          "rank": 2,
+          "id": "5VoBLKJTCp3umNtG8KAFeM",
+          "title": "Uncle Sam Blues",
+          "artist": "Jefferson Airplane",
+          "score": 14.0949
+        },
+        {
+          "rank": 3,
+          "id": "25C28On1ijnRE7LbQAtKJ3",
+          "title": "Down to the River",
+          "artist": "Ben Caplan",
+          "score": 12.4252
+        },
+        {
+          "rank": 4,
+          "id": "6vcFOpkchxyYGSQzlFewMy",
+          "title": "You're so Gangsta",
+          "artist": "Chromeo",
+          "score": 10.821
+        },
+        {
+          "rank": 5,
+          "id": "1AwBPJOJuyAxIBKyhg153s",
+          "title": "St. Louis Blues",
+          "artist": "Django Reinhardt",
+          "score": 9.9926
+        }
+      ],
+      "answer": "Песню \"My Kind of Blues (Mega Man 3)\" исполняет AES [S1].",
+      "sources": [
+        {
+          "id": "4vFrrqDMc2pmbLStKMQJ9j",
+          "title": "My Kind of Blues (Mega Man 3)",
+          "artist": "AES"
+        }
+      ],
+      "citation_ids": [
+        "S1"
+      ],
+      "refused": false,
+      "coverage": 1.0,
+      "error": null,
+      "latency_ms": 1420
+    },
+    {
+      "id": 3,
+      "question": "В какой песне есть строка No le des patadas a los locos?",
+      "gold_doc_ids": [
+        "4Pz6d9chtIKUQ628KWDZpR"
+      ],
+      "reference_answer": "Adela en el Carrousell — Charly García.",
+      "gold_rank": 1,
+      "in_top3": true,
+      "retrieved": [
+        {
+          "rank": 1,
+          "id": "4Pz6d9chtIKUQ628KWDZpR",
+          "title": "Adela en el Carrousell",
+          "artist": "Charly García",
+          "score": 38.5117
+        },
+        {
+          "rank": 2,
+          "id": "4s6jIWIEdMEcj5hndhY3jq",
+          "title": "Por Las Bocinas",
+          "artist": "Yomo",
+          "score": 18.8236
+        },
+        {
+          "rank": 3,
+          "id": "7MJHRFQZKANeTjUW0L4WeN",
+          "title": "Mi Bonita",
+          "artist": "La Energia Nortena",
+          "score": 12.4575
+        },
+        {
+          "rank": 4,
+          "id": "2Bs5bwsPJEvGbFsBThK84O",
+          "title": "Glopeta No Se Callen (feat. D.OZi)",
+          "artist": "Nengo Flow",
+          "score": 11.3724
+        },
+        {
+          "rank": 5,
+          "id": "3exoEpRfk1AzrA8EHEOA3X",
+          "title": "Por si las Moscas",
+          "artist": "Melendi;Guaynaa",
+          "score": 11.2699
+        }
+      ],
+      "answer": "Строка \"No le des patadas a los locos\" есть в песне \"Adela en el Carrousell\" исполнителя Charly García [S1].",
+      "sources": [
+        {
+          "id": "4Pz6d9chtIKUQ628KWDZpR",
+          "title": "Adela en el Carrousell",
+          "artist": "Charly García"
+        }
+      ],
+      "citation_ids": [
+        "S1"
+      ],
+      "refused": false,
+      "coverage": 1.0,
+      "error": null,
+      "latency_ms": 2223
+    },
+    {
+      "id": 4,
+      "question": "Какая песня начинается словами Adela en el carrusel?",
+      "gold_doc_ids": [
+        "4Pz6d9chtIKUQ628KWDZpR"
+      ],
+      "reference_answer": "Adela en el Carrousell — Charly García.",
+      "gold_rank": 1,
+      "in_top3": true,
+      "retrieved": [
+        {
+          "rank": 1,
+          "id": "4Pz6d9chtIKUQ628KWDZpR",
+          "title": "Adela en el Carrousell",
+          "artist": "Charly García",
+          "score": 29.9829
+        },
+        {
+          "rank": 2,
+          "id": "2pQdeaA60OQFWeMOTyR7PO",
+          "title": "Sweet and Gentle - Me Lo Dijo Adela",
+          "artist": "Flora Martínez",
+          "score": 11.347
+        },
+        {
+          "rank": 3,
+          "id": "2UIpYwapLYA4crGocwiZOK",
+          "title": "Este mundo va",
+          "artist": "Miguel Bosé",
+          "score": 9.7254
+        },
+        {
+          "rank": 4,
+          "id": "2Bs5bwsPJEvGbFsBThK84O",
+          "title": "Glopeta No Se Callen (feat. D.OZi)",
+          "artist": "Nengo Flow",
+          "score": 9.655
+        },
+        {
+          "rank": 5,
+          "id": "4CDV6vDbQFjoYkfuJuWSkr",
+          "title": "Llueve en Mi (Directo)",
+          "artist": "El Canto Del Loco",
+          "score": 9.6461
+        }
+      ],
+      "answer": "Песня, которая начинается словами \"Adela en el carrusel\", называется \"Adela en el Carrousell\" и исполняется Чарли Гарсией [S1].",
+      "sources": [
+        {
+          "id": "4Pz6d9chtIKUQ628KWDZpR",
+          "title": "Adela en el Carrousell",
+          "artist": "Charly García"
+        }
+      ],
+      "citation_ids": [
+        "S1"
+      ],
+      "refused": false,
+      "coverage": 0.5,
+      "error": null,
+      "latency_ms": 1815
+    },
+    {
+      "id": 5,
+      "question": "В какой песне встречается фраза Fuck you bitch?",
+      "gold_doc_ids": [
+        "4ltVcLqqlxV9OKxDZqzo1E"
+      ],
+      "reference_answer": "Fuck You — Da Brat.",
+      "gold_rank": 3,
+      "in_top3": true,
+      "retrieved": [
+        {
+          "rank": 1,
+          "id": "25pGMUFQAyKedS7vLrpSBr",
+          "title": "Bounce & Break - Atmozfears Remix Edit",
+          "artist": "Bass Modulators",
+          "score": 11.7143
+        },
+        {
+          "rank": 2,
+          "id": "5uYV8srt81IkN1jI0qbJvl",
+          "title": "On The Low",
+          "artist": "City Girls",
+          "score": 11.2021
+        },
+        {
+          "rank": 3,
+          "id": "4ltVcLqqlxV9OKxDZqzo1E",
+          "title": "Fuck You",
+          "artist": "Da Brat",
+          "score": 11.0474
+        },
+        {
+          "rank": 4,
+          "id": "73davZEEgr912ZLBUwdMw2",
+          "title": "Dickhead",
+          "artist": "Madchild",
+          "score": 10.8843
+        },
+        {
+          "rank": 5,
+          "id": "6tByydPskASjm9jTPkNQq0",
+          "title": "Numb Numb Juice",
+          "artist": "ScHoolboy Q",
+          "score": 10.8108
+        }
+      ],
+      "answer": "Фраза \"Fuck you bitch\" встречается в песне \"Fuck You\" исполнителя Da Brat [S3].",
+      "sources": [
+        {
+          "id": "4ltVcLqqlxV9OKxDZqzo1E",
+          "title": "Fuck You",
+          "artist": "Da Brat"
+        }
+      ],
+      "citation_ids": [
+        "S3"
+      ],
+      "refused": false,
+      "coverage": 1.0,
+      "error": null,
+      "latency_ms": 1736
+    },
+    {
+      "id": 6,
+      "question": "Какая песня содержит повторяющийся вопрос What's wrong with your face?",
+      "gold_doc_ids": [
+        "4Lp7l5G4YQJ7GYGPook2aD"
+      ],
+      "reference_answer": "Your Way — Pepper.",
+      "gold_rank": 1,
+      "in_top3": true,
+      "retrieved": [
+        {
+          "rank": 1,
+          "id": "4Lp7l5G4YQJ7GYGPook2aD",
+          "title": "Your Way",
+          "artist": "Pepper",
+          "score": 15.0341
+        },
+        {
+          "rank": 2,
+          "id": "4scd9h3sGsPNydzGdsVdD3",
+          "title": "Bump N' Grind - Old School Mix",
+          "artist": "R. Kelly",
+          "score": 9.9079
+        },
+        {
+          "rank": 3,
+          "id": "1CoUxMjpkohCWJi4JAQFKB",
+          "title": "I Am No Longer Me",
+          "artist": "Andrew Lloyd Webber",
+          "score": 8.9404
+        },
+        {
+          "rank": 4,
+          "id": "2dVZ8P2OdVAcC6lvlccmtz",
+          "title": "Dig - Everything and Nothing Remix",
+          "artist": "Mudvayne, Rhys Fulber",
+          "score": 8.55
+        },
+        {
+          "rank": 5,
+          "id": "4pOckDmild7xz7uql1LVjs",
+          "title": "Hand Out",
+          "artist": "Beebs and Her Money Makers",
+          "score": 8.4656
+        }
+      ],
+      "answer": "Песня, содержащая повторяющийся вопрос \"What's wrong with your face\", — \"Your Way\" группы Pepper [S1].",
+      "sources": [
+        {
+          "id": "4Lp7l5G4YQJ7GYGPook2aD",
+          "title": "Your Way",
+          "artist": "Pepper"
+        }
+      ],
+      "citation_ids": [
+        "S1"
+      ],
+      "refused": false,
+      "coverage": 1.0,
+      "error": null,
+      "latency_ms": 1796
+    },
+    {
+      "id": 7,
+      "question": "Кто исполняет песню Your Way?",
+      "gold_doc_ids": [
+        "4Lp7l5G4YQJ7GYGPook2aD"
+      ],
+      "reference_answer": "Pepper.",
+      "gold_rank": null,
+      "in_top3": false,
+      "retrieved": [
+        {
+          "rank": 1,
+          "id": "07XxJC8q8sGsNopOXETN1t",
+          "title": "If This World Were Mine (with Luther Vandross) - Single Version",
+          "artist": "Cheryl Lynn",
+          "score": 4.6942
+        },
+        {
+          "rank": 2,
+          "id": "1Xs0UEiuF1jEKQACN7Jmaw",
+          "title": "Born To Touch Your Feelings - Remix",
+          "artist": "Scorpions",
+          "score": 4.586
+        },
+        {
+          "rank": 3,
+          "id": "4vFrrqDMc2pmbLStKMQJ9j",
+          "title": "My Kind of Blues (Mega Man 3)",
+          "artist": "AES",
+          "score": 4.5754
+        },
+        {
+          "rank": 4,
+          "id": "5cCmvXRDPj61YyTpQthgXL",
+          "title": "Clever Reason",
+          "artist": "Pentimento",
+          "score": 4.5711
+        },
+        {
+          "rank": 5,
+          "id": "3DxpiHWXq7VRPNeIlPn0l9",
+          "title": "I'm a Target Too",
+          "artist": "Trampled by Turtles",
+          "score": 4.5476
+        }
+      ],
+      "answer": "В документах нет этой информации.",
+      "sources": [],
+      "citation_ids": [],
+      "refused": true,
+      "coverage": 0.0,
+      "error": null,
+      "latency_ms": 1495
+    },
+    {
+      "id": 8,
+      "question": "В какой песне встречаются слова Rapture tastes so sweet?",
+      "gold_doc_ids": [
+        "3ndiwMR3caUIK2bnigTIr1"
+      ],
+      "reference_answer": "Rapture (feat. Natalie Shay) — Kryder.",
+      "gold_rank": 1,
+      "in_top3": true,
+      "retrieved": [
+        {
+          "rank": 1,
+          "id": "3ndiwMR3caUIK2bnigTIr1",
+          "title": "Rapture (feat. Natalie Shay)",
+          "artist": "Kryder",
+          "score": 23.2408
+        },
+        {
+          "rank": 2,
+          "id": "6sOK9LnvTTj4E2ZGzhKTQo",
+          "title": "Good Life",
+          "artist": "Sammy Rae & The Friends",
+          "score": 12.677
+        },
+        {
+          "rank": 3,
+          "id": "2U2th25K2RKBq7oWwU20sH",
+          "title": "Labels",
+          "artist": "Sanctifica",
+          "score": 9.9351
+        },
+        {
+          "rank": 4,
+          "id": "2Ccq8VU31j0tnXXOe0imqN",
+          "title": "Farewell",
+          "artist": "Igor Talkov",
+          "score": 9.3896
+        },
+        {
+          "rank": 5,
+          "id": "3lapTv4AERYduv2BID8Fa5",
+          "title": "Cigarettes",
+          "artist": "Greg Dulli",
+          "score": 9.0189
+        }
+      ],
+      "answer": "Слова \"Rapture tastes so sweet\" встречаются в песне \"Rapture\" исполнителя Kryder (feat. Natalie Shay) [S1].",
+      "sources": [
+        {
+          "id": "3ndiwMR3caUIK2bnigTIr1",
+          "title": "Rapture (feat. Natalie Shay)",
+          "artist": "Kryder"
+        }
+      ],
+      "citation_ids": [
+        "S1"
+      ],
+      "refused": false,
+      "coverage": 1.0,
+      "error": null,
+      "latency_ms": 1694
+    },
+    {
+      "id": 9,
+      "question": "Какая песня содержит строку You can't light the lanterns?",
+      "gold_doc_ids": [
+        "3KnnXZtDMPVvpEwg8RDNM0"
+      ],
+      "reference_answer": "Lanterns (feat. Sarah Howells) — Vexare.",
+      "gold_rank": 1,
+      "in_top3": true,
+      "retrieved": [
+        {
+          "rank": 1,
+          "id": "3KnnXZtDMPVvpEwg8RDNM0",
+          "title": "Lanterns (feat. Sarah Howells)",
+          "artist": "Vexare",
+          "score": 17.3118
+        },
+        {
+          "rank": 2,
+          "id": "54gjspL2nzQjun90q28RVF",
+          "title": "Avantasia - Radio Edit",
+          "artist": "Avantasia",
+          "score": 7.0909
+        },
+        {
+          "rank": 3,
+          "id": "6QbWwa7R89HU9enfSadkw8",
+          "title": "Beyond The Pines",
+          "artist": "Thrice",
+          "score": 7.0227
+        },
+        {
+          "rank": 4,
+          "id": "26DEEL3w84yIul5dT9Rq99",
+          "title": "Jack N The Box",
+          "artist": "Ice Cube",
+          "score": 6.8273
+        },
+        {
+          "rank": 5,
+          "id": "5niLxdFu3ADQBnQ2XPN3PV",
+          "title": "Don't Turn The Light On, Leave Me Alone (from Cream)",
+          "artist": "CAN",
+          "score": 6.8126
+        }
+      ],
+      "answer": "Песня, содержащая строку \"You can't light the lanterns\", называется \"Lanterns\" и исполнена Vexare (feat. Sarah Howells) [S1].",
+      "sources": [
+        {
+          "id": "3KnnXZtDMPVvpEwg8RDNM0",
+          "title": "Lanterns (feat. Sarah Howells)",
+          "artist": "Vexare"
+        }
+      ],
+      "citation_ids": [
+        "S1"
+      ],
+      "refused": false,
+      "coverage": 1.0,
+      "error": null,
+      "latency_ms": 1437
+    },
+    {
+      "id": 10,
+      "question": "В какой песне герой говорит I'm hungry like the wolf?",
+      "gold_doc_ids": [
+        "2lVaPwTPyVPkv8tItCicF0"
+      ],
+      "reference_answer": "Hungry Like The Wolf — Duran Duran.",
+      "gold_rank": 1,
+      "in_top3": true,
+      "retrieved": [
+        {
+          "rank": 1,
+          "id": "2lVaPwTPyVPkv8tItCicF0",
+          "title": "Hungry Like The Wolf",
+          "artist": "Duran Duran",
+          "score": 23.3661
+        },
+        {
+          "rank": 2,
+          "id": "2zjGlJAII3YjdoKF1t9B1h",
+          "title": "Ice on the Sheets",
+          "artist": "Ugly Casanova",
+          "score": 8.3029
+        },
+        {
+          "rank": 3,
+          "id": "7cG6SxmQ24hQWnR8UThrk2",
+          "title": "Dope New Gospel (feat. Nivea)",
+          "artist": "Lil Wayne",
+          "score": 8.1411
+        },
+        {
+          "rank": 4,
+          "id": "0jN2ukaJpdIKWfwbDymrs0",
+          "title": "Don't Blame It On I",
+          "artist": "The Congos",
+          "score": 7.809
+        },
+        {
+          "rank": 5,
+          "id": "6tcA9CMNwHn0o3TPDl90aU",
+          "title": "Кто здесь отец?",
+          "artist": "Max Korzh",
+          "score": 7.3424
+        }
+      ],
+      "answer": "Герой говорит \"I'm hungry like the wolf\" в песне \"Hungry Like The Wolf\" группы Duran Duran [S1].",
+      "sources": [
+        {
+          "id": "2lVaPwTPyVPkv8tItCicF0",
+          "title": "Hungry Like The Wolf",
+          "artist": "Duran Duran"
+        }
+      ],
+      "citation_ids": [
+        "S1"
+      ],
+      "refused": false,
+      "coverage": 1.0,
+      "error": null,
+      "latency_ms": 1867
+    }
+  ],
+  "run": {
+    "interface": "tools/external_benchmark.py",
+    "top_k": 5,
+    "context_chars": 1200,
+    "prompt_version": "external-v1",
+    "model": "openai/gpt-4o-mini",
+    "note": "Один прогон, температура 0. Оценки ответов выставлены вручную по эталонам."
+  }
+}

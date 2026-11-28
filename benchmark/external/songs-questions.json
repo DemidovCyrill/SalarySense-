@@ -1,0 +1,68 @@
+{
+  "version": "songs-benchmark-1",
+  "source": "Набор вопросов передан 2026-11-28 вместе с corpus.jsonl (1000 песен). Корпус не коммитится из-за прав на тексты.",
+  "k": 3,
+  "top_k": 5,
+  "questions": [
+    {
+      "id": 1,
+      "question": "В какой песне встречаются слова If I'm not your kind of woman?",
+      "gold_doc_ids": ["4vFrrqDMc2pmbLStKMQJ9j"],
+      "reference_answer": "My Kind of Blues (Mega Man 3) — AES."
+    },
+    {
+      "id": 2,
+      "question": "Кто исполняет песню My Kind of Blues (Mega Man 3)?",
+      "gold_doc_ids": ["4vFrrqDMc2pmbLStKMQJ9j"],
+      "reference_answer": "AES."
+    },
+    {
+      "id": 3,
+      "question": "В какой песне есть строка No le des patadas a los locos?",
+      "gold_doc_ids": ["4Pz6d9chtIKUQ628KWDZpR"],
+      "reference_answer": "Adela en el Carrousell — Charly García."
+    },
+    {
+      "id": 4,
+      "question": "Какая песня начинается словами Adela en el carrusel?",
+      "gold_doc_ids": ["4Pz6d9chtIKUQ628KWDZpR"],
+      "reference_answer": "Adela en el Carrousell — Charly García."
+    },
+    {
+      "id": 5,
+      "question": "В какой песне встречается фраза Fuck you bitch?",
+      "gold_doc_ids": ["4ltVcLqqlxV9OKxDZqzo1E"],
+      "reference_answer": "Fuck You — Da Brat."
+    },
+    {
+      "id": 6,
+      "question": "Какая песня содержит повторяющийся вопрос What's wrong with your face?",
+      "gold_doc_ids": ["4Lp7l5G4YQJ7GYGPook2aD"],
+      "reference_answer": "Your Way — Pepper."
+    },
+    {
+      "id": 7,
+      "question": "Кто исполняет песню Your Way?",
+      "gold_doc_ids": ["4Lp7l5G4YQJ7GYGPook2aD"],
+      "reference_answer": "Pepper."
+    },
+    {
+      "id": 8,
+      "question": "В какой песне встречаются слова Rapture tastes so sweet?",
+      "gold_doc_ids": ["3ndiwMR3caUIK2bnigTIr1"],
+      "reference_answer": "Rapture (feat. Natalie Shay) — Kryder."
+    },
+    {
+      "id": 9,
+      "question": "Какая песня содержит строку You can't light the lanterns?",
+      "gold_doc_ids": ["3KnnXZtDMPVvpEwg8RDNM0"],
+      "reference_answer": "Lanterns (feat. Sarah Howells) — Vexare."
+    },
+    {
+      "id": 10,
+      "question": "В какой песне герой говорит I'm hungry like the wolf?",
+      "gold_doc_ids": ["2lVaPwTPyVPkv8tItCicF0"],
+      "reference_answer": "Hungry Like The Wolf — Duran Duran."
+    }
+  ]
+}
